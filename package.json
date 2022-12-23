@@ -1,0 +1,12 @@
+{
+  "name": "CSCI 235",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.33",
+    "markdown-it-mathjax3": "^4.3.2"
+  }
+}

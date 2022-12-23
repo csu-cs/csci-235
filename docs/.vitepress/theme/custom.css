@@ -1,0 +1,13 @@
+:root {
+	--vp-c-brand: #ad9e6e;
+	--vp-c-brand-light: #c6bfa6;
+	--vp-c-brand-lighter: #e0d8bb;
+	--vp-c-brand-dark: #93875e;
+	--vp-c-brand-darker: #7a6f4e;
+	--vp-c-bg-alpha-with-backdrop: rgba(0, 40, 85, 0.10);
+	/*--vp-c-bg-alpha-without-backdrop: rgba(0, 40, 85, 0.95);*/
+}
+
+mjx-container>svg {
+	display: inline-block;
+}
