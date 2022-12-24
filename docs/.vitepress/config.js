@@ -60,9 +60,9 @@ function sidebarNotes() {
 			collapsible: true,
 			items: [
 				{ text: 'Getting Started', link: '/notes/01-getting-started' },
-				{ text: 'Algorithms and Problem Solving', link: '/notes/' },
-				{ text: 'Computers and Programming', link: '/notes/' },
-				{ text: 'C++ Setup', link: '/notes/' }
+				{ text: 'Algorithms and Problem Solving', link: '/notes/01-algorithms' },
+				{ text: 'Computers and Programming', link: '/notes/01-computers' },
+				{ text: 'Start Programming in C++', link: '/notes/01-start-programming' }
 			]
 		},
 		{

@@ -1,0 +1,144 @@
+Start Programming in C++
+========================
+
+Before continuing, make sure you have installed the required software in [Getting Started - Software Setup](/notes/01-getting-started#software-setup).
+
+In this guide, you will learn:
+
+1. How to use the command-line interface.
+2. How to compile C++ programs.
+3. How to run your compiled programs.
+
+The Command-Line Interface (CLI)
+--------------------------------
+
+Demonstration on how to get up and running with the command line to compile and run C++ programs.
+
+-   Powerful method of interacting with the computer
+-   Accepts successive lines of typed commands (instructions)
+-   Commands may print (display) text output.
+
+
+<div style="max-width: 640px; margin: 5pt auto 5pt auto; padding: 0;">
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe width="640" height="360" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube-nocookie.com/embed/tfxB2gYwXJ4?rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+</div>
+
+### Accessing the CLI
+
+| OS | Name | Icon |
+|----|------|------|
+| Windows | “Command Prompt” or “CMD” | ![](/images/setup/cli-windows.png) |
+| macOS   | “Terminal” | ![](/images/setup/cli-macos.png) |
+| Linux   | “Terminal,” “Shell,” or similar | ![](/images/setup/cli-linux.png) |
+
+
+### Example Commands
+
+
+| **Windows** | **macOS / Linux** | **Description**                                        |
+|-------------|-------------------|--------------------------------------------------------|
+| cd          | cd                | Change directory                                       |
+| dir         | ls                | List directory                                         |
+| copy        | cp                | Copy a file or directory                               |
+| move        | mv                | Move a file or directory (also useful to rename files) |
+| del         | rm                | Remove a file or directory                             |
+| mkdir       | mkdir             | Make a new directory                                   |
+| cls         | clear             | Clear the CLI                                          |
+
+### Parameters
+
+-   A parameter is an additional piece of information passed to the command.
+-   Parameters are space separated
+-   Examples (in Windows)
+    -   `dir /?`
+        -   Displays helpful information about the dir command including what additional parameters do.
+    -   `dir /w /p`
+        -   Displays a list of files and subdirectories in a directory in a wide list view and pauses after each screenful of information.
+
+
+Compiling with GCC
+------------------
+
+See the attached lecture slides for all you need to get your personal computer set up to make your first C++ program!
+
+<div>
+<div style="max-width: 640px; margin: 0 auto 5pt; padding: 0;">
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe width="560" height="315" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube-nocookie.com/embed/hk9yiBfSd8Y?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
+</div>
+</div>
+
+### A Simple C++ Program
+
+-   Create a text file named `hello.cpp` (cpp is the extension we give to C++ source code files).
+-   Type the following code into the file   (displays “Hello World!” on the screen).
+
+	```cpp
+	#include <iostream>
+	using namespace std;
+
+	int main()
+	{
+		cout << "Hello World!" << endl;
+
+		return 0;
+	}
+	```
+
+### Compiling with g++
+
+In the command-line interface:
+
+-   Change the directory to the location of `hello.cpp`.
+    -   For example, `cd "C:\Users\Sean\235"`
+    -   Hint: Put double quotes around any parameters with spaces.
+    -   Hint: Hit tab while typing the path to autocomplete the rest of the directory name.
+-   Run g++ with the following command:
+    -   `g++ -Wextra -o world hello.cpp`
+-   No output means it worked!
+
+### Understanding the Command
+
+`g++ -Wextra -o world hello.cpp`
+
+g++ is the name of the compiler program and the rest of the lines are parameters.
+
+| **Parameter** | **Parameter Description**                                                       |
+|---------------|---------------------------------------------------------------------------------|
+| `-Wextra `     | Enables extra warnings about questionable constructions that are easy to avoid. |
+| `-o world`     | Name the executable file we are creating “world”.                               |
+| `hello.cpp`     | The name of the input file (must be the last parameter).                        |
+
+### Additional Useful Parameters
+
+`-fmax-errors=5`
+
+-   This will tell the compiler to output at most 5 errors.
+    -   We can change the number 10 to any number you want.
+-   Sometimes when we have one problem, it produces a ton of errors. Use this parameter to only show the first however many.
+-   Always look at the first error first.
+
+`-std=c++20`
+
+-   This will tell the compiler to use the latest (2020) standard of C++.
+-   This may be necessary if you are using more recent features of the language.
+-   If your compiler doesn’t support the 2020 standard, you can try a previous standard:
+    -   `-std=c++17`
+    -   `-std=c++14`
+
+`-pedantic`
+
+-   GCC compilers always try to compile your program if this is at all possible.
+    However, in some cases, the C++ standard specifies that certain extensions
+    are forbidden.
+-   Use this option to receive warnings when your code can compile but is NOT valid C++.
+-   Helps track down errors and ensuring a better assignment grade.
+
+### Run the hello Program
+
+-   To run your newly-compiled program, type the name of the program  
+    `world`
+-   In macOS or Linux, you may need to put a ./ before  
+    the program name.  
+    `./world`
+
+![Example Output](/images/setup/program-output.svg)

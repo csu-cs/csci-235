@@ -36,12 +36,126 @@ Getting Started
 3.  Set up [the required software](#software-setup).
 4.  Say "hi" to [your instructor](#instructors).
 
-Software Setup
---------------
-
-Documentation coming soon...
+<div style="max-width: 640px; margin: 0 auto; padding: 0;">
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe width="560" height="315" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube-nocookie.com/embed/sDXJVOtynfA?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
+</div>
 
 Instructors
 -----------
 
 <VPTeamMembers size="small" :members="members" />
+
+Software Setup
+--------------
+
+To program in C++, you will need a text editor and a compiler. For a text editor, we will use [Visual Studio Code](https://code.visualstudio.com/). For a compiler, we will use g++ from the GNU Compiler Collection (GCC). Follow the instructions below to setup both.
+
+### Visual Studio Code
+
+[Visual Studio Code](https://code.visualstudio.com/) is an excellent text editor that works in macOS and Windows, is accessible from the command line, and has a great dark color scheme by default.
+
+These small changes will make it easier to properly format your code.
+
+
+1.  After installing Visual Studio Code, open it.
+2.  Press `Ctrl + Shift + P` (or `Cmd + Shift + P` on a Mac) to open the Command Pallet.
+3.  Type `Settings (JSON)` in the textbox and click on the dropdown as shown here.  
+    ![](/images/setup/vscode-settings.png)
+4.  On the left, you see all of the default settings. On the right, you can add your own.
+5.  Add these two settings as described in the video from last week.
+
+	```json
+	{
+		"editor.insertSpaces": false,
+		"editor.rulers": [80],
+		"editor.renderWhitespace": "boundary",
+		"editor.guides.bracketPairs": true,
+		"editor.bracketPairColorization.enabled": true,
+	}
+	```
+
+#### MacOS: Launching VS Code from the command line
+
+On a Mac, you will need to perform the following steps to run VS Code from the terminal:
+
+1.  Launch VS Code.
+2. Open the Command Palette (`⇧⌘P` i.e., `Cmd+Shift+P`) and type `shell command` to find the Shell Command: Install 'code' command in PATH command.  
+    ![Add Shell Command](https://code.visualstudio.com/assets/docs/setup/mac/shell-command.png)
+3.  Restart the terminal for the new `$PATH` value to take effect. You'll be able to type `code .` in any folder to start editing files in that folder.
+
+### The g++ Compiler
+
+-   GCC (GNU Compiler Collection)
+    -   100% free software
+    -   Known as the Linux compiler, but cross platform
+    -   g++ is the GCC C++ Compiler
+
+
+If you have computer that runs Windows, follow the following instructions. If you have a Mac, jump to [G++ on MacOS](#g-in-macos).
+
+#### G++ in Windows
+
+On Windows, we will use the MinGW-w64 to compile C++ programs using g++.
+
+-   MinGW (Minimalist GNU for Windows)
+    -   Includes GCC
+    -   MinGW-w64 is an updated branch of MinGW
+
+Download the following:
+
+-   [7-Zip](https://www.7-zip.org/)
+-   [Mingw-w64](https://github.com/brechtsanders/winlibs_mingw/releases/download/12.2.0-14.0.6-10.0.0-ucrt-r2/winlibs-x86_64-posix-seh-gcc-12.2.0-mingw-w64ucrt-10.0.0-r2.7z)
+
+Follow the following video instructions to set up your system.
+
+<div style="max-width: 640px; margin: 0 auto 1em auto; padding: 0; border: solid black 1px;">
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe width="560" height="315" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube-nocookie.com/embed/UeqAt5Z0iaA?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>
+</div>
+
+#### G++ in MacOS
+
+-   The default C++ compiler for macOS is clang, which is similar but now what we are using in this course.
+-   Installing GNU’s g++ compiler (GCC) has become a lot easier.
+
+<div style="max-width: 640px; margin: 0 auto 1em auto; padding: 0; border: solid black 1px;">
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe width="560" height="315" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube-nocookie.com/embed/0z-fCNNqfEg?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>
+</div>
+
+**Installation Steps:**
+
+1.  Install [Homebrew](https://brew.sh/) by opening the “Terminal” and pasting in the following
+    commend.  
+    `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
+2.  Use Homebrew to install the GCC compiler with the following Terminal
+    command.  
+    `brew install gcc`
+
+3.  Go to where GCC was installed in the Terminal:  
+    `cd /usr/local/bin/`
+    
+    ::: warning
+    If you have one of the newest Macbooks with the M1 or M2 CPUs, there may be a different path where g++ is located. You may ask your instructor for assistance.
+    :::
+
+4.  Add a link to g++-12 to g++ by typing:  
+    `ln -s g++-12 g++`
+
+5.  Sign out and sign back into your computer.
+
+Using the Lab Computers
+-----------------------
+
+You may log into the lab computers with your personal account.
+
+-   **Username**: Combine your *First Initial*, *Last Name*, and *Student ID Number*.  
+    For example, `JSmith234567` 
+-   **Password**: `1234`
+
+There is a “special” Window’s command-line interface installed that includes MinGW-w64.
+
+-   From the start menu (or the search), start typing “MinGW”.
+-   Right click on “Run terminal” and select “Pin to Start” for easy access in
+    the future.
+-   Open “Run terminal” to access the CLI that includes our compiler.
+-   Do NOT pin it to the taskbar.
