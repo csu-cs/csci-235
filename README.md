@@ -1,0 +1,57 @@
+# Documentation for CSCI 235: Procedural Programming at Charleston Southern University
+
+[![Deploy](https://github.com/csu-cs/csci-235/workflows/Deploy/badge.svg)](https://github.com/csu-cs/csci-235/actions/)
+
+[Deployed CSCI 235 Site](https://csu-cs.github.io/csci-235/)
+
+---
+
+This project is a website to host resources for this course. It uses [VitePress](https://vitepress.vuejs.org) to generate a website from markdown files use [Vite](https://github.com/vitejs/vite).
+
+## Setup
+
+1.  Install [Node](https://nodejs.org/en/) which comes with npm (the Node Package Manager).
+2.  Use npm to install YARN.  
+    `npm install --global yarn`
+3.  Install dependencies.  
+    `yarn install`
+
+## Development
+
+To edit the content of the lecture notes, modify the markdown files in `docs/notes`.
+
+To update the sidebar navigation for the lecture notes, modified `sidebarNotes()` in `docs/.vitepress/config.js`.
+
+### Local Server
+Serve the site in the local server.
+
+```sh
+yarn docs:dev
+```
+
+VitePress will start a hot-reloading development server at `http://localhost:5173`.
+
+
+## Deployment
+
+The github workflow will automatically deploy the website when the master branch is updated. The website build is in the `gh-pages` branch.
+
+To check out deployed site, visit https://csu-cs.github.io/csci-235/.
+
+To test the production build, do the following:
+
+- You may run this command to build the docs:
+
+  ```sh
+  $ yarn docs:build
+  ```
+
+  The output director is `docs/.vitepress/dist`.
+
+- Once you've built the docs, you can test them locally by running:
+
+  ```sh
+  $ yarn docs:preview
+  ```
+
+  The `preview` command will boot up a local static web server that will serve the files from `.vitepress/dist` at `http://localhost:4173`. It's an easy way to check if the production build looks fine in your local environment.
