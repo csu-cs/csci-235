@@ -18,14 +18,19 @@ File I/O is a five-step process:
 4.  Use the file stream variables with `>>`, `<<`, or other input/output functions.
 5.  Close the file stream (don’t forget this step).
 
-<div style="max-width: 853px; margin: 0 auto; padding: 0;">
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe width="560" height="315" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/MMp4zV05R5k?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>
-</div>
-<div style="max-width: 853px; margin: 1em auto 0 auto; padding: 0;">
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe width="560" height="315" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/QnCVoYnLIg8?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>
+Creating Files
+
+<div class="youtube">
+<div><iframe width="853" height="480" src="https://www.youtube.com/embed/MMp4zV05R5k?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
 
-## Example
+Reading from Files
+
+<div class="youtube">
+<div><iframe width="853" height="480" src="https://www.youtube.com/embed/QnCVoYnLIg8?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>
+</div>
+
+## Example: Reading and Writing
 
 ```cpp
 #include <fstream> // the preprocessor directive for using files

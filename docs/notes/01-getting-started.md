@@ -36,8 +36,8 @@ Getting Started
 3.  Set up [the required software](#software-setup).
 4.  Say "hi" to [your instructor](#instructors).
 
-<div style="max-width: 640px; margin: 0 auto; padding: 0;">
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe width="560" height="315" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube-nocookie.com/embed/sDXJVOtynfA?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="youtube">
+<div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/sDXJVOtynfA?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
 
 Instructors
@@ -108,8 +108,8 @@ Download the following:
 
 Follow the following video instructions to set up your system.
 
-<div style="max-width: 640px; margin: 0 auto 1em auto; padding: 0; border: solid black 1px;">
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe width="560" height="315" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube-nocookie.com/embed/UeqAt5Z0iaA?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="youtube">
+<div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/UeqAt5Z0iaA?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
 
 #### G++ in MacOS
@@ -117,8 +117,8 @@ Follow the following video instructions to set up your system.
 -   The default C++ compiler for macOS is clang, which is similar but now what we are using in this course.
 -   Installing GNU’s g++ compiler (GCC) has become a lot easier.
 
-<div style="max-width: 640px; margin: 0 auto 1em auto; padding: 0; border: solid black 1px;">
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe width="560" height="315" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube-nocookie.com/embed/0z-fCNNqfEg?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="youtube">
+<div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/0z-fCNNqfEg?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
 
 **Installation Steps:**

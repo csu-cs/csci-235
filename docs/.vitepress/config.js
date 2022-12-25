@@ -69,9 +69,9 @@ function sidebarNotes() {
 			text: 'C++ Basics',
 			collapsible: true,
 			items: [
-				{ text: 'Creating and Understanding Simple C++ Programs', link: '/notes/' },
-				{ text: 'Operators and Types', link: '/notes/' },
-				{ text: 'More Basics', link: '/notes/' }
+				{ text: 'Creating and Understanding Simple C++ Programs', link: '/notes/02-simple-programs' },
+				{ text: 'Operators and Types', link: '/notes/02-operators-and-types' },
+				{ text: 'More Basics', link: '/notes/02-more-basics' }
 			]
 		},
 		{

@@ -44,8 +44,10 @@ Input
 
 ### Exploring User Input and Input Errors
 
-<div style="max-width: 853px; margin: 0 auto; padding: 0;">
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe width="853" height="480" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/jNtDc8Jct3M?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div></div>
+<div class="youtube">
+<div><iframe width="853" height="480" src="https://www.youtube.com/embed/jNtDc8Jct3M?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div></div>
+
+::: details Try the following code snippet from the video
 
 Try the following code snippets with:
 
@@ -57,25 +59,10 @@ Try the following code snippets with:
 -   decimal number
 -   combination (with and without spaces)
 
-```cpp
-// Variables to receive user input
-char ch1 = ' '; // 1 character
-char ch2 = ' '; // a second character
-int int1 = -8888; // whole number
-double dub1 = -999.999; // decimal (floating point) number
+[Download Code](../examples/03-inputTests.cpp)
 
-// Get input from the user
-cout << "Input a char, floating-point number, char, and int: ";
-cin >> ch1 >> dub1;
-//cin.clear();
-cin >> ch2 >> int1;
-
-// Display the values for each variable
-cout << endl;
-cout << "    Double: " << dub1 << '\n'
-    << "Characters: '" << ch1 << "', '" << ch2 << "'\n"
-    << "   Integer: " << int1 << '\n' << endl;
-```
+<<< @/examples/03-inputTests.cpp
+:::
 
 If the user inputs a character or something erroneous like that – say, “Hello
 there” for an integer, the system enters what is known as a “fail state”. The
@@ -98,6 +85,10 @@ To use `pow()` (which is short for power), include `cmath`.
 -   Syntax: `pow(x, y)` means $x^{y}$
     +   $x$ and $y$ are the arguments or parameters
 -   In `pow(2, 3)`, the parameters are `2` and `3`
+
+<div class="youtube">
+<div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/E5BGdhDik6w?rel=0&amp;showinfo=0" title="Predefined Input Functions" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
+</div>
 
 The `cin.get()` function inputs next character (including whitespace).
 
@@ -136,9 +127,6 @@ The `cin.clear()` function restores the input stream to a working state. Useful 
 
 -   It does **not** remove the current contents of the stream. For that, `ignore()` with `clear()`.
 
-<div style="max-width: 853px; margin: 0 auto 1em auto; padding: 0;">
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe width="853" height="480" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube-nocookie.com/embed/E5BGdhDik6w?rel=0&amp;showinfo=0" title="Predefined Input Functions" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
-</div>
 
 Formatting Output with Stream Manipulators
 ------------------------------------------
@@ -179,8 +167,8 @@ There are two types of manipulators: (1) with parameters (*parametrized*) and (2
 
 -   Nonparametrized manipulators only require the `iostream` header (e.g., `endl`, `fixed`, `showpoint`, `left`, and `flush`)
 
-<div style="max-width: 853px; margin: 0 auto 1em auto; padding: 0;">
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe width="853" height="480" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/rEZcgoMfRKg?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="youtube">
+<div><iframe width="853" height="480" src="https://www.youtube.com/embed/rEZcgoMfRKg?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
 
 
