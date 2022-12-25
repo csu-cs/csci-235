@@ -6,7 +6,7 @@ Algorithms and Problem Solving
 Algorithms and Flowcharts (Designing a Program)
 -----------------------------------------------
 
-Reference this presentation for your first homework
+Reference this presentation for your first homework.
 
 <div class="youtube">
 <div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/q63KRVnK5To?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>

@@ -78,7 +78,8 @@ function sidebarNotes() {
 			text: 'Input/Output',
 			collapsible: true,
 			items: [
-				{ text: 'Basics', link: '/notes/03-input-output' },
+				{ text: 'Input', link: '/notes/03-input' },
+				{ text: 'Output', link: '/notes/03-output' },
 				{ text: 'Files', link: '/notes/03-files' }
 			]
 		},
@@ -86,70 +87,70 @@ function sidebarNotes() {
 			text: 'Conditionals',
 			collapsible: true,
 			items: [
-				{
-				text: 'Part 1',
-				link: '/notes/'
-				},
-				{
-				text: 'Part 2',
-				link: '/notes/'
-				}
+				// {
+				// text: 'Part 1',
+				// link: '/notes/'
+				// },
+				// {
+				// text: 'Part 2',
+				// link: '/notes/'
+				// }
 			]
 		},
 		{
 			text: 'Repetition',
 			collapsible: true,
 			items: [
-				{
-				text: 'Part 1',
-				link: '/notes/'
-				},
-				{
-				text: 'Part 2',
-				link: '/notes/'
-				}
+				// {
+				// text: 'Part 1',
+				// link: '/notes/'
+				// },
+				// {
+				// text: 'Part 2',
+				// link: '/notes/'
+				// }
 			]
 		},
 		{
 			text: 'Functions',
 			collapsible: true,
 			items: [
-				{
-				text: 'Part 1',
-				link: '/notes/'
-				},
-				{
-				text: 'Part 2',
-				link: '/notes/'
-				}
+				// {
+				// text: 'Part 1',
+				// link: '/notes/'
+				// },
+				// {
+				// text: 'Part 2',
+				// link: '/notes/'
+				// }
 			]
 		},
 		{
 			text: 'Enums and Namespaces',
 			collapsible: true,
 			items: [
-				{
-				text: 'Part 1',
-				link: '/notes/'
-				},
-				{
-				text: 'Part 2',
-				link: '/notes/'
-				}
+				// {
+				// text: 'Part 1',
+				// link: '/notes/'
+				// },
+				// {
+				// text: 'Part 2',
+				// link: '/notes/'
+				// }
 			]
 		},
 		{
 			text: 'Strings',
 			collapsible: true,
 			items: [
-				{
-				text: 'Part 1',
-				link: '/notes/'
-				},
-				{
-				text: 'Part 2',
-				link: '/notes/'
-				}
+				// {
+				// text: 'Part 1',
+				// link: '/notes/'
+				// },
+				// {
+				// text: 'Part 2',
+				// link: '/notes/'
+				// }
 			]
 		}
 		,
@@ -157,28 +158,28 @@ function sidebarNotes() {
 			text: 'Arrays',
 			collapsible: true,
 			items: [
-				{
-				text: 'Part 1',
-				link: '/notes/'
-				},
-				{
-				text: 'Part 2',
-				link: '/notes/'
-				}
+				// {
+				// text: 'Part 1',
+				// link: '/notes/'
+				// },
+				// {
+				// text: 'Part 2',
+				// link: '/notes/'
+				// }
 			]
 		},
 		{
 			text: 'Structs',
 			collapsible: true,
 			items: [
-				{
-				text: 'Part 1',
-				link: '/notes/'
-				},
-				{
-				text: 'Part 2',
-				link: '/notes/'
-				}
+				// {
+				// text: 'Part 1',
+				// link: '/notes/'
+				// },
+				// {
+				// text: 'Part 2',
+				// link: '/notes/'
+				// }
 			]
 		}
 	]

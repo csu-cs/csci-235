@@ -17,8 +17,7 @@ String Variables and String Input
 <div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/Md3JPZqMaqY?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
 
-::: details Click me to view the code from the video
-[Download Code](../examples/02-stringStory.cpp)
+::: details Click me to view the code from the video.
 
 <<< @/examples/02-stringStory.cpp
 :::
