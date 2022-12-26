@@ -1,5 +1,8 @@
 {
   "name": "CSCI235",
+  "author": "Sean T. Hayes",
+  "license": "MIT",
+  "homepage": "https://github.com/csu-cs/csci-235/tree/master/#readme",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",

@@ -87,14 +87,10 @@ function sidebarNotes() {
 			text: 'Conditionals',
 			collapsible: true,
 			items: [
-				// {
-				// text: 'Part 1',
-				// link: '/notes/'
-				// },
-				// {
-				// text: 'Part 2',
-				// link: '/notes/'
-				// }
+				{ text: 'If…Else Statements', link: '/notes/04-if-else' },
+				{ text: 'Switch Statements', link: '/notes/04-switch' },
+				{ text: 'Logic and Math', link: '/notes/04-logic' },
+				{ text: 'Readability and Error Checking', link: '/notes/04-prevent-errors'}
 			]
 		},
 		{
