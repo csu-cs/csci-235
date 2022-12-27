@@ -22,7 +22,7 @@ switch (thing to switch on)
 ```
 
 <div class="youtube">
-<div><iframe width="853" height="480" src="https://www.youtube.com/embed/YDXofREPkuY?showinfo=0;rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
+<div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/YDXofREPkuY?showinfo=0;rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
 
 ::: details Try the following code from the video.

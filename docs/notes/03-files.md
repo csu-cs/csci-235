@@ -21,13 +21,13 @@ File I/O is a five-step process:
 Creating Files
 
 <div class="youtube">
-<div><iframe width="853" height="480" src="https://www.youtube.com/embed/MMp4zV05R5k?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>
+<div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/MMp4zV05R5k?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
 
 Reading from Files
 
 <div class="youtube">
-<div><iframe width="853" height="480" src="https://www.youtube.com/embed/QnCVoYnLIg8?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>
+<div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/QnCVoYnLIg8?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
 
 ## Example: Reading and Writing

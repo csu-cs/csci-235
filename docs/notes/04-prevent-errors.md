@@ -46,7 +46,7 @@ Notice that the results are somewhat unexpected. This is because of rounding err
 Then take a look at this video by Computerphile to see an explanation.
 
 <div class="youtube">
-<div><iframe width="560" height="315" src="https://www.youtube.com/embed/PZRI1IfStY0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+<div><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/PZRI1IfStY0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
 
 May not behave as you would expect due to the computer's inability to represent

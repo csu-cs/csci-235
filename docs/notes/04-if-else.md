@@ -48,7 +48,7 @@ else
 ```
 
 <div class="youtube">
-<div><iframe width="853" height="480" src="https://www.youtube.com/embed/GmZdo1Vbmrw?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
+<div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/GmZdo1Vbmrw?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
 
 ### Examples
@@ -100,8 +100,8 @@ else
 	}
     ```
 
-<div style="max-width: 854px; margin: 0 auto; padding: 0;">
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe width="853" height="480" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/oKzuN-7-sMk?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="youtube">
+<div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/oKzuN-7-sMk?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
 
 Expression of `char` values with relational operators:
@@ -174,7 +174,7 @@ Unlike relational operators (which compare values), logical operators *take* Boo
 This video covers how to perform multiple comparisons using the logical operators AND (`&&`) and OR (`||`). We also cover the NOT (`!`) operator.
 
 <div class="youtube">
-<div><iframe width="853" height="480" src="https://www.youtube.com/embed/wXyok8m7NRo?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
+<div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/wXyok8m7NRo?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
 
 | Operator | Description | Syntax             |

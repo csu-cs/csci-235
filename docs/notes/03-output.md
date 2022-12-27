@@ -43,7 +43,7 @@ There are two types of manipulators: (1) with parameters (*parametrized*) and (2
 -   Nonparametrized manipulators only require the `iostream` header (e.g., `endl`, `fixed`, `showpoint`, `left`, and `flush`)
 
 <div class="youtube">
-<div><iframe width="853" height="480" src="https://www.youtube.com/embed/rEZcgoMfRKg?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>
+<div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/rEZcgoMfRKg?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
 
 

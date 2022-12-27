@@ -9,15 +9,15 @@ Everything is a Number
 
 Remember, to a computer, everything is a number, even characters.
 
-<div style="max-width: 854px; margin: 0 auto;">
-<div style="position: relative; padding-bottom: 56.25%; padding-top;20px; height: 0;"><iframe width="560" height="315" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/SQKvGrGODss?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="youtube">
+<div><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SQKvGrGODss?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
 
 Truth Tables
 ------------
 
-<div style="max-width: 854px; margin: 0 auto; padding: 0;">
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe width="560" height="315" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/8xcgTz23GtY?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="youtube">
+<div><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8xcgTz23GtY?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
 
 A convenient and helpful way to organize the possible values of any logical (Boolean) statement is in a truth table. A *truth table* is a table whose column headings are expressions, and whose rows are possible scenarios given the expressions. For example, in the NOT table below, if *p* is `true` (T), then “*not p*” (!*p*) must be `false` (e.g., if *p* means it “is raining” then !*p* means it is “not raining”).

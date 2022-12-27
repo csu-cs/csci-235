@@ -1,5 +1,5 @@
-Input and Predefined Functions
-==============================
+Input and Output (Part 1)
+=========================
 
 *Chapter 3*
 
@@ -125,8 +125,53 @@ The `cin.clear()` function restores the input stream to a working state. Useful 
 
 -   It does **not** remove the current contents of the stream. For that, `ignore()` with `clear()`.
 
+
+Formatting Output with Stream Manipulators
+------------------------------------------
+
+-   `cout <<` *expression or manipulator* `<<` *expression or manipulator* `<< ...`;
+-   Expression is evaluated
+-   Value is printed
+-   Manipulator is used to format the output
+    +   Example: `endl`;
+
+`setprecision(n)` outputs decimal numbers with up to n decimal places.
+
+`fixed` outputs floating-point numbers in a fixed decimal format.
+
+`scientific` outputs floating-point numbers in scientific format.
+
+`showpoint` forces output to show the decimal point and trailing zeros.
+
+`setw(n)` outputs the value of an expression in a specified number of columns.
+
+-   If number of columns exceeds the number of columns required by the expression.
+    +   The output of the expression is right-justified.
+    +   Unused columns to the left are filled with spaces
+
+`setfill(ch)` fills unused columns with a character.
+
+-   Example:  
+    `cout << setfill('#');`
+
+Additional formatting tools that give you more control over your output:
+
+-   `left` and `right` manipulators
+-   `unsetf` manipulator
+
+There are two types of manipulators: (1) with parameters (*parametrized*) and (2) without parameters (*nonparametrized*)
+
+-   *Parameterized* manipulators require the `iomanip` header (e.g., `setprecision`, `setw`, and `setfill`).
+
+-   Nonparametrized manipulators only require the `iostream` header (e.g., `endl`, `fixed`, `showpoint`, `left`, and `flush`)
+
+<div class="youtube">
+<div><iframe width="853" height="480" src="https://www.-nocookie.com/embed/rEZcgoMfRKg?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>
+</div>
+
+
 Self-Check Questions
 --------------------
 
 1.  What is a stream of data?
-2.  How would you read in a string of data with spaces?
+2.  What library makes our command line output look so pretty?

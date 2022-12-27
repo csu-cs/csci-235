@@ -11,6 +11,14 @@ export default {
 	cleanUrls: 'without-subfolders',
 	base: '/csci-235/',
 
+	head: [
+		// Add Favicon
+		[ 'link', { rel: 'icon', type: 'image/png', href: '/favicon-32x32.png', sizes: '32x32'} ],
+		[ 'link', { rel: 'icon', type: 'image/png', href: '/favicon-16x16.png', sizes: '16x16'} ],
+		[ 'link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png', sizes: '180x180'} ],
+		[ 'link', { rel: 'manifest', href: '/site.webmanifest'} ],
+	],
+
 	markdown: {
 		lineNumbers: true,
 		defaultHighlightLang: 'cpp',
@@ -179,4 +187,4 @@ function sidebarNotes() {
 			]
 		}
 	]
-	}
+}
