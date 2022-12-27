@@ -105,14 +105,9 @@ function sidebarNotes() {
 			text: 'Repetition',
 			collapsible: true,
 			items: [
-				// {
-				// text: 'Part 1',
-				// link: '/notes/'
-				// },
-				// {
-				// text: 'Part 2',
-				// link: '/notes/'
-				// }
+				{ text: 'Loop Design with While Loops', link: '/notes/05-loop-design' },
+				{ text: 'Do…While Loop and For Loops', link: '/notes/05-do-while-for' },
+				{ text: 'Random Numbers', link: '/notes/05-random-numbers' }
 			]
 		},
 		{
