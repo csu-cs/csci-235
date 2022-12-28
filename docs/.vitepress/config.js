@@ -125,28 +125,16 @@ function sidebarNotes() {
 			text: 'Enums and Namespaces',
 			collapsible: true,
 			items: [
-				// {
-				// text: 'Part 1',
-				// link: '/notes/'
-				// },
-				// {
-				// text: 'Part 2',
-				// link: '/notes/'
-				// }
+				{ text: 'Enumeration Types', link: '/notes/07-enums' },
+				{ text: 'Custom Types', link: '/notes/07-custom-types' },
+				{ text: 'Namespaces', link: '/notes/07-namespaces' },
 			]
 		},
 		{
 			text: 'Strings',
 			collapsible: true,
 			items: [
-				// {
-				// text: 'Part 1',
-				// link: '/notes/'
-				// },
-				// {
-				// text: 'Part 2',
-				// link: '/notes/'
-				// }
+				{ text: 'The String Type', link: '/notes/07-strings' },
 			]
 		}
 		,
