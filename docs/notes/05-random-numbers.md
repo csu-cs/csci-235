@@ -16,7 +16,7 @@ Uses the function rand of the header file `cstdlib` to generate a random number
 This is a fun example that I think will help solidify some concepts for you. Also, it shows how you can use pseudo-random numbers to create a game.
 
 <div class="youtube">
-<div><iframe width="853" height="480" src="https://www.youtube.com/embed/_VkEnualCV8?rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+<div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/_VkEnualCV8?rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
 
 “The lot is cast into the lap, but its every decision is from the LORD.” -

@@ -114,14 +114,11 @@ function sidebarNotes() {
 			text: 'Functions',
 			collapsible: true,
 			items: [
-				// {
-				// text: 'Part 1',
-				// link: '/notes/'
-				// },
-				// {
-				// text: 'Part 2',
-				// link: '/notes/'
-				// }
+				{ text: 'Introduction', link: '/notes/06-functions-intro' },
+				{ text: 'Scope and Parameters', link: '/notes/06-scope-and-parameters' },
+				{ text: 'Recursion', link: '/notes/06-recursion' },
+				{ text: 'Function Overloading and Default Parameters', link: '/notes/06-function-overloading-default-parameters' },
+				{ text: 'Static Variables', link: '/notes/06-static-variables' }
 			]
 		},
 		{

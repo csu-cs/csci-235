@@ -20,7 +20,7 @@ while (guard statement); //<- notice the semicolon
 ```
 
 <div class="youtube">
-<div><iframe width="853" height="480" src="https://www.youtube.com/embed/TvLIgmdNN8M?rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+<div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/TvLIgmdNN8M?rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
 
 ::: info
@@ -49,7 +49,7 @@ for (initial statement; loop condition; update statement)
     update the counter all on the first line.
 
 <div class="youtube">
-<div><iframe width="853" height="480" src="https://www.youtube.com/embed/ELmekLaI20M?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+<div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/ELmekLaI20M?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
 
 Example: Count from 0 to 9:
