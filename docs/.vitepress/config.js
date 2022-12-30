@@ -160,14 +160,8 @@ function sidebarNotes() {
 			text: 'Structs',
 			collapsible: true,
 			items: [
-				// {
-				// text: 'Part 1',
-				// link: '/notes/'
-				// },
-				// {
-				// text: 'Part 2',
-				// link: '/notes/'
-				// }
+				{ text: 'Introduction to Structs', link: '/notes/09-structs-intro' },
+				{ text: 'Structs and Arrays, Together', link: '/notes/09-structs-and-arrays.md' }
 			]
 		}
 	]

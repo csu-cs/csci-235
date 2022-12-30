@@ -35,7 +35,7 @@
       ]]>
     </style>
 
-   <rect x="0" y="0" width="550" height="62" style="fill:#FFFFFFAA" />
+   <rect x="0" y="0" width="550" height="62" style="fill:#FFFFFFAA; stroke:none;" />
    <g id="columnGroup" transform="translate(-11,16)">
       <text x="70" y="0" style="text-anchor: end">
          <tspan x="70" dy="22px">board</tspan>

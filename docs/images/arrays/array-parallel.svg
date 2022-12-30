@@ -60,7 +60,7 @@
 
       ]]>
     </style>
-   <rect x="0" y="0" width="246" height="178" style="fill:#FFFFFFAA" />
+   <rect x="0" y="0" width="246" height="178" style="fill:#FFFFFFAA; stroke:none;" />
    <g id="columnGroup" transform="translate(-30,16)">
 
       <text x="70" y="0" style="text-anchor: end"><tspan
