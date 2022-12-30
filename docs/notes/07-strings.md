@@ -3,6 +3,9 @@ The `string` Type
 
 *Chapter 7*
 
+Introduction
+------------
+
 -   To use the data type, `string`, a program must include the header file `string`.
 
 -   A `string` is a sequence of 0 or more characters
@@ -99,11 +102,47 @@ character.
 Range-Based Loops
 -----------------
 
-An Easier Way to Do It!
+An easier way to iterate!
 
 <div class="youtube">
 <div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/G2MM0Q74w7I?rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
+
+The `string` is a data type that contains a range of values (unlike the other types discussed, which each hold a single value). We can use a new type of loop, the range-based for loop, to iterate over each `char` in a `string`.
+
+The following example code displays, `H e l l o ,  w o r l d!`.
+
+```cpp
+const string MESSAGE = "Hello, world!\n";
+
+for (char letter : MESSAGE) {
+    cout << letter << ' ';
+}
+```
+
+For each iteration of the loop in the example above, `letter` gets a copy of the next character in `MESSAGE`.
+
+You may also decare the loop variable as a reference if you want to edit the string.
+
+The following example changes all of the values to be the next letter in the alphabet.
+
+```cpp
+const string greeting = "Hiya";
+
+for (char& letter : greeting) {
+    ++letter;
+}
+
+cout << greeting << endl; // Displays, "Ijzb"
+```
+
+::: tip
+
+Use a range-based for loop to iterate over all strings if the following conditions are met:
+
+1.  You don't need the index (we don't need to know where the character is in the string).
+2.  You are iterating over the whole string from the first to last character.
+:::
 
 Additional `string` Operations
 ------------------------------
