@@ -632,6 +632,11 @@ magic-string@^0.25.7:
   dependencies:
     sourcemap-codec "^1.4.8"
 
+markdown-it-image-figures@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/markdown-it-image-figures/-/markdown-it-image-figures-2.1.0.tgz#ffe74bd06fff3444bd5695748226198aecf7f1ce"
+  integrity sha512-a5FIzzUlK65iGfQlNWH94cyxKpV+Qj8a+4Q3+wVseryHMCOfGaX0aCNtdEkCeb19uGDzVw3Az5tst2hXWAdJ1Q==
+
 markdown-it-mathjax3@^4.3.2:
   version "4.3.2"
   resolved "https://registry.yarnpkg.com/markdown-it-mathjax3/-/markdown-it-mathjax3-4.3.2.tgz#1e34aa86f8560b283fd283008334adc2d6b05a37"

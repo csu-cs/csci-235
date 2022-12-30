@@ -96,8 +96,8 @@ character.
 </div>
 
 
-Rang-Based Loops
-----------------
+Range-Based Loops
+-----------------
 
 An Easier Way to Do It!
 

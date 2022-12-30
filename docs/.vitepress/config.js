@@ -1,4 +1,5 @@
 import mathjax3 from 'markdown-it-mathjax3';
+import imageFigures from 'markdown-it-image-figures';
 
 const customElements = ['mjx-container'];
 
@@ -24,6 +25,10 @@ export default {
 		defaultHighlightLang: 'cpp',
 		config: (md) => {
 			md.use(mathjax3);
+			md.use(imageFigures, {
+				figcaption: 'title',
+				copyAttrs: '^class$',
+			});
 		},
 	},
 
@@ -142,14 +147,13 @@ function sidebarNotes() {
 			text: 'Arrays',
 			collapsible: true,
 			items: [
-				// {
-				// text: 'Part 1',
-				// link: '/notes/'
-				// },
-				// {
-				// text: 'Part 2',
-				// link: '/notes/'
-				// }
+				{ text: 'Intro to Arrays', link: '/notes/08-arrays-intro' },
+				{ text: 'Search and Sort', link: '/notes/08-search-and-sort' },
+				{ text: 'Enums as Array Indexes', link: '/notes/08-enums-as-array-indexes' },
+				{ text: 'Parallel Arrays', link: '/notes/08-parallel-arrays' },
+				{ text: 'Multidimensional Arrays', link: '/notes/08-2d-arrays' },
+				{ text: 'Arrays as Strings', link: '/notes/08-arrays-strings' },
+				{ text: 'The Visual Studio IDE', link: '/notes/08-ide' }
 			]
 		},
 		{
