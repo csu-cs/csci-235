@@ -1,0 +1,144 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="418" height="147" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+   <title>Array Visualization</title>
+
+   <style type="text/css" >
+      <![CDATA[
+
+      .columnGroup {
+         font-family: Consolas, monaco, monospace;
+         font-size: 12pt;
+      }
+
+      text {
+         text-anchor: middle;
+      }
+
+      rect {
+         stroke: black;
+         stroke-width: 1.5;
+         fill: #DEEAF6;
+      }
+
+      rect.select {
+         fill: #2E74B5;
+         stroke: none;
+      }
+
+      rect.sorted {
+         fill: #C5E0B3;
+      }
+
+      text.select {
+         fill: white;
+         font-weight: bold;
+      }
+
+      .label {
+         font-family: Arial, Helvetica, sans-serif;
+      }
+
+      text.label {
+         text-anchor: start;
+      }
+
+      g path {
+         stroke: black;
+         stroke-width: 1.5;
+         fill: none;
+      }
+
+      ]]>
+    </style>
+
+   <rect x="0" y="0" width="418" height="147" style="fill:#FFFFFFAA; stroke:none;" />
+   <g class="columnGroup" transform="translate(15,0)">
+      <text x="35" y="16" style="text-anchor: end"><tspan>names</tspan><tspan
+            x="35" dy="22px">[0]</tspan><tspan
+            x="35" dy="20px">[1]</tspan><tspan
+            x="35" dy="20px">[2]</tspan><tspan
+            x="35" dy="20px">[3]</tspan><tspan
+            x="35" dy="20px">⋮ </tspan><tspan
+            x="35" dy="20px">[99]</tspan></text>
+
+      <text x="55" y="16" style="font-size:11pt"><tspan>[0]</tspan><tspan
+         x="85">[1]</tspan><tspan
+         x="115">[2]</tspan><tspan
+         x="145">[3]</tspan><tspan
+         x="175">[4]</tspan><tspan
+         x="205">[5]</tspan><tspan
+         x="235">[6]</tspan><tspan
+         x="265">[7]</tspan><tspan
+         x="295">[8]</tspan><tspan
+         x="325">[9]</tspan><tspan
+         x="355">[10]</tspan><tspan
+         x="385">[11]</tspan>
+      </text>
+
+      <rect x="40" y="24" width="360" height="120" />
+      <rect x="40" y="44" width="270" height="20" class="select" />
+      <rect x="40" y="64" width="240" height="20" class="select" />
+      <rect x="40" y="84" width="270" height="20" class="select" />
+
+      <path d="M40,44 l360,0 m 0 20 l-360,0 m 0 20 l360,0 m0,20 l-360,0 m0,20 l360,0
+         m-30,-20 l0,-80 m -30,0 l0,80 m -30 0 l0,-80 m -30,0 l0,80 m -30 0 l0,-80 m -30,0 l0,80 m -30 0 l0,-80 m-30,0 l0,80 m -30 0 l0,-80 m -30,0 l0,80 m -30 0 l0,-80
+         m0,100 l0,20 m30,-20 l0,20 m30,-20 l0,20 m30,-20 l0,20 m30,-20 l0,20 m30,-20 l0,20 m30,-20 l0,20 m30,-20 l0,20 m30,-20 l0,20 m30,-20 l0,20 m30,-20 l0,20" />
+
+      <text x="55" y="59" class="select"><tspan>A</tspan><tspan
+         x="85">b</tspan><tspan
+         x="115">e</tspan><tspan
+         x="145">d</tspan><tspan
+         x="175">n</tspan><tspan
+         x="205">e</tspan><tspan
+         x="235">g</tspan><tspan
+         x="265">o</tspan><tspan
+         x="295">\0</tspan><tspan
+         x="325"></tspan><tspan
+         x="355"></tspan><tspan
+         x="385"></tspan>
+      </text>
+      <text x="55" y="79" class="select"><tspan>M</tspan><tspan
+         x="85">e</tspan><tspan
+         x="115">s</tspan><tspan
+         x="145">h</tspan><tspan
+         x="175">a</tspan><tspan
+         x="205">c</tspan><tspan
+         x="235">h</tspan><tspan
+         x="265">\0</tspan><tspan
+         x="295"></tspan><tspan
+         x="325"></tspan><tspan
+         x="355"></tspan><tspan
+         x="385"></tspan>
+      </text>
+      <text x="55" y="99" class="select"><tspan>S</tspan><tspan
+         x="85">h</tspan><tspan
+         x="115">a</tspan><tspan
+         x="145">d</tspan><tspan
+         x="175">r</tspan><tspan
+         x="205">a</tspan><tspan
+         x="235">c</tspan><tspan
+         x="265">h</tspan><tspan
+         x="295">\0</tspan><tspan
+         x="325"></tspan><tspan
+         x="355"></tspan><tspan
+         x="385"></tspan>
+      </text>
+      <text x="55" y="119"><tspan>·</tspan><tspan
+         x="85">·</tspan><tspan
+         x="115">·</tspan><tspan
+         x="145">·</tspan><tspan
+         x="175">·</tspan><tspan
+         x="205">·</tspan><tspan
+         x="235">·</tspan><tspan
+         x="265">·</tspan><tspan
+         x="295">·</tspan><tspan
+         x="325">·</tspan><tspan
+         x="355">·</tspan><tspan
+         x="385">·</tspan>
+      </text>
+
+   </g>
+</svg>
