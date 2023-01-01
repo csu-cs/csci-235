@@ -6,7 +6,7 @@
 
 ---
 
-This project is a website to host resources for this course. It uses [VitePress](https://vitepress.vuejs.org) to generate a website from markdown files use [Vite](https://github.com/vitejs/vite).
+This project is a website to host resources for this course. It uses [VitePress](https://vitepress.vuejs.org) to generate a website from markdown files. As a result, the website is optimized by [Vite](https://vitejs.dev/).
 
 ## Setup
 
@@ -23,7 +23,7 @@ To edit the content of the lecture notes, modify the markdown files in `docs/not
 To update the sidebar navigation for the lecture notes, modified `sidebarNotes()` in `docs/.vitepress/config.js`.
 
 ### Local Server
-Serve the site in the local server.
+Serve the site in the local server using the following command.
 
 ```sh
 yarn docs:dev
@@ -34,11 +34,7 @@ VitePress will start a hot-reloading development server at `http://localhost:517
 
 ## Deployment
 
-The github workflow will automatically deploy the website when the master branch is updated. The website build is in the `gh-pages` branch.
-
-To check out deployed site, visit https://csu-cs.github.io/csci-235/.
-
-To test the production build, do the following:
+To test the production build before pushing, do the following:
 
 - You may run this command to build the docs:
 
@@ -46,7 +42,7 @@ To test the production build, do the following:
   $ yarn docs:build
   ```
 
-  The output director is `docs/.vitepress/dist`.
+  The output directory is `docs/.vitepress/dist`.
 
 - Once you've built the docs, you can test them locally by running:
 
@@ -55,3 +51,7 @@ To test the production build, do the following:
   ```
 
   The `preview` command will boot up a local static web server that will serve the files from `.vitepress/dist` at `http://localhost:4173`. It's an easy way to check if the production build looks fine in your local environment.
+
+The github workflow will automatically deploy the website when the master branch is updated. The website build is in the `gh-pages` branch.
+
+Visit the deployed site at https://csu-cs.github.io/csci-235/.
