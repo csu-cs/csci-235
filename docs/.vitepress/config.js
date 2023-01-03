@@ -14,10 +14,10 @@ export default {
 
 	head: [
 		// Add Favicon
-		[ 'link', { rel: 'icon', type: 'image/png', href: '/favicon-32x32.png', sizes: '32x32'} ],
-		[ 'link', { rel: 'icon', type: 'image/png', href: '/favicon-16x16.png', sizes: '16x16'} ],
-		[ 'link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png', sizes: '180x180'} ],
-		[ 'link', { rel: 'manifest', href: '/site.webmanifest'} ],
+		[ 'link', { rel: 'icon', type: 'image/png', href: '/csci-235/favicon-32x32.png', sizes: '32x32'} ],
+		[ 'link', { rel: 'icon', type: 'image/png', href: '/csci-235/favicon-16x16.png', sizes: '16x16'} ],
+		[ 'link', { rel: 'apple-touch-icon', href: '/csci-235/apple-touch-icon.png', sizes: '180x180'} ],
+		[ 'link', { rel: 'manifest', href: '/csci-235/site.webmanifest'} ],
 	],
 
 	markdown: {
