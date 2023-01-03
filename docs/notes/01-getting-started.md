@@ -45,12 +45,11 @@ Instructors
 
 <VPTeamMembers size="small" :members="members" />
 
-Software Setup
---------------
+
+Visual Studio Code
+------------------
 
 To program in C++, you will need a text editor and a compiler. For a text editor, we will use [Visual Studio Code](https://code.visualstudio.com/). For a compiler, we will use g++ from the GNU Compiler Collection (GCC). Follow the instructions below to setup both.
-
-### Visual Studio Code
 
 [Visual Studio Code](https://code.visualstudio.com/) is an excellent text editor that works in macOS and Windows, is accessible from the command line, and has a great dark color scheme by default.
 
@@ -74,7 +73,7 @@ These small changes will make it easier to properly format your code.
 	}
 	```
 
-#### MacOS: Launching VS Code from the command line
+### MacOS: Launching VS Code from the command line
 
 On a Mac, you will need to perform the following steps to run VS Code from the terminal:
 
@@ -83,7 +82,8 @@ On a Mac, you will need to perform the following steps to run VS Code from the t
     ![Add Shell Command](https://code.visualstudio.com/assets/docs/setup/mac/shell-command.png)
 3.  Restart the terminal for the new `$PATH` value to take effect. You'll be able to type `code .` in any folder to start editing files in that folder.
 
-### The g++ Compiler
+The g++ Compiler
+----------------
 
 -   GCC (GNU Compiler Collection)
     -   100% free software
@@ -91,9 +91,9 @@ On a Mac, you will need to perform the following steps to run VS Code from the t
     -   g++ is the GCC C++ Compiler
 
 
-If you have computer that runs Windows, follow the following instructions. If you have a Mac, jump to [G++ on MacOS](#g-in-macos).
+Complete one of the sets of instructions below depending of if your computer that runs Windows or macOS.
 
-#### G++ in Windows
+::: details Installing G++ in Windows
 
 On Windows, we will use the MinGW-w64 to compile C++ programs using g++.
 
@@ -112,7 +112,9 @@ Follow the following video instructions to set up your system.
 <div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/UeqAt5Z0iaA?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
 
-#### G++ in MacOS
+:::
+
+::: details Installing G++ in MacOS
 
 -   The default C++ compiler for macOS is clang, which is similar but now what we are using in this course.
 -   Installing GNU’s g++ compiler (GCC) has become a lot easier.
@@ -142,6 +144,8 @@ Follow the following video instructions to set up your system.
     `ln -s g++-12 g++`
 
 5.  Sign out and sign back into your computer.
+
+:::
 
 Using the Lab Computers
 -----------------------
