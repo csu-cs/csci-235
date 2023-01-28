@@ -59,7 +59,7 @@ Demonstration on how to get up and running with the command line to compile and 
 Compiling with GCC
 ------------------
 
-See the attached lecture slides for all you need to get your personal computer set up to make your first C++ program!
+Before continuing, you should have Visual Studio Code and g++ to make your first C++ program. Refer back to [Getting Started](01-getting-started) if needed.
 
 <div class="youtube">
 <div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/hk9yiBfSd8Y?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
