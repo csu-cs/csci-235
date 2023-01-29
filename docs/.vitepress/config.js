@@ -9,7 +9,7 @@ export default {
 	title: 'CSCI 235',
 	description: 'Procedural Programming',
 	lastUpdated: true,
-	cleanUrls: 'without-subfolders',
+	cleanUrls: true,
 	base: '/csci-235/',
 
 	head: [

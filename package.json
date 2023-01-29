@@ -11,6 +11,6 @@
   "devDependencies": {
     "markdown-it-image-figures": "^2.1.0",
     "markdown-it-mathjax3": "^4.3.2",
-    "vitepress": "^1.0.0-alpha.33"
+    "vitepress": "^1.0.0-alpha.43"
   }
 }
