@@ -56,6 +56,14 @@ export default {
 				link: 'https://csuniv.blackboard.com'
 			}
 		],
+
+		algolia: { //docsearch
+			appId: 'US37G3IQE1',
+			apiKey: '4a083944bb4122490cfe21afab9ec84b',
+			indexName: 'csci-235',
+			//container: '### REPLACE ME WITH A CONTAINER (e.g. div) ###'
+			debug: 'false' // Set debug to true if you want to inspect the modal
+		}
 	},
 	vue: {
 		template: {
@@ -70,7 +78,7 @@ function sidebarNotes() {
 	return [
 		{
 			text: 'Introduction',
-			collapsible: true,
+			collapsed: true,
 			items: [
 				{ text: 'Getting Started', link: '/notes/01-getting-started' },
 				{ text: 'Algorithms and Problem Solving', link: '/notes/01-algorithms' },
@@ -80,7 +88,7 @@ function sidebarNotes() {
 		},
 		{
 			text: 'C++ Basics',
-			collapsible: true,
+			collapsed: true,
 			items: [
 				{ text: 'Creating and Understanding Simple C++ Programs', link: '/notes/02-simple-programs' },
 				{ text: 'Operators and Types', link: '/notes/02-operators-and-types' },
@@ -89,7 +97,7 @@ function sidebarNotes() {
 		},
 		{
 			text: 'Input/Output',
-			collapsible: true,
+			collapsed: true,
 			items: [
 				{ text: 'Input', link: '/notes/03-input' },
 				{ text: 'Output', link: '/notes/03-output' },
@@ -98,7 +106,7 @@ function sidebarNotes() {
 		},
 		{
 			text: 'Conditionals',
-			collapsible: true,
+			collapsed: true,
 			items: [
 				{ text: 'If…Else Statements', link: '/notes/04-if-else' },
 				{ text: 'Switch Statements', link: '/notes/04-switch' },
@@ -108,7 +116,7 @@ function sidebarNotes() {
 		},
 		{
 			text: 'Repetition',
-			collapsible: true,
+			collapsed: true,
 			items: [
 				{ text: 'Loop Design with While Loops', link: '/notes/05-loop-design' },
 				{ text: 'Do…While Loop and For Loops', link: '/notes/05-do-while-for' },
@@ -117,7 +125,7 @@ function sidebarNotes() {
 		},
 		{
 			text: 'Functions',
-			collapsible: true,
+			collapsed: true,
 			items: [
 				{ text: 'Introduction', link: '/notes/06-functions-intro' },
 				{ text: 'Scope and Parameters', link: '/notes/06-scope-and-parameters' },
@@ -128,7 +136,7 @@ function sidebarNotes() {
 		},
 		{
 			text: 'Enums and Namespaces',
-			collapsible: true,
+			collapsed: true,
 			items: [
 				{ text: 'Enumeration Types', link: '/notes/07-enums' },
 				{ text: 'Custom Types', link: '/notes/07-custom-types' },
@@ -137,7 +145,7 @@ function sidebarNotes() {
 		},
 		{
 			text: 'Strings',
-			collapsible: true,
+			collapsed: true,
 			items: [
 				{ text: 'The String Type', link: '/notes/07-strings' },
 			]
@@ -145,7 +153,7 @@ function sidebarNotes() {
 		,
 		{
 			text: 'Arrays',
-			collapsible: true,
+			collapsed: true,
 			items: [
 				{ text: 'Intro to Arrays', link: '/notes/08-arrays-intro' },
 				{ text: 'Search and Sort', link: '/notes/08-search-and-sort' },
@@ -158,7 +166,7 @@ function sidebarNotes() {
 		},
 		{
 			text: 'Structs',
-			collapsible: true,
+			collapsed: true,
 			items: [
 				{ text: 'Introduction to Structs', link: '/notes/09-structs-intro' },
 				{ text: 'Structs and Arrays, Together', link: '/notes/09-structs-and-arrays.md' }
