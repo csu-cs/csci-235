@@ -89,7 +89,7 @@ Operator Precedence
 | `<`, `<=`, `>=`, `>`            | fourth     |
 | `==`, `!=`                      | fifth      |
 | `&&`                            | sixth      |
-| `||`                            | seventh    |
+| `\|\|`                          | seventh    |
 | `=`                             | last       |
 
 Try to create more advanced combinations for truth tables like:
