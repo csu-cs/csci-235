@@ -19,6 +19,8 @@ The header file `cstdlib` contains a the `rand()` function which returns a *pseu
         ```
     +   Generally, you should only call `srand()` once in your code so the numbers appear to be more random.
 
+--------
+
 This is a fun example that I think will help solidify some concepts for you. Also, it shows how you can use pseudo-random numbers to create a game.
 
 <div class="youtube">
