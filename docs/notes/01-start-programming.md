@@ -91,27 +91,28 @@ In the command-line interface:
     -   Hint: Put double quotes around any parameters with spaces.
     -   Hint: Hit tab while typing the path to autocomplete the rest of the directory name.
 -   Run g++ with the following command:
-    -   `g++ -Wextra -o world hello.cpp`
+    -   `g++ -Wall -Wextra -o world hello.cpp`
 -   No output means it worked!
 
 ### Understanding the Command
 
-`g++ -Wextra -o world hello.cpp`
+`g++ -Wall -Wextra -o world hello.cpp`
 
 g++ is the name of the compiler program and the rest of the lines are parameters.
 
 | **Parameter** | **Parameter Description**                                                       |
 |---------------|---------------------------------------------------------------------------------|
-| `-Wextra `     | Enables extra warnings about questionable constructions that are easy to avoid. |
-| `-o world`     | Name the executable file we are creating “world”.                               |
-| `hello.cpp`     | The name of the input file (must be the last parameter).                        |
+| `-Wall `      | Enables additional warnings about questionable constructions that are easily avoid. |
+| `-Wextra `    | Enables even more helpful warnings. |
+| `-o world`    | Name the executable file we are creating “world”.                               |
+| `hello.cpp`   | The name of the input file (must be the last parameter).                        |
 
 ### Additional Useful Parameters
 
 `-fmax-errors=5`
 
 -   This will tell the compiler to output at most 5 errors.
-    -   We can change the number 10 to any number you want.
+    -   The number 5 can be changed to any number you want.
 -   Sometimes when we have one problem, it produces a ton of errors. Use this parameter to only show the first however many.
 -   Always look at the first error first.
 
@@ -123,7 +124,7 @@ g++ is the name of the compiler program and the rest of the lines are parameters
     -   `-std=c++17`
     -   `-std=c++14`
 
-`-pedantic`
+`-pedantic` or `-Wpedantic`
 
 -   GCC compilers always try to compile your program if this is at all possible.
     However, in some cases, the C++ standard specifies that certain extensions
@@ -135,8 +136,7 @@ g++ is the name of the compiler program and the rest of the lines are parameters
 
 -   To run your newly-compiled program, type the name of the program  
     `world`
--   In macOS or Linux, you may need to put a ./ before  
-    the program name.  
+-   In macOS or Linux, you may need to put a `./` before the program name.  
     `./world`
 
 ![Example Output](/images/setup/program-output.svg)
