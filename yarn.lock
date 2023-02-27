@@ -309,9 +309,9 @@
   integrity sha512-BdZ5BCCvho3EIXw6wUCXHe7rS53AIDPLE+JzwgT+OsJk53oBfbSmZZ7CX4VaRoN78N+TJpFi9QPlfIVNmJYWxQ==
 
 "@types/node@*":
-  version "18.14.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.14.1.tgz#90dad8476f1e42797c49d6f8b69aaf9f876fc69f"
-  integrity sha512-QH+37Qds3E0eDlReeboBxfHbX9omAcBCXEzswCu6jySP642jiM3cYSIkU/REqwhCUqXdonHFuBfJDiAJxMNhaQ==
+  version "18.14.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.14.2.tgz#c076ed1d7b6095078ad3cf21dfeea951842778b1"
+  integrity sha512-1uEQxww3DaghA0RxqHx0O0ppVlo43pJhepY51OxuQIKHpjbnYLA7vcdwioNPzIqmC2u3I/dmylcqjlh0e7AyUA==
 
 "@types/semver@^7.3.12":
   version "7.3.13"
@@ -1145,9 +1145,9 @@ reusify@^1.0.4:
   integrity sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==
 
 rollup@^3.10.0:
-  version "3.17.2"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.17.2.tgz#a4ecd29c488672a0606e41ef57474fad715750a9"
-  integrity sha512-qMNZdlQPCkWodrAZ3qnJtvCAl4vpQ8q77uEujVCCbC/6CLB7Lcmvjq7HyiOSnf4fxTT9XgsE36oLHJBH49xjqA==
+  version "3.17.3"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.17.3.tgz#ee7c4e1a262da55c491a4788b632fa123315f6ef"
+  integrity sha512-p5LaCXiiOL/wrOkj8djsIDFmyU9ysUxcyW+EKRLHb6TKldJzXpImjcRSR+vgo09DBdofGcOoLOsRyxxG2n5/qQ==
   optionalDependencies:
     fsevents "~2.3.2"
 
@@ -1273,7 +1273,7 @@ valid-data-url@^3.0.0:
   resolved "https://registry.yarnpkg.com/valid-data-url/-/valid-data-url-3.0.1.tgz#826c1744e71b5632e847dd15dbd45b9fb38aa34f"
   integrity sha512-jOWVmzVceKlVVdwjNSenT4PbGghU0SBIizAev8ofZVgivk/TVHXSbNL8LP6M3spZvkR9/QolkyJavGSX5Cs0UA==
 
-vite@^4.1.3:
+vite@^4.1.4:
   version "4.1.4"
   resolved "https://registry.yarnpkg.com/vite/-/vite-4.1.4.tgz#170d93bcff97e0ebc09764c053eebe130bfe6ca0"
   integrity sha512-3knk/HsbSTKEin43zHu7jTwYWv81f8kgAL99G5NWBcA1LKvtvcVAC4JjBH1arBunO9kQka+1oGbrMKOjk4ZrBg==
@@ -1286,9 +1286,9 @@ vite@^4.1.3:
     fsevents "~2.3.2"
 
 vitepress@^1.0.0-alpha.45:
-  version "1.0.0-alpha.47"
-  resolved "https://registry.yarnpkg.com/vitepress/-/vitepress-1.0.0-alpha.47.tgz#3488f23d6239757208d269773eff49cf9e898b09"
-  integrity sha512-vj+LOY0WJtKSk98HV4qqG6p4MofmF+C8yrWHiiw+GCMfr6C+610U5D7oD2OruroIafsON6F4nBDWGK8ZyGIpXQ==
+  version "1.0.0-alpha.48"
+  resolved "https://registry.yarnpkg.com/vitepress/-/vitepress-1.0.0-alpha.48.tgz#e4236f7a1ef6c8d29abe7894702734a6d8630bc3"
+  integrity sha512-vu9J6Eg1l+o33lfDAMD9+cxomMNQGNQEW/GPu32tkffagMBxoBqhzxfqjaOqtTQ2VdS+dauOdROtrWQrElyivw==
   dependencies:
     "@docsearch/css" "^3.3.3"
     "@docsearch/js" "^3.3.3"
@@ -1297,7 +1297,7 @@ vitepress@^1.0.0-alpha.45:
     "@vueuse/core" "^9.13.0"
     body-scroll-lock "4.0.0-beta.0"
     shiki "^0.14.1"
-    vite "^4.1.3"
+    vite "^4.1.4"
     vue "^3.2.47"
 
 vscode-oniguruma@^1.7.0:
