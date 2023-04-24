@@ -33,7 +33,7 @@ Getting Started
 
 1.  Review [the syllabus](/syllabus).
 2.  Access the textbook (Chapter 1 for the first week).
-3.  Set up [the required software](#software-setup).
+3.  Set up [the required software](#visual-studio-code).
 4.  Say "hi" to [your instructor](#instructors).
 
 <div class="youtube">
