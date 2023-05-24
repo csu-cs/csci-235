@@ -1,0 +1,143 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg
+	width="343" height="282"
+	
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" overflow="hidden">
+
+<title>Hardware Components Visualization</title>
+
+<style type="text/css" >
+<![CDATA[
+
+	text {
+		text-anchor: middle;
+		font-family: sans-serif;
+		font-smooth: always;
+	}
+
+	rect {
+		stroke: #FFF;
+		stroke-width: 1.5;
+		fill: #DEEAF6;
+		filter: url(#blur);
+	}
+
+	rect.cover {
+		stroke: white;
+		fill: #2E74B5;
+		filter: url(#blur);
+	}
+
+	line {
+		stroke: white;
+		stroke-width: 2;
+		marker-end: url(#arrow);
+		filter: url(#glowing)
+	}
+
+	path.error {
+		stroke: white;
+		stroke-width: 2;
+		marker-end: url(#arrow);
+		filter: url(#glowing);
+		fill: none;
+	}
+
+	text.error {
+		fill: white;
+		filter: url(#blur) url(#glowing);
+	}
+
+	.step {
+		text-anchor: end;
+		fill: white;
+		filter: url(#blur) url(#glowing);
+	}
+]]>
+</style>
+
+<defs>
+	<!-- A marker to be used as an arrowhead -->
+	<marker
+		id="arrow"
+		viewBox="0 0 10 10"
+		refX="8"
+		refY="5"
+		markerWidth="6"
+		markerHeight="6"
+		orient="auto-start-reverse">
+		<path d="M 0 0 L 10 5 L 0 10 z" fill="white" stroke="white" />
+	</marker>
+
+	<filter id="blur">
+		<feDropShadow in="SourceGraphic" dx="1" dy="1" stdDeviation="1.5" />
+	</filter>
+
+	<filter id="glowing" filterUnits="userSpaceOnUse">
+		<feGaussianBlur in="SourceAlpha" stdDeviation="1" result="coloredBlur"/>
+		<feOffset dx="2" dy="2" result="offsetblur" />
+		<feMerge>
+			<feMergeNode in="coloredBlur"/>
+			<feMergeNode in="SourceGraphic"/>
+		</feMerge>
+	</filter>
+</defs>
+
+<g>
+
+<text x="60" y="22" class="step">Step 1</text>
+<rect x="70" y="2" width="120" height="26" />
+<text x="130" y="2">
+	<tspan x="130" dy="20px">Code</tspan>
+</text>
+
+<text x="60" y="72" class="step">Step 2</text>
+<rect x="70" y="52" width="120" height="26" />
+<text x="130" y="52">
+	<tspan x="130" dy="20px">Preprocess</tspan>
+</text>
+<line x1="130" y1="28" x2="130" y2="52" />
+
+<text x="60" y="122" class="step">Step 3</text>
+<rect x="70" y="102" width="120" height="26" />
+<text x="130" y="102">
+	<tspan x="130" dy="20px">Compile</tspan>
+</text>
+<line x1="130" y1="78" x2="130" y2="102" />
+<path d="M 190 115 h 40 m 100 0 h 10 v -100 h -150" class="error" />
+<text x="220" y="102" class="error">
+	<tspan x="280" dy="19px">Syntax Error</tspan>
+</text>
+
+<text x="60" y="172" class="step">Step 4</text>
+<rect x="70" y="152" width="120" height="26" />
+<text x="130" y="152">
+	<tspan x="130" dy="20px">Link</tspan>
+</text>
+<line x1="130" y1="128" x2="130" y2="152" />
+
+<rect x="220" y="152" width="120" height="26" />
+<text x="220" y="152">
+	<tspan x="280" dy="20px">Libraries</tspan>
+</text>
+<line x1="220" y1="165" x2="190" y2="165" />
+
+<text x="60" y="222" class="step">Step 5</text>
+<rect x="70" y="202" width="120" height="26" />
+<text x="130" y="202">
+	<tspan x="130" dy="20px">Load</tspan>
+</text>
+<line x1="130" y1="178" x2="130" y2="202" stroke-dasharray="2,2" />
+
+<text x="60" y="272" class="step">Step 6</text>
+<rect x="70" y="252" width="120" height="26" />
+<text x="130" y="252">
+	<tspan x="130" dy="20px">Execute</tspan>
+</text>
+<line x1="130" y1="228" x2="130" y2="252" />
+
+</g>
+</svg>
