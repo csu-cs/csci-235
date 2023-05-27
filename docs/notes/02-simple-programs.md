@@ -8,8 +8,6 @@ Basic Elements of C++
 
 This video is part 1 of 3 in an overview of chapter 2. Each part is about 30 minutes.
 
-This video is part 1 of 3 in an overview of chapter 2. Each part is about 30 minutes.
-
 <div class="youtube">
 <div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/LCK213jTsEM?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
