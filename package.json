@@ -11,7 +11,7 @@
   "devDependencies": {
     "markdown-it-image-figures": "^2.1.0",
     "markdown-it-mathjax3": "^4.3.2",
-    "vitepress": "^1.0.0-alpha.45",
+    "vitepress": "^1.0.0-beta.1",
     "yarn-audit-fix": "^9.3.8"
   },
   "dependencies": {
