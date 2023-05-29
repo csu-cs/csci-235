@@ -16,5 +16,6 @@
   },
   "dependencies": {
     "@docsearch/js": "3"
-  }
+  },
+  "packageManager": "yarn@1.22.19"
 }
