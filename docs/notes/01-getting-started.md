@@ -37,7 +37,7 @@ Getting Started
 4.  Say "hi" to [your instructor](#instructors).
 
 <div class="youtube">
-<div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/sDXJVOtynfA?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
+<div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/YNIMbeNFCYQ?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
 
 Instructors
@@ -103,8 +103,7 @@ On Windows, we will use the MinGW-w64 to compile C++ programs using g++.
 
 Download the following:
 
--   [7-Zip](https://www.7-zip.org/)
--   [Mingw-w64](https://github.com/brechtsanders/winlibs_mingw/releases/download/12.2.0-15.0.6-10.0.0-ucrt-r3/winlibs-x86_64-posix-seh-gcc-12.2.0-mingw-w64ucrt-10.0.0-r3.7z)
+-   [Mingw-w64](https://github.com/brechtsanders/winlibs_mingw/releases/download/13.2.0-16.0.6-11.0.0-ucrt-r1/winlibs-x86_64-posix-seh-gcc-13.2.0-mingw-w64ucrt-11.0.0-r1.zip)
 
 Follow the following video instructions to set up your system.
 
