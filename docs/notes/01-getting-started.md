@@ -132,15 +132,23 @@ Follow the following video instructions to set up your system.
     command.  
     `brew install gcc`
 
-3.  Go to where GCC was installed in the Terminal:  
-    `cd /usr/local/bin/`
-    
-    ::: warning
-    If you have one of the newest Macbooks with the M1 or M2 CPUs, there may be a different path where g++ is located. You may ask your instructor for assistance.
-    :::
+3.  Go to where GCC was installed in the Terminal:
+    1.  If you are on an older, Intel-based Mac, type:  
+        `cd /usr/local/bin/`
+    2.  If you are on a newer Mac with the M1 or M2 (Apple Silicon) CPUs, type:  
+        `cd /opt/homebrew/bin`
 
-4.  Add a link to g++-12 to g++ by typing:  
-    `ln -s g++-12 g++`
+        ::: warning
+        If you have one of the newest Macbooks with the M1 or M2 CPUs, there may be a different path where g++ is located. You may ask your instructor for assistance.
+        :::
+
+4.  Add a link to g++-13 to g++.
+    1.  For Intel-based Macs, type:  
+        `ln -s g++-13 g++`
+    2.  For Macs with an M1 or M2 (Apple Silicon) CPU, type:  
+        `ln -s ../Cellar/gcc/13.1.0/bin/aarch64-apple-darwin22-g++-13 g++`
+
+        The path may be different as new versions are released. If the above command does not work, type `ls ../Cellar/gcc` to see what number you should use instead of `13.1.0` in the above command.
 
 5.  Sign out and sign back into your computer.
 
