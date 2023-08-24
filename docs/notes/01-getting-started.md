@@ -61,7 +61,7 @@ These small changes will make it easier to properly format your code.
 3.  Type `Settings (JSON)` in the textbox and click on the dropdown as shown here.  
     ![](/images/setup/vscode-settings.png)
 4.  On the left, you see all of the default settings. On the right, you can add your own.
-5.  Add these two settings as described in the video from last week.
+5.  Add these two settings. You can replace the existing values or add these fore the existing values (inside the curly brackets).
 
 	```json
 	{
@@ -159,9 +159,9 @@ Using the Lab Computers
 
 You may log into the lab computers with your personal account.
 
--   **Username**: Combine your *First Initial*, *Last Name*, and *Student ID Number*.  
-    For example, `JSmith234567` 
--   **Password**: `1234`
+-   **Username**: Combine your *First Initial*, *Middle Initial*, and Last Name* (like the beginning of your CSU email address).  
+    For example, `JDSmith` 
+-   **Password**: `Change1stTime!`
 
 There is a “special” Window’s command-line interface installed that includes MinGW-w64.
 
