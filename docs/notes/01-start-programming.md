@@ -116,13 +116,13 @@ g++ is the name of the compiler program and the rest of the lines are parameters
 -   Sometimes when we have one problem, it produces a ton of errors. Use this parameter to only show the first however many.
 -   Always look at the first error first.
 
-`-std=c++20`
+`-std=c++23`
 
--   This will tell the compiler to use the latest (2020) standard of C++.
+-   This will tell the compiler to use the latest (2023) standard of C++.
 -   This may be necessary if you are using more recent features of the language.
 -   If your compiler doesn’t support the 2020 standard, you can try a previous standard:
+    -   `-std=c++20`
     -   `-std=c++17`
-    -   `-std=c++14`
 
 `-pedantic` or `-Wpedantic`
 
