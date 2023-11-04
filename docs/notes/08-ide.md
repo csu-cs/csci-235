@@ -14,6 +14,9 @@ Here is a 12-minute tutorial on how to use Visual Studio.
 <div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/qL8rVDsqoOo?rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
 
+When installing Visual Studio, select “Desktop development with C++” as show in this figure.  
+![Installation settings for Visual Studio](/images/ide/VisualStudioInstallation1.png)
+
 Xcode for macOS
 ---------------
 
