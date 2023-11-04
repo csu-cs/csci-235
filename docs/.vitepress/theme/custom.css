@@ -6,6 +6,17 @@
 	--vp-c-brand-darker: #7a6f4e;
 	--vp-c-bg-alpha-with-backdrop: rgba(0, 40, 85, 0.10);
 	/*--vp-c-bg-alpha-without-backdrop: rgba(0, 40, 85, 0.95);*/
+
+	--vp-c-brand-1: var(--vp-c-brand-darker);
+	--vp-c-brand-2: var(--vp-c-brand-dark);
+	--vp-c-brand-3: var(--vp-c-brand);
+	--vp-c-brand-soft: rgba(224, 216, 187, 0.14);
+}
+
+.dark {
+	--vp-c-brand-1: var(--vp-c-brand);
+	--vp-c-brand-2: var(--vp-c-brand-dark);
+	--vp-c-brand-3: var(--vp-c-brand-darker);
 }
 
 mjx-container>svg {
