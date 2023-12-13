@@ -12,7 +12,7 @@ head:
 <div id="pdf"><a href="/csci-235/syllabus.pdf" download="Syllabus-CSCI235.pdf">Download Printable Syllabus</a></div>
 <h1 class="title">CSCI 235: Procedural Programming</h1>
 <h2 class="author"></h2>
-<h3 class="date">Fall 2023</h3>
+<h3 class="date">Spring 2024</h3>
 </div>
 <div id="general-information" class="section level1">
 <h1>General Information</h1>
@@ -164,7 +164,7 @@ appropriate to the discipline.</li>
 <tbody>
 <tr class="odd">
 <td align="right">1</td>
-<td align="center">08/21 – 08/25</td>
+<td align="center">01/08 – 01/12</td>
 <td align="center">Syllabus, Schedule, etc.;  Overview of Computers and
 Programming Languages; Introduction to Flowcharts and the Command
 Line</td>
@@ -172,86 +172,80 @@ Line</td>
 </tr>
 <tr class="even">
 <td align="right">2</td>
-<td align="center">08/28 – 09/01</td>
+<td align="center">01/15 – 01/19</td>
 <td align="center">Basic Elements of C++</td>
 <td align="center">CH 2</td>
 </tr>
 <tr class="odd">
 <td align="right">3</td>
-<td align="center">09/04 – 09/08</td>
+<td align="center">01/22 – 01/26</td>
 <td align="center">Input / Output</td>
 <td align="center">CH 3</td>
 </tr>
 <tr class="even">
 <td align="right">4</td>
-<td align="center">09/11 – 09/15</td>
+<td align="center">01/29 – 02/02</td>
 <td align="center">Boolean Expressions and Conditionals (Branching)</td>
 <td align="center">CH 4</td>
 </tr>
 <tr class="odd">
 <td align="right">5</td>
-<td align="center">09/18 – 09/22</td>
+<td align="center">02/05 – 02/09</td>
 <td align="center">Repetition (Looping)</td>
 <td align="center">CH 5</td>
 </tr>
 <tr class="even">
 <td align="right">6</td>
-<td align="center">09/25 – 09/26</td>
+<td align="center">02/12 – 02/13</td>
 <td align="center">Midterm Exam (<em>tentative date</em>)</td>
 <td align="center">CH 1-5</td>
 </tr>
 <tr class="odd">
 <td align="right">6–8</td>
-<td align="center">09/27 – 10/13</td>
+<td align="center">02/14 – 03/01</td>
 <td align="center">User-Defined Functions</td>
 <td align="center">CH 6</td>
 </tr>
 <tr class="even">
-<td align="right">8</td>
-<td align="center">10/09 – 10/10</td>
-<td align="center"><em>Fall Break</em></td>
+<td align="right">9</td>
+<td align="center">03/04 – 03/08</td>
+<td align="center"><em>Spring Break</em></td>
 <td align="center"></td>
 </tr>
 <tr class="odd">
-<td align="right">9</td>
-<td align="center">10/16 – 10/20</td>
+<td align="right">10</td>
+<td align="center">03/11 – 03/15</td>
 <td align="center">User-Defined Simple Data Types and Namespaces</td>
 <td align="center">CH 7</td>
 </tr>
 <tr class="even">
-<td align="right">10</td>
-<td align="center">10/23 – 10/27</td>
+<td align="right">11</td>
+<td align="center">03/18 – 03/22</td>
 <td align="center">The String Type</td>
 <td align="center">CH 7</td>
 </tr>
 <tr class="odd">
-<td align="right">11–12</td>
-<td align="center">10/30 – 11/10</td>
+<td align="right">12–13</td>
+<td align="center">03/25 – 04/05</td>
 <td align="center">Arrays</td>
 <td align="center">CH 8</td>
 </tr>
 <tr class="even">
-<td align="right">13</td>
-<td align="center">11/13 – 11/17</td>
+<td align="right">14</td>
+<td align="center">04/08 – 04/12</td>
 <td align="center">Records</td>
 <td align="center">CH 9</td>
 </tr>
 <tr class="odd">
-<td align="right">14</td>
-<td align="center">11/22 – 11/24</td>
-<td align="center"><em>Thanksgiving Holiday</em></td>
-<td align="center"></td>
-</tr>
-<tr class="even">
-<td align="right">14–15</td>
-<td align="center">11/20 – 12/05</td>
+<td align="right">15-16</td>
+<td align="center">04/15 – 04/23</td>
 <td align="center">Review / Work on Final Project</td>
 <td align="center"></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="right">16</td>
-<td align="center">12/05 or 12/08</td>
-<td align="center">Final Exam (See <a href="https://www.charlestonsouthern.edu/wp-content/uploads/Exam-Schedule-Fall-2023.pdf">CSU’s
+<td align="center">04/25 or 04/30</td>
+<td align="center">Final Exam (See <a href="https://www.charlestonsouthern.edu/wp-content/uploads/Exam-Schedule-Spring-2024.pdf">CSU’s
 exam schedule</a> for your section’s exam time.)</td>
 <td align="center">CH 1-9</td>
 </tr>
@@ -507,14 +501,6 @@ the mandated on-ground meetings OR does not participate within the
 prescribed number of days (see online FA policy above), then that
 student will receive an FA.</p>
 </div>
-<div id="covid-19-diagnosis" class="section level3">
-<h3>COVID-19 Diagnosis</h3>
-<p>There are no longer special considerations for COVID-19-based
-diagnosis/absences although you should follow the recommended public
-health protocols based on your symptoms and time of diagnosis.
-COVID-19-based absences will be considered typical unexcused
-absences.</p>
-</div>
 </div>
 <div id="course-evaluations" class="section level2">
 <h2>Course Evaluations</h2>
@@ -588,13 +574,32 @@ instructor.</p>
 </div>
 <div id="nondiscrimination-policy-and-student-rights" class="section level2">
 <h2>Nondiscrimination Policy and Student Rights</h2>
-<p>Charleston Southern University does not illegally discriminate based
-on race, color, national or ethnic origin, sex, disability, age,
-religion, genetic information, veteran or military status, or any other
-basis. Inquiries regarding the non-discrimination policies should be
-directed to <a href="https://www.charlestonsouthern.edu/directory/muckelvaney-phillip/">Phillip
-Muckelvane</a>, Title IX Coordinator, <a href="mailto:pmuckelvaney@csuniv.edu" class="email">pmuckelvaney@csuniv.edu</a>. Students should refer to the
-<a href="https://www.charlestonsouthern.edu/current-students/student-resources/">CSU
+<p>Charleston Southern University (CSU) does not illegally discriminate
+based on race, age, color, national or ethnic origin, disability, sex,
+pregnancy, childbirth or related medical conditions, religion, genetic
+information, veteran or military status, or any other basis on which the
+university is prohibited from discrimination under local, state, or
+federal law, in its employment or in the provision of its services.
+Inquiries or complaints regarding the non-discrimination policy,
+compliance with Title IX of the Education Amendments of 1972, and
+inquiries or complaints regarding the disability non-discrimination
+policy including compliance with Section 504 of the Rehabilitation Act
+of 1973 can be directed to our Title IX campus contacts:</p>
+<ul>
+<li><a href="https://www.charlestonsouthern.edu/directory/watson-annie/">Dr. Annie
+Watson</a> / <a href="mailto:awatson@csuniv.edu" class="email">awatson@csuniv.edu</a> / 843 863-7159 (accommodations for
+disabilities or pregnancy)</li>
+<li><a href="https://www.charlestonsouthern.edu/directory/carrie-gomez/">Ms. Carrie
+Gomez</a> / <a href="mailto:cgomez@csuniv.edu" class="email">cgomez@csuniv.edu</a> / 843 863-7629 (concerns related to
+creating and maintaining equality between the men’s and women’s athletic
+programs)</li>
+<li><a href="https://www.charlestonsouthern.edu/directory/walke-lindsey/">Ms. Lindsey
+Walke</a> / <a href="mailto:lwalke@csuniv.edu" class="email">lwalke@csuniv.edu</a> / 843 863-8047 (concerns related to
+sexual harassment and sexual violence)</li>
+</ul>
+<p>For further information you can visit <a href="https://www.charlestonsouthern.edu/offices/title-ix/">CSU Title IX
+webpage</a> or email <a href="mailto:titleix@csuniv.edu" class="email">titleix@csuniv.edu</a>.</p>
+<p>Students should refer to the <a href="https://www.charlestonsouthern.edu/current-students/student-resources/">CSU
 Student Handbook</a> to be fully informed of their rights and
 remedies.</p>
 <hr />
