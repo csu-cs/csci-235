@@ -128,7 +128,8 @@ function sidebarNotes() {
 			collapsed: true,
 			items: [
 				{ text: 'Introduction', link: '/notes/06-functions-intro' },
-				{ text: 'Scope and Parameters', link: '/notes/06-scope-and-parameters' },
+				{ text: 'Scope', link: '/notes/06-scope' },
+				{ text: 'References Parameters', link: '/notes/06-references' },
 				{ text: 'Recursion', link: '/notes/06-recursion' },
 				{ text: 'Function Overloading and Default Parameters', link: '/notes/06-function-overloading-default-parameters' },
 				{ text: 'Static Variables', link: '/notes/06-static-variables' }

@@ -33,8 +33,8 @@ Powerful applications take advantage of the extreme number of possible instructi
 
 Chess is a good analogy:
 
--   6 types of pieces, each moves in a simple pattern.
--   Possible/playable chess games (assuming an avg. game has 30 moves) is 4,670,033.
+-   6 types of pieces; each piece moves in a simple pattern.
+-   Possible/playable chess games (assuming an avg. game has 30 moves) are 4,670,033.
 
 ### Algorithms
 
@@ -44,7 +44,7 @@ Algorithms can be expressed in many kinds of notations (e.g., natural language, 
 
 ### Flowcharts
 
-A flowchart is one way to representation an algorithm and uses the following symbols. 
+A flowchart is one way to represent an algorithm and uses the following symbols. 
 
 | Symbol                 | Name      | Description                                         |
 |-----------------------:|:---------:|:----------------------------------------------------|
@@ -69,8 +69,8 @@ Creating Solutions
 
 -   *Algorithm*
     +   Step-by-step problem-solving process
-    +   In finite amount of time
--   *Programming* is a process of problem solving.
+    +   In a finite amount of time
+-   *Programming* is a process of problem-solving.
 
 ### Programming with the Problem Analysis–Coding–Execution Cycle
 
@@ -79,28 +79,28 @@ Creating Solutions
 
 1.  *Analyze* the problem
     1.  Thoroughly understand the problem and all requirements
-        *   Does program require user interaction?
-        *   Does program manipulate data?
+        *   Does the program require user interaction?
+        *   Does the program manipulate data?
         *   What is the output?
     2.  If the problem is complex, divide it into subproblems
         *    Analyze and design *algorithms* for each subproblem
-    3.  Check the correctness of algorithm
+    3.  Check the correctness of the algorithm
         *   Can test using sample data
         *   Some mathematical analysis might be required
 
 2.  *Implement* the algorithm
-    1.  Once the algorithm is designed and correctness verified, write the equivalent code in high-level language.
-        *   Enter the program using text editor. This is called the *implementation* of the algorithm.
+    1.  Once the algorithm is designed and correctness verified, write the equivalent code in a high-level language.
+        *   Enter the program using a text editor. This is called the *implementation* of the algorithm.
     2.  Compile code
-    3.  If compiler generates errors
-        *   Look at code and remove errors
-        *   Run code again through compiler 
+    3.  If the compiler generates errors
+        *   Look at the code and remove errors
+        *   Run code again through the compiler 
     4.  If there are no syntax errors, the compiler generates equivalent machine code.
         *   The compiler guarantees that the program follows the rules of the language. It does **not** guarantee that the program will run correctly.
     5.  Linker links machine code with system resources
 
 3.  Execution (run the compiles program)
-    1.  Once compiled and linked, the loader can place program into main memory for execution.
+    1.  Once compiled and linked, the loader can place the program into the main memory for execution.
     2.  The final step is to execute the program.
 
 4.  *Maintenance*
@@ -128,7 +128,7 @@ There are [many other programming paradigms](https://en.wikipedia.org/wiki/Compa
 
 -   Dividing a problem into smaller subproblems
 -   A solution to a subproblem is a “module” or “procedure” and is simply a series of computation steps to be carried out.
--   Procedural design approach is also called:
+-   The procedural design approach is also called:
     +   Top-down (or bottom-up) design
     +   Stepwise refinement
     +   Modular programming
