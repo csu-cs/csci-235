@@ -40,7 +40,7 @@ Chess is a good analogy:
 
 An *algorithm* is A step-by-step list of instructions for solving a problem. The solution must be determined in a *finite* amount of time.
 
-Algorithms can be expressed in many kinds of notations (e.g., natural language, psedocode, flowcharts, etc.)
+Algorithms can be expressed in many kinds of notations (e.g., natural language, pseudocode, flowcharts, etc.)
 
 ### Flowcharts
 

@@ -65,7 +65,7 @@ Common Errors
 -   Tried to read input from a file that does not exist. Make sure the file is in the correct directly and that your code didn’t misspell the name.
 -   If you specify a directly location in conjunction with your filename (e.g.,
 `"C:\\my stuff\\data.txt"`), use forward slashes or escape your backslashes (e.g., `"c:/my stuff/data.txt"` or `"c:\\my stuff\\data.txt"`).
--   Avoid using absolute paths (paths that reverence the file location from the root of the drive rather than path relative to the program’s location.
+-   Avoid using absolute paths, which are paths that reverence the file location from the root of the drive rather than path relative to the program’s location.
 
 Self-Check Questions
 --------------------

@@ -20,7 +20,7 @@ This project is a website to host resources for this course. It uses [VitePress]
 
 To edit the content of the lecture notes, modify the markdown files in `docs/notes`.
 
-To update the sidebar navigation for the lecture notes, modified `sidebarNotes()` in `docs/.vitepress/config.js`.
+To update the sidebar navigation for the lecture notes, modify `sidebarNotes()` in `docs/.vitepress/config.js`.
 
 ### Local Server
 Serve the site in the local server using the following command.
@@ -52,6 +52,6 @@ To test the production build before pushing, do the following:
 
   The `preview` command will boot up a local static web server that will serve the files from `.vitepress/dist` at `http://localhost:4173`. It's an easy way to check if the production build looks fine in your local environment.
 
-The github workflow will automatically deploy the website when the master branch is updated. The website build is in the `gh-pages` branch.
+The GitHub workflow will automatically deploy the website when the master branch is updated. The website build is in the `gh-pages` branch.
 
 Visit the deployed site at https://csu-cs.github.io/csci-235/.
