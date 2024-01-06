@@ -12,6 +12,7 @@
     "markdown-it": "*",
     "markdown-it-image-figures": "^2.1.0",
     "markdown-it-mathjax3": "^4.3.2",
+    "markdown-it-table-captions": "^1.0.4",
     "vitepress": "^1.0.0-rc.31",
     "yarn-audit-fix": "^9.3.8"
   },

@@ -26,7 +26,37 @@ This video describes opening Atom. Instead of what is shown, open your code in *
 Arithmetic Operators in C++
 ---------------------------
 
+|  Operator | Name                                 |
+|:---------:|:-------------------------------------|
+|   +       | addition                             |
+|   -       | subtraction                          |
+|   *       | multiplication                       |
+|   /       | division                             |
+|   %       | modulus   (or remainder) operator    |
+|   ++      | increment                            |
+|   --      | decrement                            |
+
+Table: The C++ arithmetic operators.
+
+
+The following video explains the increment, decrement, and modulus operators.
+
 <div class="youtube">
 <div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/xgycVLWlpic?rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
 
+-   Increment operator: increase variable by 1
+    +   Pre-increment: `++variable`
+    +   Post-increment: `variable++`
+-   Decrement operator: decrease variable by 1
+    +   Pre-decrement: `--variable`
+    +   Post-decrement: `variable--`
+
+What is the difference between the following?
+
+| Pre-increment         | Post-increment        |
+| --------------------- | --------------------- |
+| `int alpha = 5;`      | `int alpha = 5;`      |
+| `int beta = ++alpha;` | `int beta = alpha++`; |
+
+Table: After watching the video, check your understanding by determining what `alpha` and `beta` equal in each of these examples.

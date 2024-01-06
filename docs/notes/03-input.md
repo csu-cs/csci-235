@@ -5,13 +5,13 @@ Input and Predefined Functions
 
 I/O: sequence of bytes (stream of bytes) from source to destination
 
--   Bytes are usually characters unless program requires other types of information
+-   Bytes are usually characters unless the program requires other types of information
 -   Stream: sequence of characters (or bytes) from source to destination
 -   Input stream: sequence of characters (or bytes) from an input device to the computer
 -   Output stream: sequence of characters (or bytes) from the computer to an output device
 
-Use `iostream` header file to receive data from keyboard and send output to the
-screen.
+Use `iostream` header file to receive data from the keyboard and send output to
+the screen.
 
 -   Contains definitions of two data **types** (variable types like `int` or `string`):
     -   `istream`: input stream
@@ -88,7 +88,7 @@ To use `pow()` (which is short for power), include `cmath`.
 <div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/E5BGdhDik6w?rel=0&amp;showinfo=0" title="Predefined Input Functions" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
 
-The `cin.get()` function inputs next character (including whitespace).
+The `cin.get()` function inputs the next character (including whitespace).
 
 -   Stores in memory location indicated by its argument
 -   `cin.get(varChar)`;
@@ -115,9 +115,9 @@ The `cin.ignore()` function discards a portion of the input.
     +   `ignore(INT_MAX, '\n'); // ignore until newline.`
         *   `INT_MAX` is a constant defined in the `climits` header that holds the maximum value for an integer.
 
-The `cin.putback()` function places previous character extracted by the get function from an input stream back to that stream.
+The `cin.putback()` function places the previous character extracted by the get function from an input stream back to that stream.
 
-The `cin.peek()` function returns next character from the input stream.
+The `cin.peek()` function returns the next character from the input stream.
 
 -   It does **not** remove the character from that stream.
 
@@ -129,4 +129,4 @@ Self-Check Questions
 --------------------
 
 1.  What is a stream of data?
-2.  How would you read in a string of data with spaces?
+2.  How would you read a string of data with spaces?

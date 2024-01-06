@@ -9,8 +9,8 @@ Formatting Output with Stream Manipulators
 -   `cout <<` *expression or manipulator* `<<` *expression or manipulator* `<< ...`;
 -   Expression is evaluated
 -   Value is printed
--   Manipulator is used to format the output
-    +   Example: `endl`;
+-   A manipulator is used to format the output.
+    +   For example, `endl`, adds a line break.
 
 `setprecision(n)` outputs decimal numbers with up to n decimal places.
 

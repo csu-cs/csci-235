@@ -1234,6 +1234,11 @@ markdown-it-mathjax3@^4.3.2:
     juice "^8.0.0"
     mathjax-full "^3.2.0"
 
+markdown-it-table-captions@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/markdown-it-table-captions/-/markdown-it-table-captions-1.0.4.tgz#3a5d1083aea077c3d989567ebc89293daae1a838"
+  integrity sha512-EpUN5GJLdDbpWSSl0Qf51kwT1e4mUMDB60mitr8JH4Sciyzny7x80BcSG9vKk6MOmeYjmGJ4aBTQCnCf7Y1iZw==
+
 markdown-it@*:
   version "14.0.0"
   resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-14.0.0.tgz#b4b2ddeb0f925e88d981f84c183b59bac9e3741b"

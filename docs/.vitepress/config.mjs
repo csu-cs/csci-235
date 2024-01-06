@@ -1,5 +1,6 @@
 import mathjax3 from 'markdown-it-mathjax3';
 import imageFigures from 'markdown-it-image-figures';
+import tableCaptions from 'markdown-it-table-captions'
 
 const customElements = ['mjx-container'];
 
@@ -29,6 +30,7 @@ export default {
 				figcaption: 'title',
 				copyAttrs: '^class$',
 			});
+			md.use(tableCaptions)
 		},
 	},
 
@@ -129,7 +131,7 @@ function sidebarNotes() {
 			items: [
 				{ text: 'Introduction', link: '/notes/06-functions-intro' },
 				{ text: 'Scope', link: '/notes/06-scope' },
-				{ text: 'References Parameters', link: '/notes/06-references' },
+				{ text: 'Reference Parameters', link: '/notes/06-references' },
 				{ text: 'Recursion', link: '/notes/06-recursion' },
 				{ text: 'Function Overloading and Default Parameters', link: '/notes/06-function-overloading-default-parameters' },
 				{ text: 'Static Variables', link: '/notes/06-static-variables' }
