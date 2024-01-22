@@ -13,6 +13,13 @@ export default {
 	cleanUrls: true,
 	base: '/csci-235/',
 
+	// Required to fix https://github.com/vuejs/vitepress/pull/2780
+	vite: {
+		resolve: {
+			preserveSymlinks: true
+		}
+	},
+
 	head: [
 		// Add Favicon
 		[ 'link', { rel: 'icon', type: 'image/png', href: '/csci-235/favicon-32x32.png', sizes: '32x32'} ],
