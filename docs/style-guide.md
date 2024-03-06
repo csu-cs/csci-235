@@ -503,7 +503,7 @@ This is bad:
 
 ```cpp
 int num;
-if (cin >> cnumh)  // [!code error]
+if (cin >> num)  // [!code error]
 {
     //...
 }
