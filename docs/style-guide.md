@@ -422,7 +422,7 @@ const int MAX_SCORE = 1000;
     behavior. Moreover, if the programmer (you!) decides to ever change
     that value, he or she will have do that just in one place!
 
-## Conditions
+## Conditionals
 
 -   Always use curly braces (even when not necessary) and use consistent
     brace style. In other words, do this:
@@ -495,6 +495,46 @@ const int MAX_SCORE = 1000;
     return score1 == score2;
     ```
 
+### Variable Assignments Within Conditionals
+
+Having assignments within conditional expressions for loops or if statements can lead to code that is difficult to read, understand, and maintain.
+
+This is bad:
+
+```cpp
+int num;
+if (cin >> cnumh)  // [!code error]
+{
+    //...
+}
+```
+
+Good example:
+```cpp
+char num;
+cin >> num;
+if (num)
+{
+    //...
+}
+```
+
+There are several reasons why it's considered bad practice:
+
+1.   **Readability**: Code should be written in a way that is easy to understand for other developers (including your future self). Placing assignments within conditional expressions can make the code harder to read because it adds complexity to the logic flow.
+
+2.   **Potential Bugs**: Complex conditional expressions increase the likelihood of introducing bugs into the code. It's easy to make mistakes when mixing assignment and condition evaluation, leading to unexpected behavior.
+
+3.   **Debugging Difficulty**: When an assignment and a condition are mixed, it can be challenging to debug the code because you're not sure whether the assignment is intended to be part of the condition or not.
+
+4.   **Violation of Single Responsibility Principle**: Assignments inside conditionals often indicate that a single line of code is trying to do too much. It's generally better to separate concerns and keep each line of code focused on a single task.
+
+5.   **Maintainability**: Code that is difficult to read and understand is also difficult to maintain. Other developers (or even yourself in the future) may have a hard time modifying or extending the code if assignments and conditions are intertwined.
+
+6.   **Potential Side Effects**: Assignments within conditional expressions can lead to unintentional side effects. For example, if the assignment is part of a loop condition, it may modify loop variables unexpectedly, leading to unexpected behavior.
+
+Instead of mixing assignments and conditions, it's better to separate them to improve readability, maintainability, and reduce the likelihood of introducing bugs. Write clear and concise code that clearly expresses the intent of each line, making it easier for others to understand and maintain.
+
 ## Switches
 
 Indent your switch statements like this:
@@ -513,6 +553,8 @@ switch (val)
         break;
 }
 ```
+
+The case statements are each on their own lines with a new line the colon. Everything statement within a case statement is indented one more.
 
 ## Loops
 
