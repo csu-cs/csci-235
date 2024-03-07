@@ -72,7 +72,7 @@ cout << str1 << endl; // snow
 The number inside of the array subscript operator `[]` is called the *index* of the
 character.
 
--   Because strings can hold more characters that the maximum value of an integer, we will use a new data type as `string::size_type`.
+-   A string's size (the number of characters it can hold) is larger than the maximum value of an `int` or `unsigned int`. Therefore, a new data type, `string::size_type`, should be used.
 
     +   `string::size_type` An *unsigned* integer (data) type. This is like an `int` but guaranteed to be big enough to hold a `string` of any size. (**Very useful for looping over the length of a `string`!**) *Unsigned* means it cannot hold negative numbers.
 
@@ -127,7 +127,7 @@ You may also decare the loop variable as a reference if you want to edit the str
 The following example changes all of the values to be the next letter in the alphabet.
 
 ```cpp
-const string greeting = "Hiya";
+string greeting = "Hiya";
 
 for (char& letter : greeting) {
     ++letter;

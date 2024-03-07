@@ -1,6 +1,5 @@
 ---
 title: C++ Style Guide
-lastUpdated: true
 ---
 
 C++ Style Guide
@@ -8,7 +7,7 @@ C++ Style Guide
 
 Each coding assignment must follow this standard. Using one style consistently throughout the source code lets us focus on other (more important) issues.
 
-There’s no one, right way to write code. But there are definitely a lot of wrong (or, at least, bad) ways. Certainly it is possible to write “correct” code that violates the guidelines below. Even so, we ask that you adhere to these conventions for CSCI 235 to motivate consistency and readability in your personal coding style.
+There’s no one, right way to write code. But there are a lot of wrong (or, at least, bad) ways. Certainly, it is possible to write “correct” code that violates the guidelines below. Even so, we ask that you adhere to these conventions for CSCI 235 to motivate consistency and readability in your personal coding style.
 
 Companies typically adopt their own, company-wide conventions for style. Learning to carefully obey a style guide, and writing code with a group of other developers where the style is consistent among them, are valuable job skills.
 
@@ -48,7 +47,7 @@ Use the `/* */` syntax for multi-line comments and
 ### Program Description
 
 Atop each file, include a commented header with a brief description of
-the program or file and the programmer\'s name. Write the description in
+the program or file and the programmer's name. Write the description in
 your own words.
 
 For example:
@@ -75,8 +74,8 @@ const double TEMP_RATIO = 5.0 / 9.0; // ratio of Celsius to Fahrenheit
 double celsius = TEMP_RATIO * (fahr - 32.0);
 ```
 
-Place comments their own line(s), preceding whatever you are explaining,
-or on the same line (if it is very brief), but **not** or next line. In
+Place comments on their own line(s), preceding whatever you are explaining,
+or on the same line (if it is very brief), but **not** on the next line. In
 other words, **don't** do this:
 
 Bad example:
@@ -109,7 +108,7 @@ if (letter >= 'a' && letter <= 'z')
 
 ### Function Prototype Comments
 
-Each function created by you (except `main()`) should have an comment above its declaration (prototype). More on this in the [Functions section](#functions).
+Each function created by you (except `main()`) should have a comment above its declaration (prototype). More on this in the [Functions section](#functions).
 
 Comments need to be in the bodies of every multi-line function, not just `main()`. 
 
@@ -138,11 +137,11 @@ count+=(point1-point2)*unit/time+random();  // [!code error]
 
 ### Indentation
 
-Indent your code with one hard tabs (or four spaces) at a time to make
+Indent your code with one hard tab (or four spaces) at a time to make
 clear which blocks of code are inside of others.
 
 ::: warning
-If you use your keyboard's Tab key to do so, be sure that your text editor is configured to convert tabs (`'\t'`) to an actual tab (i.e. a hard tab) or four spaces, else your code may not print or display properly on someone else's computer. The tab key renders differently in different editors.
+If you use your keyboard's Tab key to do so, be sure that your text editor is configured to convert tabs (`'\t'`) to an actual tab (i.e. a hard tab) or four spaces; otherwise, your code may not print or display properly on someone else's computer. The tab key renders differently in different editors.
 :::
 
 ::: tip
@@ -206,7 +205,7 @@ return 0;
 **Visual Studio Code** will
 automatically re-indent select code if you press `Shift + Alt + F`
 on Windows or `Shift + Option + F` on macOS.\
-**Xcode** will automatically re-indent selected code if you press
+**Xcode** will automatically re-indent the selected code if you press
 `Control + I` (or choose **Editor \> Structure \> Re-Indent** from
 the file menu).
 :::
@@ -282,7 +281,7 @@ void reallyLongFunctionName(int with, int lots,
 ```
 
 ::: tip
-To add a line to Visual Studio Code indicating the 80 character mark, go to **File \> Preferences \> User/Workspace settings** Add this line to your custom settings on the right: `"editor.rulers": [80],`
+To add a line to Visual Studio Code indicating the 80-character mark, go to **File \> Preferences \> User/Workspace settings** Add this line to your custom settings on the right: `"editor.rulers": [80],`
 :::
 
 ## Variables and Constants
@@ -382,7 +381,7 @@ const int MAX_SCORE = 1000;
 
 -   Non-constant global variables (those declared outside of functions,
     including `main()`) must never be used. They lead to unintentional
-    bugs and often caused by poor design. Instead, you should be passing
+    bugs and are often caused by poor design. Instead, you should be passing
     variables via functions.
 
 -   Global constants are acceptable when needed.
@@ -420,12 +419,12 @@ const int MAX_SCORE = 1000;
     compiler can often produce better machine code with that knowledge.
     And the reader gets a more precise understanding of the program's
     behavior. Moreover, if the programmer (you!) decides to ever change
-    that value, he or she will have do that just in one place!
+    that value, he or she will have to do that just in one place!
 
 ## Conditionals
 
--   Always use curly braces (even when not necessary) and use consistent
-    brace style. In other words, do this:
+-   Always use curly braces (even when not necessary) and use a consistent brace
+    style. In other words, do this:
 
     ```cpp
     if (val > 0)
@@ -554,12 +553,12 @@ switch (val)
 }
 ```
 
-The case statements are each on their own lines with a new line the colon. Everything statement within a case statement is indented one more.
+The case statements are each on their own lines, with a newline after the colon. Everything statement within a case statement is indented one more.
 
 ## Loops
 
 -   Whenever you a counting variable, use more specific names than `i`,
-    `j`, ....
+    `j`, etc.
 
     ```cpp
     for (int rowIter = 0; rowIter < rowCount; rowIter++)
@@ -574,8 +573,7 @@ The case statements are each on their own lines with a new line the colon. Every
     If you find yourself in need of more than three levels of nested
     loops, you should reconsider your design!
 
--   A `for` loop should look like the one above, while a `while` loop
-    should resemble this one below:
+-   A `for` loop should look like the one above, while a `while` loop should resemble the one below:
 
     ```cpp
     while (num < 0)
@@ -632,9 +630,9 @@ void spinSpinner (int numberOfTurns);
 ```
 
 Always include function prototypes before the `main()`
-function and function definitions below `main()`
+function and function definitions below `main()`.
 
-Every function should except `main()` should have
+Every function except `main()` should have a
 function prototype that is declared before `main()`.
 Function definitions should be defined below `main()`.
 
@@ -674,7 +672,7 @@ void spinSpinner(int numberOfTurns);
     cin >> email; // [!code error]
     ```
 
--   Instead create and use helper functions that incorporate the common
+-   Instead, create and use helper functions that incorporate the common
     functionality:
 
     ```cpp
@@ -706,7 +704,7 @@ void spinSpinner(int numberOfTurns);
     first letter is capitalized.)
 -   A comment should directly precede each enum or struct declaration
     describing the purpose of the data type.
--   The values an enum should named in all caps with each word separated
+-   The values of an enum should named in all caps with each word separated
     by an underscore (`_`). See the standard for [naming constants](#naming-constants).
 
 ## Platform Specific Code
@@ -719,7 +717,7 @@ systems.
 
 A system call is when your program calls another program on the system.
 In C++ this is commonly done through a function called `system()`. These
-calls are tempting, because they provide additional features to your
+calls are tempting because they provide additional features to your
 program without having to learn the programming to do them.
 
 Bad:
@@ -736,14 +734,14 @@ cin.ignore(INT_MAX, '\n'); // ignore everything typed until user hits enter.
 
 ### Non-standard libraries / includes
 
-Avoid the user of operating system specific libraries. We want code that compiles on all operating systems.
+Avoid the use of operating system-specific libraries. We want code that compiles on all operating systems.
 
 Example of Bad Code:
 ```cpp
 #include <windows.h>  // [!code error]
 ```
 
-Use of following standard libraries is encourage:
+Use of the following standard libraries are encourage:
 
 *   [cassert](https://en.cppreference.com/w/cpp/header/cassert)
 *   [cctype](https://en.cppreference.com/w/cpp/header/cctype)
