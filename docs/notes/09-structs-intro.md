@@ -41,7 +41,7 @@ struct Movie
 };
 ```
 
-Just like we can create an integer variable with  `int value;`{.cpp}, variables of our `struct` types can be declared (e.g., `Move favMove;`{.cpp}).
+Just like we can create an integer variable with `int value;`{.cpp}, variables of our `struct` types can be declared (e.g., `Move favMove;`{.cpp}).
 
 ```cpp
 Movie favMove; // example of declaring a variable with our movie type

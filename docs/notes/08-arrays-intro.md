@@ -42,6 +42,12 @@ Array Declaration
 
     ![The array declared above has 8 consecutive locations in memory, each of which can store an integer value. Because nothing has been stored in the array yet, the initial values are unknown (could be anything).](/images/arrays/array-declaration.svg 'The array declared above has 8 consecutive locations in memory, each of which can store an integer value. Because nothing has been stored in the array yet, the initial values are unknown (could be anything).')
 
+-   The size of the array must be constant. The size of an array must be known at compile time.
+
+::: warning
+Make sure that all declared arrays have constant sizes that are known at *compile time*. For example, you cannot get the size from the user using `cin` and then declare the array of that size. In CSCI 315, you will learn an alternative method of declaring arrays with sizes that are unknown at compile time, but that is beyond the scope of this course.
+:::
+
 Accessing Array elements
 --------------------------
 
@@ -267,9 +273,9 @@ Common Errors with Arrays
 
 1.  Arrays in C++ (and almost all programming languages) are zero-indexed. That means that the first index is zero, not one. The last index is the length minus one. It is easy to have an off-by-one error if you forget this fact.
 2.  Array Index out of Bounds – can’t try to access an index beyond what you have – you get this error.
-3.  Arrays are passed to a function by reference. Don’t forget that any changes to the array will persist after the function call. Use `const`{.cpp} to insure an array is not modified.
+3.  Arrays are passed to a function by reference. Don’t forget that any changes to the array will persist after the function call. Use `const`{.cpp} to ensure an array is not modified.
 4.  Can’t set one array equal to another with just the equal operator. Use a loop instead.
-5.  A function can’t return an entire array (arrays are passed by reference anyway, so you should be no need to do this).
+5.  A function can’t return an entire array (with what we know so far). Arrays are passed by reference anyway, so there should be no need to do this.
 
 The span Container for Arrays
 -----------------------------

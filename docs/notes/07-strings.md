@@ -157,17 +157,25 @@ Additional `string` Operations
 
     Now, `str1` is "Cold" and `str2` is "Warm".
 
--   The `substr()` function the returns portion of a string from a starting index. See the following table for details.
+-   The `substr()` member function the returns portion of a string from a starting index. See the following table for details.
 
     ```cpp
     string sentence = "Houston, we have a problem.";
     cout << sentence.substr(0, 7) << endl; // Houston
+    cout << sentence.substr(9, 2) << endl; // we
     ```
 
 -   The table below has many other useful `string` member functions.
 
+-   The `find()` member function returns the position (index) of the parameter value within the string. If the value doesn't exist within the string, the constant `string::npos` is returned.
+    
+    ```cpp
+    const string PHIL_4_13 = "I can do all things through him who strengthens me."; // ESV
+    auto loc = PHIL_4_13.find("all"); // 9
+    cout << PHIL_4_13.substr(loc, 2) << endl; // do
+    ```
 
-Table: Some useful `string` functions where `str1` and `str2` are a `string` variables.
+Table: Some useful `string` functions where `str1` and `str2` are `string` variables.
 
 | Expression                             | Effect                                                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|

@@ -3,7 +3,7 @@ Static and Automatic Variables
 
 -   **Automatic variable**: memory is allocated at block entry and deallocated at block exit
 
-    +   In C++, a block is code within curly brackets (functions, loops, etc.)
+    +   In C++, a block is statements within curly brackets (functions, loops, etc.)
 
     +   By default, variables declared within a block are automatic variables
 
@@ -14,7 +14,7 @@ Static and Automatic Variables
     +   Syntax: `static dataType identifier = value;`
 
     +   Static variables declared within a block are local to the block have
-        same scope as any other local identifier in that block.
+        the same scope as any other local identifier in that block.
 
 <div class="youtube">
 <div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/2mY0yi3rxRk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>

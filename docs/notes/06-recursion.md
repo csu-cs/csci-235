@@ -65,7 +65,7 @@ int factorial(int num)
 }
 ```
 
-Notice how clean and simple the recursive version is. You have less lines of
+Notice how clean and simple the recursive version is. You have fewer lines of
 code. Also, note that we have an exit condition where the function does not
 call itself.
 
@@ -101,7 +101,7 @@ Famous Example of a Problem that is not Primitive Recursive
 -----------------------------------------------------------
 
 The [Ackermann function](https://en.wikipedia.org/wiki/Ackermann_function) is
-known as one of the simplest computable functions that the number of iterations
+known as one of the simplest computable functions in which the number of iterations
 is unknown ahead of time. This makes it much more difficult to implement using
 loops. The function is defined mathematically as:
 

@@ -58,7 +58,7 @@ Global Variables Are Problematic
     +   If more than one function uses the same global variable,
         *   Debugging problems with the global variable is more difficult.
         *   Problems caused in one area of the program may appear to be from another area.
--   Global named constants have no side effects because they never change values.
+-   Global constants have no side effects because they never change values.
 
 
 Creating an Animation

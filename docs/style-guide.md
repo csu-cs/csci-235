@@ -17,7 +17,7 @@ Companies typically adopt their own, company-wide conventions for style. Learnin
 
 ## General Guidelines
 
-*  All code should compile with the `-Wextra` parameter without warnings.
+*  All code should compile without warnings using the `-Wall` and `-Wextra` parameters.
 *  **No** non-constant global variables.
 
 ## File Names
