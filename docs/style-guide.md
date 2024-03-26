@@ -682,9 +682,9 @@ void spinSpinner(int numberOfTurns);
     ...
     email = getInfo("What is your email?");
     ...
-    string getInfo(const string& prompt)
+    string getInfo(const string& PROMPT)
     {
-            cout << prompt << endl;
+            cout << PROMPT << endl;
             string input;
             cin >> input;
             return input;

@@ -14,13 +14,13 @@
 using namespace std;
 
 // Find the largest value from an array
-int maxValue(const int values[], int length);
+int maxValue(const int VALUES[], int length);
 
 // Find the location of the largest value from an array
-int maxIndex(const double values[], int length);
+int maxIndex(const double VALUES[], int length);
 
 // Lookup person's index by name. Return a negative number if not found.
-int indexOfName(const string haystack[], const string& needle,
+int indexOfName(const string HAYSTACK[], const string& NEEDLE,
 	int length);
 
 int main ()
@@ -83,23 +83,23 @@ int main ()
 	return 0;
 }
 
-int maxValue(const int values[], int length)
+int maxValue(const int VALUES[], int length)
 {
 	// Initially, assert that the first value is the max.
-	auto max = values[0];
+	auto max = VALUES[0];
 
 	// Check to see if any other value in the array is larger.
 	for (int index = 1; index < length; ++index)
 	{
 		// Update the max if the the value we are looking at is larger.
-		if (values[index] > max)
-			max = values[index];
+		if (VALUES[index] > max)
+			max = VALUES[index];
 	}
 
 	return max;
 }
 
-int maxIndex(const double values[], int length)
+int maxIndex(const double VALUES[], int length)
 {
 	// Initially, assert that the first index is the location of the max.
 	int maxIndex = 0;
@@ -108,21 +108,21 @@ int maxIndex(const double values[], int length)
 	for (int index = 1; index < length; ++index)
 	{
 		// Update maxIndex f we the current location has a larger value.
-		if (values[index] > values[maxIndex])
+		if (VALUES[index] > VALUES[maxIndex])
 			maxIndex = index;
 	}
 
 	return maxIndex;
 }
 
-int indexOfName(const string haystack[], const string& needle,
+int indexOfName(const string HAYSTACK[], const string& NEEDLE,
 	int length)
 {
 	// Check each location in the array for the search value.
 	for (int index = 0; index < length; ++index)
 	{
 		// If found, return it's location.
-		if (haystack[index] == needle)
+		if (HAYSTACK[index] == NEEDLE)
 		{
 			return index;
 		}

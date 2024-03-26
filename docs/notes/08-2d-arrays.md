@@ -177,13 +177,13 @@ Multidimensional arrays are passed by reference as parameters to a function.
 
     // The column count is fixed but the function accepts an array with 
     // any number of rows.
-    void printMatrix(const int matrix[][COLUMN_COUNT], int rowCount);
+    void printMatrix(const int MATRIX[][COLUMN_COUNT], int rowCount);
 
     int main()
     {
         int array[5][COLUMN_COUNT] {}; // 5x4 array initialized to 0's.
 
-        printMatrix(array, 5);
+        printMatrix(MATRIX, 5);
 
         return 0;
     }

@@ -177,21 +177,21 @@ Notice that enumeration types can be passed as parameters to functions either by
 Also, a function can return a value of the enumeration type.
 
 ```cpp
-Sport stringToSport(const string& word)
+Sport stringToSport(const string& WORD)
 {
-    if (word == "Basketball")
+    if (WORD == "Basketball")
         return BASKETBALL;
-    else if (word == "Football")
+    else if (WORD == "Football")
         return FOOTBALL;
-    else if (word == "Hockey")
+    else if (WORD == "Hockey")
         return HOCKEY;
-    else if (word == "Baseball")
+    else if (WORD == "Baseball")
         return BASEBALL;
-    else if (word == "Soccer")
+    else if (WORD == "Soccer")
         return SOCCER;
-    else if (word == "Vollyball")
+    else if (WORD == "Vollyball")
         return VOLLEYBALL;
-    else // (word == "Table Tennis")
+    else // (WORD == "Table Tennis")
         return TABLE_TENNIS;
 }
 

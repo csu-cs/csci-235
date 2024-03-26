@@ -54,7 +54,7 @@ Normally, when you call a function, you must provide the same number of actual p
 In this video, a pass-by-value string parameter is used. Remember, all string parameters should actually be pass-by-reference to improve efficiency. In cases where the string’s value is not changed in the body of the function (as in this video), the parameter should be a const string reference. For example, the prototype for the 3 parameter function in this video should be:
 
 ```cpp
-void updateScore(double& currentScore, const string& message,
+void updateScore(double& currentScore, const string& MESSAGE,
 	double amount = 0);`
 ```
 :::
@@ -76,7 +76,7 @@ Here is an example where the second parameter has a default value of `10` and th
  * @param message       a message to display to the user.
  */
 void updateScore (double& currentScore, double amount = 10,
-    const string& message = "Nice job!");
+    const string& MESSAGE = "Nice job!");
 
 int main()
 {
@@ -97,12 +97,12 @@ int main()
 }
 
 // Notice that the default parameter values are not given here.
-void updateScore (double& currentScore, double amount, const string& message)
+void updateScore (double& currentScore, double amount, const string& MESSAGE)
 {
     currentScore += amount; // update the score be amount (defaults to 10)
 
     // Output "Nice Job!" if a actual parameter is not given
-    cout << message << endl; 
+    cout << MESSAGE << endl; 
 
     // Display the updated score.
     cout << "Score is now: " << currentScore << endl;

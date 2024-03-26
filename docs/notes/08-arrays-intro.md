@@ -223,7 +223,7 @@ Arrays as Parameters to Functions
     +   Example:
 
         ```cpp
-        void exampleFunc(const int vals[], int size);
+        void exampleFunc(const int VALS[], int size);
         ```
 -   C++ does not allow functions to return an array. You can get around this limitation using something known as pointers, but that topic will be discussed in a later course.
 
@@ -286,12 +286,12 @@ array, so it doesn't keep track of how many elements are in the array. As a resu
 need to pass the array size to a function parameter as an additional parameter. For example,
 
 ```cpp
-void display (const double numbers[], int length)
+void display (const double NUMBERS[], int length)
 {
     cout << "Length: " << length << '\n'; // display the array length
     for (int index = 0; index < length; ++index)
     {
-        cout << numbers[index] << '\n';
+        cout << NUMBERS[index] << '\n';
     }
 }
 ```
