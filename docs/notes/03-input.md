@@ -77,7 +77,7 @@ Predefined Functions
 -   C++ includes a wealth of functions
     +   Predefined functions are organized as a collection of libraries accessible through header files.
 
-To use `pow()` (which is short for power), include `cmath`.
+To use `pow()` (which is short for power), include [cmath](https://en.cppreference.com/w/cpp/header/cmath).
 
 -   Two numeric parameters
 -   Syntax: `pow(x, y)` means $x^{y}$
@@ -87,6 +87,8 @@ To use `pow()` (which is short for power), include `cmath`.
 <div class="youtube">
 <div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/E5BGdhDik6w?rel=0&amp;showinfo=0" title="Predefined Input Functions" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
+
+### Input including Whitespace
 
 The `cin.get()` function inputs the next character (including whitespace).
 
@@ -100,14 +102,26 @@ The `cin.get()` function inputs the next character (including whitespace).
 
 The `getline()` function gets a whole line of user input including spaces as one string variable.
 
--   `string userIntput;`  
-    `getline(cin, userInput)`;
--   In the previous code, if the user inputs: `Hello world !!!`, then `userInput` will contain, `"Hello world !!!"`.
+```
+string userIntput;
+getline(cin, userInput); // read until a newline character.
+```
+
+In the previous code, if the user inputs: `Hello world !!!`, then `userInput` will contain, `"Hello world !!!"`.
+
+Adding a third parameter changes `getline()` to stop at that character instead of a newline (`'\n'`). For example,
+
+```
+string userIntput;
+getline(cin, userInput, '$'); // read until a $ character.
+```
+
+### Ignoring Characters
 
 The `cin.ignore()` function discards a portion of the input.
 
 -   `cin.ignore(intExp, chExp);`
--   Ignore the next intExp characters unless we reach a chExp.
+-   Ignore the next `intExp` characters unless we reach a `chExp`.
 -   Often `'\n'` is a great value to pass to the second parameter to ignore everything on the current line of input.
 -   Examples:
     +   `ignore(); // ignore the next character.`
@@ -115,11 +129,15 @@ The `cin.ignore()` function discards a portion of the input.
     +   `ignore(INT_MAX, '\n'); // ignore until newline.`
         *   `INT_MAX` is a constant defined in the `climits` header that holds the maximum value for an integer.
 
+### Keeping Values within the Input Stream
+
 The `cin.putback()` function places the previous character extracted by the get function from an input stream back to that stream.
 
 The `cin.peek()` function returns the next character from the input stream.
 
 -   It does **not** remove the character from that stream.
+
+### Handling Input Errors
 
 The `cin.clear()` function restores the input stream to a working state. Useful after an input error.
 
