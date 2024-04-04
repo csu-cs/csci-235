@@ -75,7 +75,7 @@ cout << favMovie.title << endl; // "Toy Story 3"
 Assignment
 ----------
 
--   The value of one `struct` variable can be assigned to another `struct` variable of the same type using an assignment statement (an aggrieve operation).
+-   The value of one `struct` variable can be assigned to another `struct` variable of the same type using an assignment statement (an aggregate operation).
 
 -   The following statement copies the contents of `favMovie` to `oldFavMovie` (both are `Movie` variables as defined above).
 

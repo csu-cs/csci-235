@@ -135,9 +135,13 @@ g++ is the name of the compiler program and the rest of the lines are parameters
     However, in some cases, the C++ standard specifies that certain extensions
     are forbidden.
 -   Use this option to receive warnings when your code can compile but is NOT valid C++.
--   Helps track down errors and ensuring a better assignment grade.
+-   Helps track down errors and ensures a better assignment grade.
 
-### Run the hello Program
+`-Wmissing-declarations`
+
+-   Notifies you if you accidentally define a function without a [prototype (i.e. forward declaration)](06-functions-intro#function-prototype-function-declarations).
+
+### Run the Hello Program
 
 -   To run your newly-compiled program, type the name of the program  
     `world`
