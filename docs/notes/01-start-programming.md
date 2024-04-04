@@ -125,9 +125,9 @@ g++ is the name of the compiler program and the rest of the lines are parameters
 
 -   This will tell the compiler to use the latest (2023) standard of C++.
 -   This may be necessary if you are using more recent features of the language.
--   If your compiler doesn’t support the 2020 standard, you can try a previous standard:
-    -   `-std=c++20`
-    -   `-std=c++17`
+-   If your compiler doesn’t support the 2023 standard, you can try a previous standard:
+    -   `-std=c++20` for the 2020 standard of C++
+    -   `-std=c++17` for the 2017 standard of C++.
 
 `-pedantic` or `-Wpedantic`
 
