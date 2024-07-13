@@ -6,42 +6,52 @@ definitions of academic dishonesty and
 plagiarism](https://www.charlestonsouthern.edu/wp-content/uploads/Policy-R-58-updated-Feb-2023.pdf)
 in the context of computer science courses. These guidelines clarify these
 policies but do not supersede them. Many of these principles are also drawn from
-professional codes of ethics in computing, such as the ACM Code of Ethics and
-Professional Conduct, which apply general ethics to all computing activities.
+professional codes of ethics in computing, such as the [ACM Code of Ethics and
+Professional Conduct](https://www.acm.org/code-of-ethics), which apply general
+ethics to all computing activities.
 
 Goals differ between professional and educational settings. In a professional
-setting, the primary goal is often to produce working code or other artifacts.
-In an educational setting, the primary goal is learning with integrity.
+setting, the primary goal is often to produce working code or other artifacts
+with integrity. In an educational setting, the primary goal is learning with
+integrity.
 
 Collaboration
 -------------
 
 Computer science is a collaborative discipline. Teams can accomplish more than
 individuals. However, your professor may require that you work individually to
-better serve or assess your learning.
+better serve or assess your learning. In your computer science classes, many
+assignments will permit or require collaboration. Collaboration may be an
+explicit learning goal of the assignment, or collaboration may be used in
+service of other learning goals.
 
-In your computer science classes, many assignments will permit or require
-collaboration. Collaboration may be an explicit learning goal of the assignment,
-or collaboration may be used in service of other learning goals. When you turn
-in collaborative work, all contributors must be clearly identified. All
-contributors are accountable for all parts of jointly authored work. All
-contributors are responsible for learning from each part of the assignment.
+When you turn in collaborative work, all contributors must be clearly
+identified. All contributors are accountable for all parts of jointly authored
+work. All contributors are responsible for learning from each part of the
+assignment.
 
 Assistance
 ----------
 
-Whether working as a team or individually, at times you may seek assistance from
-a variety of sources, including professors, mentors, tutors, lab aides,
-classmates, and other students.
+Whether working as a team or individually, you may seek assistance on most
+assignments from many sources, including professors, mentors, tutors, and lab
+aides. Sometimes, you may also seek assistance from classmates or other
+students.
 
-Assistance with programming exercises may serve one of three purposes: To help
-you get started, to correct a syntax error, or to debug code that does not work
-as intended. In all cases, those assisting should ask questions instead of
-providing answers. Never write code for another student or show them your
-solutions. Moving away from the computer, for example, to draw on a whiteboard,
-will help to emphasize concepts. Whether giving or receiving such assistance,
-your goal should be learning. Remember that the responsibility for completing
-the assignment belongs to the learner.
+Assistance with programming exercises may serve one of three purposes:
+
+1.  To help you get started,
+
+2.  to correct a syntax error, or
+
+3.  to debug code that does not work as intended.
+
+In all cases, those assisting should ask questions instead of providing answers.
+Never write code for another student or show them your solutions. Moving away
+from the computer, for example, to draw on a whiteboard, will help to emphasize
+concepts. Whether giving or receiving such assistance, your goal should be
+learning. Remember that the responsibility for completing the assignment belongs
+to the learner.
 
 Websites such as stackoverflow.com assist both professionals and learners. If
 your professor encourages their use, these sources may suggest approaches or
@@ -73,10 +83,12 @@ inaccurate assessment of your learning.
 
 Beyond the academic setting, honesty is a key aspect of professionalism. We do
 not wish to graduate professionals who would put their employers or the public
-at risk by copying code without permission or attribution, by using code they do
-not understand, or by pretending that code works correctly when it does not.
+at risk by copying code without permission or attribution, using code they do
+not understand, taking false credit, or pretending that code works correctly
+when it does not.
 
 Academic Dishonesty in Computer Science
+---------------------------------------
 
 Academic dishonesty in computer science courses may include:
 
@@ -124,13 +136,13 @@ Like written English, programming languages do not explicitly distinguish
 between quotation and paraphrase. Your comments should explain whether you have
 copied code, adapted code, or used the ideas of others to inspire your own code.
 
-Examples
---------
+Citation Examples
+-----------------
 
 It is more important to follow the spirit of these guidelines than to use a
 specific citation format. These examples are provided as suggestions only.
 
-Citing a person: *Morgan helped me understand how to use a dictionary to map 
+Citing a person: *Morgan helped me understand how to use a dictionary to map
 from names to locations.*
 
 Citing an online source: *I was having trouble opening files from the web.
