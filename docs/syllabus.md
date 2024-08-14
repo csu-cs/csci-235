@@ -4,7 +4,7 @@ layout: page
 head:
   - - style
     - type: 'text/css'
-    - '.syllabus a {color: #002855;}.syllabus {font-size: 12pt;font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;background: #002855;}div.syllabus {background: #FFF;color:black;max-width: 940px;margin: 0 auto;padding: 10px;}code {color: inherit;background-color: #FFF;}div.syllabus img {max-width:100%;height: auto;margin: auto;display: block;}.tabbed-pane {padding-top: 12px;}button.code-folding-btn:focus {outline: none;} .syllabus h1, h2, h3 {margin-bottom: 2px;margin-top:1em} .syllabus h1 {font-size: 1.5em;font-weight: bold;border-bottom: solid #A89968 2px;color: #002855;} .syllabus h2 {padding: 2px 10px;font-size: 1.1em;font-weight: bold;background-color: #002855;color: #FFF;}h3 {font-size: 1em; font-weight:bold}h1.title {text-align: center;font-size: 2em;border: inherit;color: inherit; clear:both;padding-top:0.5em}h2.author, h3.date {margin-top:1pt;text-align: center;font-size: 1.75em;border: inherit;color: inherit;background-color: inherit;}table.full {width:100%;}table.full td {padding: inherit;}table.full tr:nth-child(even) {background-color: inherit;}table.full tr td:last-child {text-align: right;}table.full tr:first-child {border-top: 0;}table.full tr:last-child {border-bottom: 0;}table {border-collapse: collapse;margin: 0 auto;}td, th {padding: 1pt 0.25em;}table td p {margin-bottom: 0;}tr:nth-child(even) {background-color: #eee}p {text-align: justify;text-justify: inter-word;margin-bottom: 0;}p:first-of-type {margin-top:0;}ul, ol {margin-top: 0;}tr.header {border-bottom: 2px solid black;}tr.header td {font-weight: bold;}tr:first-child {border-top: 2px solid black;}tr:last-child {border-bottom: 2px solid black;}blockquote {font-size: 11pt;}.bib p, div.csl-entry {text-align: left;text-indent: -2em;padding-left: 2em;margin-bottom: 0.5em;}ul {list-style: disc outside;}ul,ol {padding-left:2em;}p {margin-top: 1em;}blockquote {margin: 1em 2em;};#header h1 { clear: both;}div#pdf { float:right;} div#pdf {padding: 6px; font-size: 16pt; background-color: var(--vp-button-brand-bg);border: var(--vp-button-brand-border) 1px solid; border-radius: 5px;}div#pdf a { color: var(--vp-button-brand-text);}'
+    - '.syllabus a {color: #002855;}.syllabus {font-size: 12pt;font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;background: #002855;text-align: justify;text-justify: inter-word; color:#000}div.syllabus {background: #FFF;max-width: 940px;margin: 0 auto;padding: 10px;}code {color: inherit;background-color: #FFF;}img {max-width:100%;height: auto;margin: auto;display: block;}.tabbed-pane {padding-top: 12px;}button.code-folding-btn:focus {outline: none;}.syllabus h1, h2, h3 {margin-bottom: 2px;margin-top:1em;text-align: left;}h1 {font-size: 1.5em;font-weight: bold;border-bottom: solid #A89968 2px;color: #002855;}.syllabus h2 {padding: 2px 10px;font-size: 1.1em;font-weight: bold;background-color: #002855;color: #FFF;}.syllabus h3 {font-size: 1em; font-weight:bold}h1.title {text-align: center;font-size: 2em;border: inherit;color: inherit; clear:both;padding-top:0.5em}h2.author, h3.date {margin-top:1pt;text-align: center;font-size: 1.75em;border: inherit;color: inherit;background-color: inherit;}table.full {width:100%;}table.full td {padding: inherit;}table.full tr:nth-child(even) {background-color: inherit;}table.full tr td:last-child {text-align: right;}table.full tr:first-child {border-top: 0;}table.full tr:last-child {border-bottom: 0;}table {text-align: left;border-collapse: collapse;margin: 0 auto;}td, th {padding: 1pt 0.25em;}table td p {margin-bottom: 0;}tr:nth-child(even) {background-color: #eee}p {margin-bottom: 0;}p:first-of-type {margin-top:0;}ul, ol {margin-top: 0;}li {text-align: left;}tr.header {border-bottom: 2px solid black;}tr.header td {font-weight: bold;}tr:first-child {border-top: 2px solid black;}tr:last-child {border-bottom: 2px solid black;}blockquote {font-size: 11pt;}.bib p, div.csl-entry {text-align: left;text-indent: -2em;padding-left: 2em;margin-bottom: 0.5em;}ul {list-style: disc outside;}ul,ol {padding-left:2em;}p {margin-top: 1em;}blockquote {margin: 1em 2em;};#header h1 { clear: both;} div#pdf { float:right;} div#pdf {padding: 6px; font-size: 16pt; background-color: var(--vp-button-brand-bg);border: var(--vp-button-brand-border) 1px solid; border-radius: 5px;}div#pdf a { color: var(--vp-button-brand-text);}'
 ---
 
 <div class="syllabus">
@@ -12,7 +12,7 @@ head:
 <div id="pdf"><a href="/csci-235/syllabus.pdf" download="Syllabus-CSCI235.pdf">Download Printable Syllabus</a></div>
 <h1 class="title">CSCI 235: Procedural Programming</h1>
 <h2 class="author"></h2>
-<h3 class="date">Fall 2024</h3>
+<h3 class="date">Fall of 2024</h3>
 </div>
 <div id="general-information" class="section level1">
 <h1>General Information</h1>
@@ -279,37 +279,34 @@ Departmental Guidelines</a>. <strong>All assignments</strong> are
 individual assignments unless explicitly specified by the professor. Do
 not collaborate, search for posted solutions, or post code online.
 <strong>Make sure that you write every line of your own code.</strong>
-You should not use <strong>ANY</strong> outside sources of code for this
-class. Using or referencing code written by someone else or sharing your
+You should not use <strong>ANY</strong> outside sources of code.
+Referencing code written by someone else (including AI) or sharing your
 code with others (online or in-person) is considered a violation of the
-academic integrity policy and will result in a report to the registrar’s
-office. <strong>Posting code relating to assignments on the Internet is
-prohibited</strong> (e.g., <strong>don’t</strong> post to discussion
-boards, forums, blogs, public repositories, <strong>chegg.com</strong>,
-etc.). Do NOT look at your neighbor’s screen for hints or ask, “how did
-you do that?”, unless you talk to me <strong>beforehand</strong>.</p>
+Academic Integrity Policy and will be reported to the registrar’s
+office. <strong>Publically posting code related to assignments is
+prohibited</strong> (e.g., <strong>don’t</strong> post to forums, blogs,
+public repositories, chegg.com, etc.). Do NOT look at your neighbor’s
+screen for hints or ask, “how did you do that?”, unless you talk to me
+<strong>beforehand</strong>.</p>
 <ul>
 <li><strong>NEVER</strong> look at someone else’s code in person or
 online (chegg.com, forums, email, etc.).<br />
 <strong>Do</strong> ask your professor if you have questions or get
 stuck.</li>
 <li><strong>NEVER</strong> search online for assignment solutions.<br />
-<strong>Do</strong> only reference code from the book, code given to you
-by the instructor, and other resources explicitly listed in the <a href="#course-materials">Course Materials</a>.</li>
+<strong>Do</strong> only reference code given by the instructor or
+resources in the <a href="#course-materials">Course Materials</a>
+list.</li>
 <li><strong>NEVER</strong> exchange code in any manner or you tell
 someone what code they need.<br />
-<strong>You may</strong> talk to your classmates about C++ or
-assignments as long as you are not sharing ideas for assignment
-solutions.</li>
+<strong>You may</strong> talk to classmates about C++ or assignments
+without sharing ideas for solutions.</li>
 <li><strong>NEVER</strong> use an AI tool to generate code for use in an
 assignment or exam without explicit permission from the instructor for
 that particular task.<br />
 <strong>You may</strong> use AI to generate help explain concepts or
 study before exams.</li>
 </ul>
-<p><a href="https://csu-cs.github.io/csci-235/integrity">Click here for
-additional guidance on academic integrity for Computer Science
-coursework.</a></p>
 <div id="a-community-of-honor" class="section level3">
 <h3>A Community of Honor</h3>
 <blockquote>
@@ -350,7 +347,9 @@ clarification regarding their academic dishonesty standards.</p>
 and including University expulsion.</p>
 <p>For more information on procedures and violation appeals, refer to
 the <a href="https://www.charlestonsouthern.edu/current-students/student-resources/">Student
-Handbook</a>.</p>
+Handbook</a>. <a href="https://csu-cs.github.io/csci-235/integrity">Click here for
+additional guidance on academic integrity for Computer Science
+coursework.</a></p>
 </div>
 </div>
 <div id="department-and-university-policies" class="section level1">
@@ -559,10 +558,9 @@ faculty work hours are 8 a.m. – 5 p.m. EST.</li>
 <div id="accessibility-services" class="section level2">
 <h2>Accessibility Services</h2>
 <p>Any student who may need accommodations should review the
-requirements/procedures on the <a href="https://www.charlestonsouthern.edu/academics/student-success-center/disability-services/">Disability
-Services website</a>. Once approved to receive accommodations through
-Disability Services, the student will need to contact the
-instructor.</p>
+requirements/procedures on the <a href="https://www.charlestonsouthern.edu/academics/student-success-center/accessibility-services/">Accessibility
+Services website</a>. Once approved to receive accommodations, the
+student must contact the instructor.</p>
 </div>
 <div id="nondiscrimination-policy-and-student-rights" class="section level2">
 <h2>Nondiscrimination Policy and Student Rights</h2>
@@ -571,32 +569,43 @@ based on race, age, color, national or ethnic origin, disability, sex,
 pregnancy, childbirth or related medical conditions, religion, genetic
 information, veteran or military status, or any other basis on which the
 university is prohibited from discrimination under local, state, or
-federal law, in its employment or in the provision of its services.
-Inquiries or complaints regarding the non-discrimination policy,
-compliance with Title IX of the Education Amendments of 1972, and
-inquiries or complaints regarding the disability non-discrimination
-policy including compliance with Section 504 of the Rehabilitation Act
-of 1973 can be directed to our Title IX campus contacts:</p>
-<ul>
-<li><a href="https://www.charlestonsouthern.edu/directory/watson-annie/">Dr. Annie
-Watson</a> / <a href="mailto:awatson@csuniv.edu" class="email">awatson@csuniv.edu</a> / 843 863-7159 (accommodations for
-disabilities or pregnancy)</li>
-<li><a href="https://www.charlestonsouthern.edu/directory/carrie-gomez/">Ms. Carrie
-Gomez</a> / <a href="mailto:cgomez@csuniv.edu" class="email">cgomez@csuniv.edu</a> / 843 863-7629 (concerns related to
-creating and maintaining equality between the men’s and women’s athletic
-programs)</li>
-<li><a href="https://www.charlestonsouthern.edu/directory/walke-lindsey/">Ms. Lindsey
-Walke</a> / <a href="mailto:lwalke@csuniv.edu" class="email">lwalke@csuniv.edu</a> / 843 863-8047 (concerns related to
-sexual harassment and sexual violence)</li>
-</ul>
-<p>For further information, visit <a href="https://www.charlestonsouthern.edu/offices/title-ix/">CSU Title IX
-webpage</a> or email <a href="mailto:titleix@csuniv.edu" class="email">titleix@csuniv.edu</a>.</p>
+federal law, in its employment or in the provision of its services.</p>
 <p>Students should refer to the <a href="https://www.charlestonsouthern.edu/current-students/student-resources/">CSU
 Student Handbook</a> to be fully informed of their rights and
 remedies.</p>
+<div id="title-ix-confidentiality-and-responsible-employee-statement" class="section level3">
+<h3>Title IX: Confidentiality and Responsible Employee Statement</h3>
+<p>Charleston Southern University is committed to maintaining a safe
+learning environment for everyone. In accordance with Title IX of the
+Education Amendments of 1972, the university prohibits any form of
+sexual harassment, including quid pro quo harassment, hostile
+environments, sexual assault, dating/domestic violence, and stalking.
+This policy applies to all students, employees, and visitors.</p>
+<p>Additionally, Title IX prohibits discrimination against students
+based on pregnancy, childbirth, false pregnancy, termination of
+pregnancy, or recovery from these conditions. Pregnant or parenting
+students may receive accommodations to ensure their full participation
+in educational programs. These adjustments can be arranged through the
+university’s Title IX Coordinator or their designee.</p>
+<p>Under Charleston Southern University’s Title IX Policy, all faculty
+members, including teaching assistants, are required to report any
+disclosures of sex or gender-based discrimination or violence to the
+Title IX Coordinator. The Title IX Coordinator will provide support and
+resources while maintaining privacy. If you or someone you know needs
+assistance, please contact the Title IX Coordinator:</p>
+<div class="center" style="text-align:center;">
+<p>Summer Cora<br />
+(843)-863-7374<br />
+<a href="mailto:titleix@csuniv.edu" class="email">titleix@csuniv.edu</a><br />
+Office Location: 2nd floor of the Student Center</p>
+</div>
+<p>Please visit the <a href="https://www.charlestonsouthern.edu/offices/title-ix/">CSU Title IX
+webpage</a> here for more information on Title IX procedures, anonymous
+reporting, or available support.</p>
 <hr />
 <p>See all course, department, and university policies located in <a href="https://csuniv.blackboard.com">Blackboard</a> and the <a href="https://www.charlestonsouthern.edu/current-students/student-resources/">CSU
 Student Handbook</a>.</p>
+</div>
 </div>
 </div>
 </div>
