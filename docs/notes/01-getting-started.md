@@ -103,7 +103,7 @@ On Windows, we will use the MinGW-w64 to compile C++ programs using g++.
 
 Download the following:
 
--   [Mingw-w64](https://github.com/brechtsanders/winlibs_mingw/releases/download/13.2.0posix-17.0.5-11.0.1-ucrt-r3/winlibs-x86_64-posix-seh-gcc-13.2.0-mingw-w64ucrt-11.0.1-r3.zip)
+-   [Mingw-w64](https://github.com/brechtsanders/winlibs_mingw/releases/download/14.2.0posix-18.1.8-12.0.0-ucrt-r1/winlibs-x86_64-posix-seh-gcc-14.2.0-mingw-w64ucrt-12.0.0-r1.zip)
 
 Follow the following video instructions to set up your system.
 
