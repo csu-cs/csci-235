@@ -536,6 +536,8 @@ Instead of mixing assignments and conditions, it's better to separate them to im
 
 ## Switches
 
+Use a switch statement whenever determining the equality of a variable with multiple values (instead of using `==` multiple times with the same variable).
+
 Indent your switch statements like this:
 
 ```cpp
