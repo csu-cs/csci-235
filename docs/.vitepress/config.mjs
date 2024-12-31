@@ -129,6 +129,7 @@ function sidebarNotes() {
 			collapsed: true,
 			items: [
 				{ text: 'Loop Design with While Loops', link: '/notes/05-loop-design' },
+				{ text: 'Reading from Files with Loops', link: '/notes/05-file-loops' },
 				{ text: 'Do…While Loop and For Loops', link: '/notes/05-do-while-for' },
 				{ text: 'Random Numbers', link: '/notes/05-random-numbers' }
 			]
