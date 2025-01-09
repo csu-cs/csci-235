@@ -12,7 +12,7 @@ head:
 <div id="pdf"><a href="/csci-235/syllabus.pdf" download="Syllabus-CSCI235.pdf">Download Printable Syllabus</a></div>
 <h1 class="title">CSCI 235: Procedural Programming</h1>
 <h2 class="author"></h2>
-<h3 class="date">Fall of 2024</h3>
+<h3 class="date">Spring of 2025</h3>
 </div>
 <div id="general-information" class="section level1">
 <h1>General Information</h1>
@@ -142,7 +142,7 @@ fundamentals to produce computing-based solutions.</p></li>
 <tbody>
 <tr>
 <td align="right">1</td>
-<td align="center">08/26 – 08/30</td>
+<td align="center">01/13 – 01/17</td>
 <td align="center">Syllabus, Schedule, etc.;  Overview of Computers and
 Programming Languages; Introduction to Flowcharts and the Command
 Line</td>
@@ -150,86 +150,80 @@ Line</td>
 </tr>
 <tr>
 <td align="right">2</td>
-<td align="center">09/02 – 09/06</td>
+<td align="center">01/20 – 01/24</td>
 <td align="center">Basic Elements of C++</td>
 <td align="center">CH 2</td>
 </tr>
 <tr>
 <td align="right">3</td>
-<td align="center">09/09 – 09/13</td>
+<td align="center">01/27 – 01/31</td>
 <td align="center">Input / Output</td>
 <td align="center">CH 3</td>
 </tr>
 <tr>
 <td align="right">4</td>
-<td align="center">09/16 – 09/20</td>
+<td align="center">02/03 – 02/07</td>
 <td align="center">Boolean Expressions and Conditionals (Branching)</td>
 <td align="center">CH 4</td>
 </tr>
 <tr>
 <td align="right">5</td>
-<td align="center">09/23 – 09/27</td>
+<td align="center">02/10 – 02/14</td>
 <td align="center">Repetition (Looping)</td>
 <td align="center">CH 5</td>
 </tr>
 <tr>
 <td align="right">6</td>
-<td align="center">09/30 – 10/01</td>
+<td align="center">02/17 – 02/18</td>
 <td align="center">Midterm Exam (<em>tentative date</em>)</td>
 <td align="center">CH 1-5</td>
 </tr>
 <tr>
 <td align="right">6–8</td>
-<td align="center">10/02 – 10/18</td>
+<td align="center">02/19 – 03/05</td>
 <td align="center">User-Defined Functions</td>
 <td align="center">CH 6</td>
 </tr>
 <tr>
+<td align="right">8</td>
+<td align="center">03/06 – 03/07</td>
+<td align="center">User-Defined Simple Data Types</td>
+<td align="center">CH 7</td>
+</tr>
+<tr>
 <td align="right">9</td>
-<td align="center">10/21 – 10/25</td>
-<td align="center"><em>Fall Break</em></td>
+<td align="center">03/10 – 03/14</td>
+<td align="center"><em>Spring Break</em></td>
 <td align="center"></td>
 </tr>
 <tr>
 <td align="right">10</td>
-<td align="center">10/28 – 11/01</td>
-<td align="center">User-Defined Simple Data Types and Namespaces</td>
+<td align="center">03/17 – 03/21</td>
+<td align="center">The String Type and Namespaces</td>
 <td align="center">CH 7</td>
 </tr>
 <tr>
-<td align="right">11</td>
-<td align="center">11/04 – 11/08</td>
-<td align="center">The String Type</td>
-<td align="center">CH 7</td>
-</tr>
-<tr>
-<td align="right">12–13</td>
-<td align="center">11/11 – 11/22</td>
+<td align="right">11–12</td>
+<td align="center">03/24 – 04/04</td>
 <td align="center">Arrays</td>
 <td align="center">CH 8</td>
 </tr>
 <tr>
-<td align="right">14</td>
-<td align="center">11/25 – 11/26</td>
+<td align="right">13</td>
+<td align="center">04/07 – 04/10</td>
 <td align="center">Records</td>
 <td align="center">CH 9</td>
 </tr>
 <tr>
-<td align="right">14</td>
-<td align="center">11/27 – 11/29</td>
-<td align="center"><em>Thanksgiving Holiday</em></td>
-<td align="center">CH 9</td>
-</tr>
-<tr>
 <td align="right">15-16</td>
-<td align="center">12/02 – 12/09</td>
+<td align="center">04/14 – 04/29</td>
 <td align="center">Review / Work on Final Project</td>
 <td align="center"></td>
 </tr>
 <tr>
 <td align="right">16</td>
-<td align="center">12/10 or 12/13</td>
-<td align="center">Final Exam (See <a href="https://www.charlestonsouthern.edu/wp-content/uploads/Exam-Schedule-Fall-2024.pdf">CSU’s
+<td align="center">5/01 or 5/06</td>
+<td align="center">Final Exam (See <a href="https://www.charlestonsouthern.edu/academics/academic-calendar/">CSU’s
 exam schedule</a> for your section’s exam time.)</td>
 <td align="center">CH 1-9</td>
 </tr>
@@ -252,15 +246,16 @@ exam schedule</a> for your section’s exam time.)</td>
 <p>Deadlines are an inevitable part of life. Meeting deadlines is an
 important part of becoming a professional computer scientist. To further
 instill this within each of you, I am making a concerted effort to stick
-to all deadlines for programming exercises. <em>I will
-<strong>not</strong> grade late homework.</em></p>
-<p>The lowest assignment problem’s grade will be dropped at the end of
-the semester. Therefore, if you are a conscientious student and turn in
-all homework, you will benefit by dropping the lowest score. If you miss
-one deadline, that grade of zero will be dropped. If you miss multiple
-deadlines, your grade will be affected. I will look at your late work
-and let you know how you did if you bring it to me; however, <em>any
-late work will receive a grade of zero</em>.</p>
+to all deadlines for programming exercises. <em>Late work will
+<strong>not</strong> be accepted for a grade.</em></p>
+<p>The lowest assignment problem’s grade and the lowest quiz grade will
+be dropped at the end of the semester. Therefore, if you are a
+conscientious student and turn in all homework, you will benefit by
+dropping the lowest score. If you miss one deadline, that grade of zero
+will be dropped. If you miss multiple deadlines, your grade will be
+affected. I will look at your late work and let you know how you did if
+you bring it to me; however, <em>any and all late work will receive a
+grade of zero</em>.</p>
 </div>
 <div id="teamwork" class="section level2">
 <h2>Teamwork</h2>
@@ -273,20 +268,19 @@ successful and to be able to be an effective teammate.</p>
 </div>
 <div id="academic-integrity-and-the-honor-code" class="section level1">
 <h1>Academic Integrity and the Honor Code</h1>
-<p>All students are expected to adhere to <a href="https://www.charlestonsouthern.edu/wp-content/uploads/Policy-R-58-updated-Feb-2023.pdf">Charleston
+<p>All students must adhere to <a href="https://www.charlestonsouthern.edu/wp-content/uploads/Policy-R-58-updated-Feb-2023.pdf">Charleston
 Southern University’s Academic Integrity Policy</a> and the <a href="https://csu-cs.github.io/csci-235/integrity">Computer Science
 Departmental Guidelines</a>. <strong>All assignments</strong> are
 individual assignments unless explicitly specified by the professor. Do
 not collaborate, search for posted solutions, or post code online.
-<strong>Make sure that you write every line of your own code.</strong>
-You should not use <strong>ANY</strong> outside sources of code.
-Referencing code written by someone else (including AI) or sharing your
-code with others (online or in-person) is considered a violation of the
-Academic Integrity Policy and will be reported to the registrar’s
-office. <strong>Publically posting code related to assignments is
-prohibited</strong> (e.g., <strong>don’t</strong> post to forums, blogs,
-public repositories, chegg.com, etc.). Do NOT look at your neighbor’s
-screen for hints or ask, “how did you do that?”, unless you talk to me
+<strong>You must write every line of your programs.</strong> Do not use
+<strong>ANY</strong> outside sources of code. Referencing code written
+by someone else (including AI) or sharing your code (online or
+in-person) violates the Academic Integrity Policy and will be reported.
+<strong>Publically posting related code related is prohibited</strong>
+(e.g., <strong>don’t</strong> post to forums, public repositories,
+chegg.com, etc.). Do NOT look at your neighbor’s screen for hints or
+ask, “how did you do that?”, unless you talk to me
 <strong>beforehand</strong>.</p>
 <ul>
 <li><strong>NEVER</strong> look at someone else’s code in person or
@@ -303,7 +297,8 @@ someone what code they need.<br />
 without sharing ideas for solutions.</li>
 <li><strong>NEVER</strong> use an AI tool to generate code for use in an
 assignment or exam without explicit permission from the instructor for
-that particular task.<br />
+that particular task. As an example, Visual Studio Code extensions that
+generate code (like GitHub Copile, Tabnine, and Cody) are prohibited.
 <strong>You may</strong> use AI to generate help explain concepts or
 study before exams.</li>
 </ul>
@@ -416,8 +411,8 @@ LockDown Browser:</p>
 Center” button located on the toolbar. Use the “System &amp; Network
 Check” to troubleshoot issues. If a test requires you to use a webcam,
 also run the “Webcam Check” from this area</li>
-<li>You may Chat with <a href="https://csuniv.edusupportcenter.com/sims/helpcenter/common/layout/SelfHelpHome.seam?inst_name=csuniv">CSU
-Tech Help</a> 24/7 about any issues you run into.</li>
+<li>You may Chat with <a href="https://csuniv.edusupportcenter.com/shp/csuniv/home">CSU Tech
+Help</a> 24/7 about any issues you run into.</li>
 <li>Respondus has a Knowledge Base available from <a href="https://support.respondus.com">support.respondus.com</a>. Select
 the “Knowledge Base” link and then select “Respondus LockDown Browser”
 as the product. If your problem is with a webcam, select “Respondus
@@ -562,19 +557,8 @@ requirements/procedures on the <a href="https://www.charlestonsouthern.edu/acade
 Services website</a>. Once approved to receive accommodations, the
 student must contact the instructor.</p>
 </div>
-<div id="nondiscrimination-policy-and-student-rights" class="section level2">
-<h2>Nondiscrimination Policy and Student Rights</h2>
-<p>Charleston Southern University (CSU) does not illegally discriminate
-based on race, age, color, national or ethnic origin, disability, sex,
-pregnancy, childbirth or related medical conditions, religion, genetic
-information, veteran or military status, or any other basis on which the
-university is prohibited from discrimination under local, state, or
-federal law, in its employment or in the provision of its services.</p>
-<p>Students should refer to the <a href="https://www.charlestonsouthern.edu/current-students/student-resources/">CSU
-Student Handbook</a> to be fully informed of their rights and
-remedies.</p>
-<div id="title-ix-confidentiality-and-responsible-employee-statement" class="section level3">
-<h3>Title IX: Confidentiality and Responsible Employee Statement</h3>
+<div id="title-ix-confidentiality-and-responsible-employee-statement" class="section level2">
+<h2>Title IX: Confidentiality and Responsible Employee Statement</h2>
 <p>Charleston Southern University is committed to maintaining a safe
 learning environment for everyone. In accordance with Title IX of the
 Education Amendments of 1972, the university prohibits any form of
@@ -600,7 +584,7 @@ assistance, please contact the Title IX Coordinator:</p>
 Office Location: 2nd floor of the Student Center</p>
 </div>
 <p>Please visit the <a href="https://www.charlestonsouthern.edu/offices/title-ix/">CSU Title IX
-webpage</a> here for more information on Title IX procedures, anonymous
+webpage</a> for more information on Title IX procedures, anonymous
 reporting, or available support.</p>
 <hr />
 <p>See all course, department, and university policies located in <a href="https://csuniv.blackboard.com">Blackboard</a> and the <a href="https://www.charlestonsouthern.edu/current-students/student-resources/">CSU
