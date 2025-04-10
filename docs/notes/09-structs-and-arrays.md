@@ -78,6 +78,11 @@ for (int index = 0; index < 50; ++index)
     cout << employees[index].firstName << endl;
 ```
 
+Notice the order of the operations to access a name. Because `employees` is an
+array, first the array subscript operator `employees[index]` accesses
+one employee. Then, the member access operator `.firstName` is used to access
+that employee's first name.
+
 
 `struct`s within `struct`s
 --------------------------
@@ -124,6 +129,10 @@ newCustomer.name.last = "Kirk";
 newCustomer.shippingAddress.city = "South Carolina";
 //...
 ```
+
+Again, notice the order in which the members are accessed from left to right.
+For example, to get a first name from `newCustomer`, we first access a name
+record and then the name's `first` member.
 
 Summary
 -------
