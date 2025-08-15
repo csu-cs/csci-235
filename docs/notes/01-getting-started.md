@@ -73,6 +73,7 @@ These small changes will make it easier to properly format your code.
 		"editor.renderWhitespace": "boundary",
 		"editor.guides.bracketPairs": true,
 		"editor.bracketPairColorization.enabled": true,
+		"terminal.integrated.defaultProfile.windows": "Command Prompt",
 		"chat.commandCenter.enabled": false,
 		"github.copilot.enable": {
 			"*": false,
