@@ -194,6 +194,14 @@ Before watching, make sure you have installed the required software in [Getting 
 
 Follow along with this video to create and run the demonstrated program. On your own, add to it the functionality to calculate and display the circumference.
 
+::: warning Important
+When following along with the video below, type `codium` in the command line instead of `code`. Unlike the video, we are using *VSCodium* instead of Visual Studio Code.
+:::
+
+::: tip Important
+This video describes using *VSCode*. Instead of what is shown, open your code in *VSCodium* by typing `codium circleArea.cpp` instead of `code circleArea.cpp`.
+:::
+
 <div class="youtube">
 <div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/fcEiJ0EVtmY?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>
 </div>

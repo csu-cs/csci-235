@@ -62,9 +62,16 @@ Compiling with GCC
 
 Before continuing, you should have Visual Studio Code and g++ to make your first C++ program. Refer back to [Getting Started](01-getting-started) if needed.
 
+::: warning Important
+When following along with the video below, type `codium` in the command line instead of `code`. Unlike the video, we are using *VSCodium* instead of Visual Studio Code.
+:::
+
 <div class="youtube">
-<div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/VRi0heDDg4M?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
+<div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/VRi0heDDg4M?rel=0&amp;showinfo=0" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
+
+
+
 
 ### A Simple C++ Program
 

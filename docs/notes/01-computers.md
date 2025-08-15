@@ -223,5 +223,5 @@ An Early History of Computing
 This is a great overview of the early computing, which is included in Chapter 1. You may skip to 2 minutes 27 seconds into the video to start.
 
 <div class="youtube">
-<div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/O5nskjZ_GoI?rel=0&amp;showinfo=0&amp;start=147" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+<div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/O5nskjZ_GoI?rel=0&amp;showinfo=0&amp;start=147" loading="lazy" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
 </div>

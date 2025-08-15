@@ -46,22 +46,25 @@ Instructors
 <VPTeamMembers size="small" :members="members" />
 
 
-Visual Studio Code
-------------------
+VSCodium
+--------
 
-To program in C++, you will need a text editor and a compiler. For a text editor, we will use [Visual Studio Code](https://code.visualstudio.com/). For a compiler, we will use g++ from the GNU Compiler Collection (GCC). Follow the instructions below to setup both.
+To program in C++, you will need a text editor and a compiler. For a text editor, we will use [VSCodium](https://vscodium.com/). For a compiler, we will use g++ from the GNU Compiler Collection (GCC). Follow the instructions below to setup both.
 
-[Visual Studio Code](https://code.visualstudio.com/) is an excellent text editor that works in macOS and Windows, is accessible from the command line, and has a great dark color scheme by default.
+[VSCodium](https://vscodium.com/) is an excellent text editor that works in macOS and Windows, is accessible from the command line, and has a great dark color scheme by default.
 
 These small changes will make it easier to properly format your code.
 
-
-1.  After installing Visual Studio Code, open it.
-2.  Press `Ctrl + Shift + P` (or `Cmd + Shift + P` on a Mac) to open the Command Pallet.
-3.  Type `Settings (JSON)` in the textbox and click on the dropdown as shown here.  
+1.  [Download VSCodium](https://github.com/VSCodium/vscodium/releases).
+    -  For Windows computers, we recommend selecting the **User Installer** link.
+    -  For newer Apple computers (with Apple Silicon), scroll down to the **ARM 64bit** links, and then click the first link in the macOS section.
+    -  For older Apple computers, use the macOS version at the top (under the **x86 64bits**) heading.
+2.  After installing Visual Studio Code, open it.
+3.  Press `Ctrl + Shift + P` (or `Cmd + Shift + P` on a Mac) to open the Command Pallet.
+4.  Type `Settings (JSON)` in the textbox and click on the dropdown as shown here.  
 	![](/images/setup/vscode-settings.png)
-4.  On the left, you see all of the default settings. On the right, you can add your own.
-5.  Add the settings below. You can replace the existing values or add these fore the existing values (inside the curly brackets).
+5.  On the left, you see all of the default settings. On the right, you can add your own.
+6.  Add the settings below. You can replace the existing values or add these fore the existing values (inside the curly brackets).
 
 	```json
 	{
@@ -107,12 +110,12 @@ On Windows, we will use the MinGW-w64 to compile C++ programs using g++.
 
 Download the following:
 
--   [Mingw-w64](https://github.com/brechtsanders/winlibs_mingw/releases/download/15.1.0posix-13.0.0-ucrt-r2/winlibs-x86_64-posix-seh-gcc-15.1.0-mingw-w64ucrt-13.0.0-r2.zip)
+-   [Mingw-w64](https://github.com/brechtsanders/winlibs_mingw/releases/download/15.2.0posix-13.0.0-ucrt-r1/winlibs-x86_64-posix-seh-gcc-15.2.0-mingw-w64ucrt-13.0.0-r1.zip)
 
 Follow the following video instructions to set up your system.
 
 <div class="youtube">
-<div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/u-fPp6NcLuY?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>
+<div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/u-fPp6NcLuY?rel=0&amp;showinfo=0" loading="lazy" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
 
 :::
@@ -125,7 +128,7 @@ Follow the following video instructions to set up your system.
 
 
 <div class="youtube">
-<div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/NYC6W-DsFcU?rel=0&amp;showinfo=0" title="Installing G++ in Apple Silicon video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/NYC6W-DsFcU?rel=0&amp;showinfo=0" loading="lazy" title="Installing G++ in Apple Silicon video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 </div>
 
 1.  Install [Homebrew](https://brew.sh/) by opening the “Terminal” and pasting in the following
@@ -156,7 +159,7 @@ Follow the following video instructions to set up your system.
 -   Installing GNU’s g++ compiler (GCC) has become a lot easier.
 
 <div class="youtube">
-<div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/0z-fCNNqfEg?rel=0&amp;showinfo=0" title="Installing G++ in Intel Macs video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/0z-fCNNqfEg?rel=0&amp;showinfo=0" loading="lazy" title="Installing G++ in Intel Macs video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 </div>
 
 **Installation Steps:**
