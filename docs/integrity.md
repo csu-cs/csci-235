@@ -164,14 +164,15 @@ problem. The advent of the pocket calculator posed a similar problem in that
 students could arrive at an answer without understanding it. The proper purpose
 of AI use in academics focuses on developing personal problem-solving skills.
 
-*Before* AI assistance, check with your instructor to determine if it is (1)
-prohibited, (2) permitted, or (3) required for a given course or assignment.
+*Before* using AI assistance, check with your instructor to determine if it is 
+(1) prohibited, (2) permitted with conditions, or (3) required for a given 
+assignment.
 
 1.  AI use may be **prohibited** to ensure that you have the basic concepts,
     just as children should be comfortable performing division in mathematics
     before being allowed to divide using a calculator.
 
-2.  AI use may be **permitted** but not required. Understand the limitations of
+2.  AI use may be **permitted** with conditions. Understand the limitations of
     AI and that you are responsible for the output whether it is AI-generated.
     Be prepared to explain how you used AI to accomplish the task and ensure
     that you cite it properly. Your professor may have specific instructions for

@@ -60,3 +60,12 @@ figure figcaption:before {
 	color: var(--vp-c-brand);
 	content: 'Fig. ' counter(figures) ' ';
 }
+
+
+html.dark .light-only {
+  display: none !important;
+}
+
+html:not(.dark) .dark-only {
+  display: none !important;
+}
