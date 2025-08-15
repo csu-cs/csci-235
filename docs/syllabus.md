@@ -1,13 +1,16 @@
 ---
-title: Syllabus
 head:
   - - style
     - type: 'text/css'
-    - '#pdf {yemargin-top:0.5em; padding: 6px; font-size: 14pt; background-color: var(--vp-button-brand-bg); border: var(--vp-button-brand-border) 1px solid; border-radius: 5px; color: var(--vp-button-brand-text);} .bib p, div.csl-entry {text-align: left;text-indent: -2em;padding-left: 2em;margin-bottom: 0.5em;}'
+    - '#pdf {  display: inline-block;position: relative; left: 50%; transform: translateX(-50%); margin-top:0.5em; padding: 3px 6px; font-size: 14pt; background-color: var(--vp-button-brand-bg); border: var(--vp-button-brand-border) 1px solid; border-radius: 5px; color: var(--vp-button-brand-text);}'
 ---
 
-Syllabus
+Syllabus \| CSCI 235 *Procedural Programming*
 ========
+
+![Charleston Southern University](/images/csu_logo.svg){.light-only}
+
+![Charleston Southern University](/images/csu_logo-dark.svg){.dark-only}
 
 [Download Printable Version](/csci-235/syllabus.pdf){download="Syllabus-CSCI235.pdf" id="pdf"}
 
@@ -177,7 +180,7 @@ successful and to be able to be an effective teammate.
 
 All students must adhere to [Charleston Southern University’s Academic
 Integrity
-Policy](https://www.charlestonsouthern.edu/wp-content/uploads/Policy-R-58-updated-Feb-2023.pdf)
+Policy](https://www.charlestonsouthern.edu/wp-content/uploads/Policy-R-58-updated-July-2025.pdf)
 and the [Computer Science Departmental
 Guidelines](https://csu-cs.github.io/csci-235/integrity). **All
 assignments** are individual assignments unless explicitly specified by
