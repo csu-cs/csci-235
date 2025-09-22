@@ -4,6 +4,15 @@ import { computed, ref, onMounted, watch } from 'vue'
 // Generate a unique prefix for each instance
 const instanceId = Math.random().toString(36).slice(2, 9)
 
+const windowWidth = ref(1024) // Default for SSR
+
+if (typeof window !== 'undefined') {
+  windowWidth.value = window.innerWidth
+  window.addEventListener('resize', () => {
+    windowWidth.value = window.innerWidth
+  })
+}
+
 const props = defineProps({
   src: {
     type: String,
@@ -140,12 +149,12 @@ const updateVisibility = () => {
 
 // Dynamically compute gap based on number of steps
 const dotGap = computed(() => {
-  // On mobile, shrink gap more aggressively
-  if (window.innerWidth <= 600) {
+  // Use windowWidth.value instead of window.innerWidth
+  if (windowWidth.value <= 600) {
     if (maxStep.value <= 8) return '0.5rem'
-    if (maxStep.value <= 16) return '0.3rem'
-    if (maxStep.value <= 24) return '0.15rem'
-    return '0.08rem'
+    if (maxStep.value <= 16) return '0.4rem'
+    if (maxStep.value <= 24) return '0.3rem'
+    return '0.2rem'
   } else {
     if (maxStep.value <= 16) return '0.75rem'
     return '0.5rem'
