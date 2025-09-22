@@ -1,6 +1,10 @@
 Searching and Sorting Arrays
 ============================
 
+<script setup>
+import selectionSortDiagram from '/images/arrays/selection_sort_example.svg'
+</script>
+
 *Chapter 8*
 
 Searching an Array for a Specific Item
@@ -30,3 +34,17 @@ Steps:
 3.  Start again with the rest of the list.
 
 ![Example of sorting using the steps described above with the example array `int list[8] { 37, 38, 62, 53, 14, 30, 19, 37 };`](/images/arrays/array-sort.svg 'Example of sorting using the steps described above with the example array `int list[8] { 37, 38, 62, 53, 14, 30, 19, 37 };`')
+
+
+### Example Selection Sort
+
+Lets step through an example of using the Selection Sort on an array of names.
+
+```C++
+string names[] {
+	"Sophia", "Jackson", "Olivia", "Liam", "Emma", "Emma", "Ava", "Aiden"
+};
+```
+Use the arrow buttons (◀ and ▶) below to step through the visualization.
+
+<ProgressiveDiagram :src="selectionSortDiagram" />
