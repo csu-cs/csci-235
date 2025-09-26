@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="430.73846pt"
+   height="139pt"
+   viewBox="0 0 430.73846 139"
+   preserveAspectRatio="xMidYMid meet"
+   id="svg304">
+  <style>
+    .themed-fill {
+      fill: black;
+    }
+    .themed-stroke {
+      stroke:#204a87
+    }
+    .themed-fill-secondary {
+      fill:#204a87
+    }
+  </style>
+  <defs
+     id="defs15">
+    <marker
+       style="overflow:visible"
+       id="marker_arrowHead"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         class="themed-stroke themed-fill-secondary"
+         style="fill-opacity:1;fill-rule:evenodd;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path2209" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata310">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <style
+     id="style818">
+   .type {
+      fill: #204a87;
+   }
+
+   .cf {
+      fill: #204a87;
+      font-weight: bold;
+   }
+
+   .dv {
+      fill: #0000cf;
+   }
+  </style>
+  <rect
+     y="18.701035"
+     x="124.74955"
+     height="107.52332"
+     width="285"
+     id="rect840"
+     style="fill:#f8f8f8;fill-opacity:1;stroke:#dddddd;stroke-width:0.75792682;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:1.25;font-family:Consolas, monaco, monospace;letter-spacing:0px;word-spacing:0px;stroke:none;fill:black"
+     x="125.83289"
+     y="-11.484325"
+     id="text4822"><tspan
+       style="fill:#8f5902;stroke-width:0.75"
+       id="tspan4820"
+       x="125.83289"
+       y="27.063519">// Calculates the absolute value of an integer</tspan><tspan
+       x="125.83289"
+       y="40.813519"
+       style="stroke-width:0.75"
+       id="tspan4824"><tspan
+   style="fill:#204a87"
+   id="tspan821"
+   class="type">int</tspan> abs(<tspan
+   style="fill:#204a87"
+   id="tspan823"
+   class="type">int</tspan> number)</tspan><tspan
+       x="125.83289"
+       y="54.563519"
+       style="stroke-width:0.75"
+       id="tspan4826">{</tspan><tspan
+       x="125.83289"
+       y="68.313507"
+       style="stroke-width:0.75"
+       id="tspan4828">    <tspan
+   style="font-weight:bold;fill:#204a87"
+   id="tspan827"
+   class="cf">if</tspan> (number &lt; <tspan
+   style="fill:#0000cf"
+   id="tspan829"
+   class="dv">0</tspan>)</tspan><tspan
+       x="125.83289"
+       y="82.063507"
+       style="stroke-width:0.75"
+       id="tspan4830">        number = -number;</tspan><tspan
+       x="125.83289"
+       y="95.813522"
+       style="stroke-width:0.75"
+       id="tspan4832" /><tspan
+       x="125.83289"
+       y="109.56352"
+       style="stroke-width:0.75"
+       id="tspan4834">    <tspan
+   style="font-weight:bold;fill:#204a87"
+   id="tspan834"
+   class="cf">return</tspan> number;</tspan><tspan
+       x="125.83289"
+       y="123.31352"
+       style="stroke-width:0.75"
+       id="tspan4836">}</tspan></text>
+  <text
+     id="text844"
+     y="9.1"
+     x="61.59687"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;stroke:none" class="themed-fill"
+     xml:space="preserve"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.75"
+       y="9.1"
+       x="61.59687"
+       id="tspan842">Return Type</tspan></text>
+  <text
+     id="text848"
+     y="9.1"
+     x="143.7038"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;stroke:none" class="themed-fill"
+     xml:space="preserve"><tspan
+       style="stroke-width:0.75"
+       y="9.1"
+       x="143.7038"
+       id="tspan846">Name</tspan></text>
+  <text
+     id="text852"
+     y="9.1"
+     x="192.91815"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;stroke:none" class="themed-fill"
+     xml:space="preserve"><tspan
+       style="stroke-width:0.75"
+       y="9.1"
+       x="192.91815"
+       id="tspan850">Formal Parameter</tspan></text>
+  <text
+     id="text856"
+     y="9.1"
+     x="309.23895"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;stroke:none" class="themed-fill"
+     xml:space="preserve"><tspan
+       style="stroke-width:0.75"
+       y="9.1"
+       x="309.23895"
+       id="tspan854">Formal Parameter List</tspan></text>
+  <text
+     id="text860"
+     y="40.810139"
+     x="1"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;stroke:none" class="themed-fill"
+     xml:space="preserve"><tspan
+       style="stroke-width:0.75"
+       y="40.810139"
+       x="1"
+       id="tspan858">Function Heading</tspan></text>
+  <text
+     id="text864"
+     y="86.623917"
+     x="15.812508"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;stroke:none" class="themed-fill"
+     xml:space="preserve"><tspan
+       style="stroke-width:0.75"
+       y="86.623917"
+       x="15.812508"
+       id="tspan862">Function Body</tspan></text>
+  <text
+     id="text868"
+     y="135"
+     x="254.44815"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;stroke:none" class="themed-fill"
+     xml:space="preserve"><tspan
+       style="stroke-width:0.75"
+       y="135"
+       x="254.44815"
+       id="tspan866">Return Statement</tspan></text>
+  <path
+     id="path870"
+     d="M 102.45783,11.093088 124.1265,29.356691"
+     class="themed-stroke" style="fill:none;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker_arrowHead)" />
+  <path
+     id="path872"
+     d="m 158.79639,10.16443 -0.30955,18.2636"
+     class="themed-stroke" style="fill:none;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker_arrowHead)" />
+  <path
+     id="path874"
+     d="m 222.25468,11.712193 -5.07319,17.302695"
+     class="themed-stroke" style="fill:none;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker_arrowHead)" />
+  <path
+     id="path876"
+     d="M 346.07572,13.724285 244.6274,43.913104"
+     class="themed-stroke" style="fill:none;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker_arrowHead)" />
+  <path
+     id="path880"
+     d="M 96.434855,37.095509 H 111.44816"
+     class="themed-stroke" style="fill:none;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker_arrowHead)" />
+  <path
+     id="path882"
+     d="M 96.125305,83.218844 H 109.74561"
+     class="themed-stroke" style="fill:none;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker_arrowHead)" />
+  <path
+     id="path870-5"
+     d="M 251.39284,133.47444 214.24652,113.04397"
+     class="themed-stroke" style="fill:none;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker_arrowHead)" />
+  <text
+     id="text12877"
+     y="40.500584"
+     x="114.53039"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:1.25;font-family:Consolas, monaco, monospace;-inkscape-font-specification:'Consolas, monaco, monospace';letter-spacing:0px;word-spacing:0px;stroke:none" class="themed-fill"
+     xml:space="preserve"><tspan
+       style="font-size:13px;stroke-width:0.75"
+       y="40.500584"
+       x="114.53039"
+       id="tspan12875">{</tspan></text>
+  <path
+     id="path12900"
+     d="m 120.23355,31.708431 c -4.80045,0 0.091,5.143838 -4.62398,5.143838 4.72297,0 -0.10569,5.85522 4.59662,5.85522"
+     class="themed-stroke" style="fill:none;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="path12900-6"
+     d="m 120.19251,45.826623 c -6.96732,0 4.19257,37.276301 -6.79085,37.276301 10.75924,0 -0.49263,43.465866 6.76349,43.465866"
+     class="themed-stroke" style="fill:none;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="path12900-6-6"
+     d="m 170.89449,42.831883 c 0,6.967321 34.87653,-4.037794 34.87653,6.945627 0,-10.759241 34.87652,-0.126475 34.87652,-7.382596"
+     class="themed-stroke" style="fill:none;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+</svg>
