@@ -22,10 +22,11 @@ are importing from a file, there is a function called `eof()`, which returns
 Alternatively, the input stream variable itself will return `true` if (1) you are not at end of the file and (2) you do not have an input error.
 
 ```cpp
+const char FILENAME[] {"test.txt"};
 ifstream inFile; // declare the input stream variable
 string word; // variable to hold input
 
-inFile.open("test.txt"); // open the file
+inFile.open(FILENAME); // open the file
 
 inFile >> word; // read first value (if there is a value to read)
 while (inFile) // make sure the stream is good (no errors, not at EOF).

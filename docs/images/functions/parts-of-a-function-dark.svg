@@ -13,13 +13,13 @@
    id="svg304">
   <style>
     .themed-fill {
-      fill: black;
+      fill: white;
     }
     .themed-stroke {
-      stroke:#204a87
+      stroke:rgb(36.863708%, 71.372986%, 80.39093%);
     }
     .themed-fill-secondary {
-      fill:#204a87
+      fill:rgb(36.863708%, 71.372986%, 80.39093%);
     }
   </style>
   <defs
@@ -53,11 +53,11 @@
   <style
      id="style818">
    .type {
-      fill: #204a87;
+      fill: #B392F0;
    }
 
    .cf {
-      fill: #204a87;
+      fill: #B392F0;
       font-weight: bold;
    }
 
@@ -71,14 +71,14 @@
      height="107.52332"
      width="285"
      id="rect840"
-     style="fill:#f8f8f8;fill-opacity:1;stroke:#dddddd;stroke-width:0.75792682;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+     style="fill:rgb(22, 22, 24);fill-opacity:1;stroke:#000;stroke-width:0.75792682;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:1.25;font-family:Consolas, monaco, monospace;letter-spacing:0px;word-spacing:0px;stroke:none;fill:black"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:1.25;font-family:Consolas, monaco, monospace;letter-spacing:0px;word-spacing:0px;stroke:none;fill:white"
      x="125.83289"
      y="-11.484325"
      id="text4822"><tspan
-       style="fill:#8f5902;stroke-width:0.75"
+       style="fill:#6A737D;stroke-width:0.75"
        id="tspan4820"
        x="125.83289"
        y="27.063519">// Calculates the absolute value of an integer</tspan><tspan
@@ -86,10 +86,10 @@
        y="40.813519"
        style="stroke-width:0.75"
        id="tspan4824"><tspan
-   style="fill:#204a87"
+   style="fill:#B392F0"
    id="tspan821"
    class="type">int</tspan> abs(<tspan
-   style="fill:#204a87"
+   style="fill:#B392F0"
    id="tspan823"
    class="type">int</tspan> number)</tspan><tspan
        x="125.83289"
@@ -100,10 +100,10 @@
        y="68.313507"
        style="stroke-width:0.75"
        id="tspan4828">    <tspan
-   style="font-weight:bold;fill:#204a87"
+   style="font-weight:bold;fill:#B392F0"
    id="tspan827"
    class="cf">if</tspan> (number &lt; <tspan
-   style="fill:#0000cf"
+   style="fill:#79B8FF"
    id="tspan829"
    class="dv">0</tspan>)</tspan><tspan
        x="125.83289"
@@ -118,7 +118,7 @@
        y="109.56352"
        style="stroke-width:0.75"
        id="tspan4834">    <tspan
-   style="font-weight:bold;fill:#204a87"
+   style="font-weight:bold;fill:#F97583;"
    id="tspan834"
    class="cf">return</tspan> number;</tspan><tspan
        x="125.83289"

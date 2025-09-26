@@ -66,7 +66,9 @@ returnType functionName(type paramName, type paramName, ...)
 
 The `returnType` is also called the *data type* or *function type*.
 
-![Parts of a Function](/images/functions/parts-of-a-function.svg)
+![Parts of a Function](/images/functions/parts-of-a-function.svg){.light-only}
+
+![Parts of a Function](/images/functions/parts-of-a-function-dark.svg){.dark-only}
 
 ### Return Statement
 
