@@ -106,45 +106,41 @@ is unknown ahead of time. This makes it much more difficult to implement using
 loops. The function is defined mathematically as:
 
 $$
-A(m, n) = \left\{ \begin{array}{cl}
-n + 1  & : \ \text{if}\ m = 0 \\
-A(m - 1,\ 1) & : \ \text{if}\ m > 0\ \text{and}\ n = 0 \\
-A\left( m - 1,\ A(m, n - 1) \right) &  : \ \text{if}\ m > 0\ \text{and}\ n > 0
+A(\alpha, \beta) = \left\{ \begin{array}{cl}
+\beta + 1  & : \ \text{if}\ \alpha = 0 \\
+A(\alpha - 1,\ 1) & : \ \text{if}\ \alpha > 0\ \text{and}\ \beta = 0 \\
+A\left( \alpha - 1,\ A(\alpha, \beta - 1) \right) &  : \ \text{if}\ \alpha > 0\ \text{and}\ \beta > 0
 \end{array} \right.
 $$
 
 This function accepts two parameters and returns a single result. However, a non-recursive implementation using a loop is much more difficult. With today’s powerful computers, calculating the solution takes a very long time given relatively small input values (e.g., $A\left(4, 2\right)$ is $2^{65536} - 3$).
 
-In the C++ implementation below, the `unsigned long long` is just an 8-byte integer type to hold larger values. Note that there is no error checking in this version; avoid negative parameter values.
+In the C++ implementation below, the `uintmax_t` is just an unsigned integer type to hold larger values compared to `unsigned int`. Remember, `unsigned` means that it cannot be negative. Note that there is no error checking in this version.
 
 ```cpp
-unsigned long long ack(int m, int n)
-{
-    unsigned long long ans; // 8-byte integer type to hold larger values
+#include <cstdint> // header that defines what a uintmax_t is.
 
-    if (m == 0)
-        ans = n + 1;
-    else if (n == 0)
-        ans = ack(m - 1, 1);
-    else
-        ans = ack(m - 1, ack(m, n - 1));
-        
+uintmax_t ack(uintmax_t alpha, uintmax_t beta)
+{
+    uintmax_t ans; // the largest unsigned integer type (often 8 bytes)
+	if (alpha == 0)
+		ans = beta + 1;
+	else if (beta == 0)
+		ans = ack(alpha - 1, 1);
+	else
+        ans = ack(alpha - 1, ack(alpha, beta - 1));
+
     return ans;
 }
 
-unsigned long long ack(unsigned long long alpha, unsigned long long beta)
-{
-    unsigned long long ans; // 8-byte integer type to hold larger values
-
-    if (alpha == 0)
-        ans = beta + 1;
-    else if (beta == 0)
-        ans = ack(alpha - 1, 1);
-    else
-        ans ack(alpha - 1, ack(alpha, beta - 1));
-
-    return ans;
-}
 ```
 
-Try creating a nested pair of for loops to output every combination of `m` and `n` for 0 to 4 to see how long the calculations take on your computer.
+Try creating a nested pair of `for` loops to output every combination of `alpha` and `beta` for 0 to 4 to see how long the calculations take on your computer. On my machine `ack(4, 1)` takes 13 seconds to computer `ack(4, 1)` and `ack(4, 2)` didn't finish after an hour. (You may kill a running commandline program by typing `CTRL+D`.) The value for `ack(4, 2)` is $2.00352993040684646497907235156025575044782547... × 10^{19728}$, so it would not fit in the given variable anyways!
+
+The Ackerman function makes so many recursive calls, that your program may run out of memory. We can compile it with an additional argument to give it more memory. Compile with the following command to get a larger stack (more memory for more recursive calls):
+
+```plain
+g++ -Wall -Wextra -o ackermann ackermann.cpp -Wl,--stack,0x100000000
+```
+
+
