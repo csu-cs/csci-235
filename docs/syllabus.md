@@ -25,7 +25,7 @@ Computing
 **LAC Requirement**: Computer and Information Sciences  
 **Prerequisites**: CSCI 215/217 or instructor’s permission, and MATH 110
 or higher  
-**Instructors**: Prof. Julie Henderson and Dr. Sean Hayes
+**Instructors**: Prof. Julie Henderson, Dr. Jonathan Sun, and Dr. Sean Hayes
 
 ## Course Description
 
@@ -54,7 +54,7 @@ to purchase the cheaper 7th edition for this course.*
 :::
 
 **Topic materials are expected to be *read before* the in-class
-discussions.** See the [Course Schedule](#tentative-course-schedule).
+discussions.** See the [Course Schedule](#tentative-weekly-schedule).
 
 ### Free Resources
 
@@ -113,29 +113,41 @@ completing this course will have an ability to:
 6.  Apply computer science theory and software development fundamentals
     to produce computing-based solutions.
 
-## Tentative Course Schedule
+Tentative Weekly Schedule
+-------------------------
 
 The weekly schedule is subject to change.
 
-| \# | Week Days | Lecture Topics | Textbook |
-|:-----:|:------------:|:---------------------------------------:|:--------:|
-| 1 | 08/25 – 08/29 | Syllabus, Schedule, etc.;  Overview of Computers and Programming Languages; Introduction to Flowcharts and the Command Line | CH 1 |
-| 2 | 09/01 – 09/05 | Basic Elements of C++ | CH 2 |
-| 3 | 09/08 – 09/12 | Input / Output | CH 3 |
-| 4 | 09/15 – 09/19 | Boolean Expressions and Conditionals (Branching) | CH 4 |
-| 5 | 09/22 – 09/26 | Repetition (Looping) | CH 5 |
-| 6a | 09/29 – 09/30 | Midterm Exam | CH 1-5 |
-| 6b–7 | 10/01 – 10/15 | User-Defined Functions | CH 6 |
-| 8a | 10/13 – 10/14 | *Fall Break* |  |
-| 8b | 10/15 – 10/17 | Advanced Function Definitions | CH 6 |
-| 9 | 10/20 – 10/24 | User-Defined Simple Data Types and The String Type | CH 7 |
-| 10 | 10/27 – 10/31 | Namespaces and Arrays | CH 7 & 8 |
-| 11–12 | 11/03 – 11/11 | More with Arrays | CH 8 |
-| 12 | 11/12 – 11/14 | Records | CH 9 |
-| 13–14a | 11/17 – 11/25 | Review / Work on Final Project |  |
-| 14b | 11/26 – 11/28 | *Thanksgiving Holiday* |  |
-| 15 | 12/01 – 12/05 | Review / Work on Final Project |  |
-| 16 | 12/09 or 12/11 | Final Exam (See [CSU’s exam schedule](https://www.charlestonsouthern.edu/academics/academic-calendar/) for your section’s exam time.) | CH 1-9 |
+| Week | Lecture Topics | Textbook |
+|:-----:|:---------------------------------------:|:--------:|
+|  1A | Syllabus, Schedule, etc.; Creating Algorithms to Solve Problems | CH 1 |
+|  1B | Computers & Programming Languages                               | CH 1 |
+|  2A | Creating & Understanding Simple C++      | CH 2 |
+|  2B | More C++ Basics                          | CH 2 |
+|  3A  | Standard Input and Output | CH 3 |
+|  3B  | File Input and Output | CH 3 |
+|  4A  | Conditional Expressions (Branching) | CH 4 |
+|  4B  | Boolean Logic, Readability, and Error Checking | CH 4 |
+|  5A  | Repetition (Looping) | CH 5 |
+|  5B  | Randomness and Looping Through Files | CH 5 |
+|  6A | Midterm Exam | CH 1-5 |
+|  6B | Creating Functions | CH 6 |
+|  7A | Scope and Parameter | CH 6 |
+|  7B | Recursion | CH 6 |
+|  8A | Function Overloading, Default Parameters, and Static Variables | CH 6 |
+|  8B | Enumeration (`enum`) Types | CH 7 |
+|  9 | *Spring Break* (No Class) |  |
+| 10A | The `string` Type | CH 7 |
+| 10B | Namespaces | CH 7 |
+| 11A | Introduction to Arrays | CH 8 |
+| 11B | Applications of Arrays | CH 8 |
+| 12A | Parallel and 2D Arrays | CH 8 |
+| 12B | Arrays as Strings and IDEs | CH 8 |
+| 13 | Records (`structs`) | CH 9 |
+| 14 | Review and Final Project |  |
+| 16A | Final Exam (See [CSU’s exam schedule](https://www.charlestonsouthern.edu/academics/academic-calendar/) for your section’s exam time.) | CH 1-9 |
+
+{#schedule-table}
 
 ## Grading
 
@@ -180,7 +192,7 @@ successful and to be able to be an effective teammate.
 
 All students must adhere to [Charleston Southern University’s Academic
 Integrity
-Policy](https://www.charlestonsouthern.edu/wp-content/uploads/Policy-R-58-updated-July-2025.pdf)
+Policy](https://www.charlestonsouthern.edu/wp-content/uploads/Policy-R-58-updated-November-2025.pdf)
 and the [Computer Science Departmental
 Guidelines](https://csu-cs.github.io/csci-235/integrity). **All
 assignments** are individual assignments unless explicitly specified by
@@ -194,6 +206,11 @@ public repositories, chegg.com, etc.). Do NOT look at your neighbor’s
 screen for hints or ask, “How did you do that?”, unless you talk to me
 **beforehand**.
 
+-   **NEVER** use an AI tool to generate code for use in an assignment
+    or exam without explicit permission from the instructor for that
+    particular task. As an example, Visual Studio Code extensions that
+    generate code (like GitHub Copile, Tabnine, and Cody) are
+    prohibited.
 -   **NEVER** look at someone else’s code in person or online
     (chegg.com, forums, email, etc.).  
     **Do** ask your professor if you have questions or get stuck.
@@ -204,11 +221,6 @@ screen for hints or ask, “How did you do that?”, unless you talk to me
     they need.  
     **You may** talk to classmates about C++ or assignments without
     sharing ideas for solutions.
--   **NEVER** use an AI tool to generate code for use in an assignment
-    or exam without explicit permission from the instructor for that
-    particular task. As an example, Visual Studio Code extensions that
-    generate code (like GitHub Copile, Tabnine, and Cody) are
-    prohibited.
 
 ### AI Policy for CSCI 235
 
@@ -232,45 +244,42 @@ coursework.](https://csu-cs.github.io/csci-235/integrity#artificial-intelligence
 
 ### A Community of Honor
 
->   As a liberal arts university committed to the Christian faith,
->   Charleston Southern University seeks to develop ethical men and women
->   of disciplined, creative minds and lives that focus on leadership,
->   service, and learning. The Honor System of Charleston Southern
->   University is designed to provide an academic community of trust in
->   which students can enjoy the opportunity to grow both intellectually
->   and personally. For these purposes, the following rules and guidelines
->   will be applied.
+> As a liberal arts university committed to the Christian faith, Charleston 
+> Southern University seeks to develop ethical men and women of disciplined, 
+> creative minds and lives, focusing on leadership, service, and learning. The 
+> Honor System of Charleston Southern University is designed to provide an 
+> academic community of trust in which students can enjoy the opportunity to 
+> grow both intellectually and personally. For these purposes, the following 
+> rules and guidelines will be applied.
 
->   “*Academic Dishonesty*” is the transfer, receipt, or use of academic 
->   information, or the attempted transfer, receipt, or use of academic 
->   information in a manner not authorized by the instructor or by university 
->   rules. It includes, but is not limited to, cheating, plagiarism, and 
->   forgery, as well as aiding or encouraging another to commit academic 
->   dishonesty.
+### Academic Dishonesty
 
->   “*Cheating*” is defined as wrongfully giving, taking, or presenting any 
->   information or material borrowed from another source (including the 
->   Internet) by a student with the intent of aiding himself or another in 
->   academic work. This includes, but is not limited to, a test, examination, 
->   presentation, experiment, or any written assignment, which is considered in 
->   any way in the determination of the final grade. Using AI in violation of a 
->   course or assessment’s stated AI protocol is cheating.
+> “*Academic Dishonesty*” is the transfer, receipt, or use of academic 
+> information, or the attempted transfer, receipt, or use of academic 
+> information in a manner not authorized by the instructor or by university 
+> rules. It includes, but is not limited to, cheating, plagiarism, and forgery 
+> as well as aiding or encouraging another to commit academic dishonesty.
 
->   “*Plagiarism*” is the taking or attempted taking of an idea, a writing, a 
->   graphic, a music composition, art, or datum of another person or Artificial 
->   Intelligence (AI) tool without giving proper credit and presenting or 
->   attempting to present it as one's own, with or without intent. It is also 
->   taking written materials of one's own that have been used for a previous 
->   course assignment and using them without reference to them in their original 
->   form. Any use of AI models without proper citation is plagiarism. Students 
->   are encouraged to ask their instructor(s) for clarification regarding their 
->   academic dishonesty standards.
+> “*Cheating*” is defined as wrongfully giving, taking, or presenting any 
+> information or material borrowed from another source (including the Internet) 
+> by a student with the intent of aiding themself or another in academic work. 
+> This includes, but is not limited to, a test, examination, presentation, 
+> experiment, or any written assignment, which is considered in any way in the 
+> determination of the final grade. Using AI in violation of a course or 
+> assessment’s stated AI protocol is cheating.
 
->   Students are encouraged to ask their instructor(s) for clarification 
->   regarding their academic dishonesty standards. Instructors are encouraged to 
->   include academic dishonesty/integrity standards in their course syllabi. 
->   Violations of this policy will result in academic discipline, up to and 
->   including expulsion from the University.
+> “*Plagiarism*” is the taking or attempted taking of an idea, a writing, a 
+> graphic, music composition, art, or datum of another person or Artificial 
+> Intelligence (AI) tool without giving proper credit and presenting or 
+> attempting to present it as one's own, with or without intent. It is also 
+> taking written material of one's own that have been used for a previous 
+> course assignment and using it without reference to it in its original form. 
+> Any use of AI models without proper citation is plagiarism.
+
+> Students are encouraged to ask their instructor(s) for clarification 
+> regarding their academic dishonesty standards. Instructors will include 
+> academic dishonesty/integrity standards, including explicit permissible AI 
+> use, on their course syllabi and each individual assignment.
 
 Violations of this policy will result in academic discipline, up to and
 including University expulsion.
@@ -398,7 +407,7 @@ grade of FA (Failure due to Absences). In this course, **FA is awarded
 after missing 7 class meetings**. Three (3) instances of tardiness or
 leaving class early are equal to one absence. For more information,
 please see the [CSU Excessive Absence
-Policy](https://www.charlestonsouthern.edu/wp-content/uploads/Policy-R-10-revised-August-2022.pdf).
+Policy](https://www.charlestonsouthern.edu/wp-content/uploads/policy-r-10-revised-sept-2025.pdf).
 If you arrive after the roll is called, check in with the professor
 directly after class so that you will be recorded as tardy instead of
 absent.
@@ -415,7 +424,7 @@ activities for 28 consecutive days will be awarded a grade of FA
 assignments, quizzes, and exams (simply logging in does not count as
 attendance). For more information, please see the [CSU’s Excessive
 Absences
-policy](https://www.charlestonsouthern.edu/wp-content/uploads/Policy-R-10-revised-August-2022.pdf).
+policy](https://www.charlestonsouthern.edu/wp-content/uploads/policy-r-10-revised-sept-2025.pdf).
 
 ### Course Evaluations
 
@@ -481,7 +490,7 @@ CSU’s basic netiquette rules are:
 
 Any student who may need accommodations should review the
 requirements/procedures on the [Accessibility Services
-website](https://www.charlestonsouthern.edu/academics/student-success-center/accessibility-services/).
+website](https://www.charlestonsouthern.edu/student-life/student-support/student-success/accessibility-services/).
 Once approved to receive accommodations, the student must contact the
 instructor.
 
@@ -523,3 +532,12 @@ support.
 See all course, department, and university policies located in
 [Blackboard](https://csuniv.blackboard.com) and the [CSU Student
 Handbook](https://www.charlestonsouthern.edu/current-students/student-resources/).
+
+<script setup>
+import { onMounted } from 'vue';
+import { appendScheduleDates } from '/.vitepress/theme/appendScheduleDates.js';
+
+onMounted(() => {
+    appendScheduleDates("2026-01-12");
+});
+</script>

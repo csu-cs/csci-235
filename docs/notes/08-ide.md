@@ -30,6 +30,7 @@ Xcode for macOS
 Although there is a macOS version of Visual Studio, it does not support C++ development. The default for macOS is Apple's [Xcode](https://developer.apple.com/documentation/xcode) and the clang toolchain.
 
 Install:
+
 - Xcode from the App Store (or the Command Line Tools: `xcode-select --install`)
 - Homebrew (https://brew.sh/) to install additional tools (cmake, gdb/lldb, etc.)
 
