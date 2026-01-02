@@ -57,8 +57,22 @@ A flowchart is one way to represent an algorithm and uses the following symbols.
 | ![Flow Connector](/images/algorithms/Flowchart_Connector.svg) | Flow Connector| Multiple arrows converge at a flow connector. |
 | ![Off-Page Connector](/images/algorithms/Flowchart_Page_Connector.svg) | Off-Page Connector | Indicates that the flowchart continues on another page. |
 
+### Check for Flowchart Errors
 
+Take a look at the flowchart below. Identify as many formatting errors as you can and note how you would correct them. In the above video, I identify the ones I found and how I may correct them.
 
+![Tech Support Cheat Sheet](https://imgs.xkcd.com/comics/tech_support_cheat_sheet.png "Tech Support Cheat Sheet by xkcd <https://xkcd.com/627/>")
+
+### Practice: Create Algorithms
+
+Create flowchart for the the following to who how the following problems would be solved. Note that they build on one another.
+
+1.  Create an algorithm to count from 1 to 1000.
+2.  Change the algorithm to count to a user-inputted number.
+3.  Change the algorithm to count down from the user’s number to 1.
+4.  Change the algorithm to output the sum of all the numbers.
+
+The solution to the first problem is given in the above lecture video. Check if you did something similar.
 
 Creating Solutions
 ------------------
