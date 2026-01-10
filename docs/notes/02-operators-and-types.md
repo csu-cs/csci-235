@@ -20,7 +20,17 @@ Casting numbers between `int`s and `double`s
 </div>
 
 ::: tip
-This video describes opening Atom. Instead of what is shown, open your code in *VSCodium* by typing `codium casting.cpp`.
+This video describes opening Atom. Instead of what is shown, open your code in *VSCodium* by typing:
+
+```bash
+codium casting.cpp
+```
+The recommended command to compile the program is:
+
+```bash
+g++ -Wall -Wextra -o casting casting.cpp
+```
+
 :::
 
 Arithmetic Operators in C++

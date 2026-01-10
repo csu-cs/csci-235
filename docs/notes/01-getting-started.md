@@ -79,7 +79,10 @@ These small changes will make it easier to properly format your code.
 		"editor.guides.bracketPairs": true,
 		"editor.bracketPairColorization.enabled": true,
 		"terminal.integrated.defaultProfile.windows": "Command Prompt",
+		"chat.agent.enabled": false,
 		"chat.commandCenter.enabled": false,
+		"inlineChat.accessibleDiffView": "off",
+		"terminal.integrated.initialHint": false,
 		"github.copilot.enable": {
 			"*": false,
 		},

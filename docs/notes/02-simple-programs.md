@@ -205,3 +205,9 @@ This video describes using *VSCode*. Instead of what is shown, open your code in
 <div class="youtube">
 <div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/fcEiJ0EVtmY?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
+
+The recommended command to compile the program is:
+
+```bash
+g++ -Wall -Wextra -o circle circleArea.cpp
+```
