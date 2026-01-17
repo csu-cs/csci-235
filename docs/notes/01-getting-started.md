@@ -60,10 +60,17 @@ To program in C++, you will need a text editor and a compiler. For a text editor
 
 These small changes will make it easier to properly format your code.
 
-1.  [Download VSCodium](https://github.com/VSCodium/vscodium/releases).
-    -  For Windows computers, we recommend selecting the **User Installer** link.
-    -  For newer Apple computers (with Apple Silicon), scroll down to the **ARM 64bit** links, and then click the first link in the macOS section.
-    -  For older Apple computers, use the macOS version at the top (under the **x86 64bits**) heading.
+1.  [Download VSCodium](https://github.com/VSCodium/vscodium/releases/latest).
+    -  For **Windows** computers, we recommend selecting the **User Installer** link.
+    -  For newer **Apple computers (with Apple Silicon)**, scroll down to the **ARM 64bit** links, and then click the first link in the macOS section.
+    
+		::: warning Important
+
+		Be sure to scroll down to the dmg file in the **ARM 64bit** section of the [downloads page](https://github.com/VSCodium/vscodium/releases/latest).
+
+		:::
+
+    -  For **older Apple computers**, use the macOS version at the top (under the **x86 64bits**) heading.
 2.  After installing Visual Studio Code, open it.
 3.  Press `Ctrl + Shift + P` (or `Cmd + Shift + P` on a Mac) to open the Command Pallet.
 4.  Type `Settings (JSON)` in the textbox and click on the dropdown as shown here.  
@@ -97,6 +104,19 @@ On a Mac, you will need to perform the following steps to run VS Code from the t
 2. Open the Command Palette (`⇧⌘P` i.e., `Cmd+Shift+P`) and type `shell command` to find the Shell Command: Install 'code' command in PATH command.  
 	![Add Shell Command](https://code.visualstudio.com/assets/docs/setup/mac/shell-command.png)
 3.  Restart the terminal for the new `$PATH` value to take effect. You'll be able to type `code .` in any folder to start editing files in that folder.
+
+
+::: warning Slow VSCodium?
+
+If you’re using an Apple computer with an **M1 chip or newer** (most Macs from the last few years) and VSCodium is running very slowly, the issue is likely that the wrong version was installed. On the VSCodium download page, the first macOS option is for Intel-based Macs, not Apple Silicon. Installing that version on *Apple Silicon* can cause serious performance problems.
+ 
+What to do instead:  
+Download and install the **ARM 64bits** version of the dmg file for VSCodium. It is further down on the list on the [VSCodium Downloads Page](https://github.com/VSCodium/vscodium/releases/latest).
+ 
+After installing the ARM64 version, VSCodium should run much more smoothly.
+
+
+:::
 
 The g++ Compiler
 ----------------
