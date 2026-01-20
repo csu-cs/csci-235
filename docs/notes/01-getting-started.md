@@ -11,7 +11,7 @@ const members = [
 	name: 'Dr. Sean T. Hayes',
 	title: 'Professor',
 	links: [
-	  { icon: csuIcon, link: 'https://www.charlestonsouthern.edu/directory/hayes-sean/' },
+	  { icon: csuIcon, link: 'https://www.charlestonsouthern.edu/directory/sean-hayes/' },
 	  { icon: 'github', link: 'https://github.com/orgs/csu-cs/people/DoctorHayes' }
 	]
   },
@@ -20,7 +20,7 @@ const members = [
 	name: 'Prof. Julie Henderson',
 	title: 'Professor',
 	links: [
-	  { icon: csuIcon, link: 'https://www.charlestonsouthern.edu/directory/henderson-julie/' },
+	  { icon: csuIcon, link: 'https://www.charlestonsouthern.edu/directory/julie-henderson/' },
 	  { icon: 'github', link: 'https://github.com/orgs/csu-cs/people/profJHenderson' }
 	]
   },
