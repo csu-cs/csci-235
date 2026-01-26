@@ -9,4 +9,4 @@ syllabus.tex:
 
 	del syllabus.tex syllabus.aux syllabus.log syllabus.out syllabus.toc
 
-	move syllabus.pdf ../docs/public/syllabus.pdf
+	replace syllabus.pdf ..\docs\public\
