@@ -104,6 +104,8 @@ To use `pow()` (which is short for power), include [cmath](https://en.cppreferen
 
 ### Input including Whitespace
 
+#### Get the next character
+
 The `cin.get()` function inputs the next character (including whitespace).
 
 -   Stores in memory location indicated by its argument
@@ -113,6 +115,15 @@ The `cin.get()` function inputs the next character (including whitespace).
 -   `cin` and `get` are two separate identifiers separated by a dot
     +   The dot separates the input stream variable name from the member (e.g., function name).
     +   In C++, dot is the *member-access operator*.
+
+
+::: info NOTE
+
+`cin.get()` returns the next character when used as `int ch = cin.get();` actually returns an `int`, not a `char`. The returned value contains the character's ASCII code (so it can be converted to `char` when appropriate) but also uses the special value `EOF` (typically `-1`) to signal end-of-input.
+
+:::
+
+#### Get a while line of input
 
 The `getline()` function gets a whole line of user input including spaces as one string variable.
 
