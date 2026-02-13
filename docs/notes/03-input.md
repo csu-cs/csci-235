@@ -168,7 +168,8 @@ calling `getline()`.
 #include <string>
 using namespace std;
 
-int main() {
+int main()
+{
     int num;
     string line;
     cout << "Enter a number: ";

@@ -22,7 +22,7 @@ are importing from a file, there is a function called `eof()`, which returns
 Alternatively, the input stream variable itself will return `true` if (1) you are not at end of the file and (2) you do not have an input error.
 
 ```cpp
-const char FILENAME[] {"test.txt"};
+const string FILENAME[] = "test.txt";
 ifstream inFile; // declare the input stream variable
 string word; // variable to hold input
 

@@ -36,7 +36,8 @@ Reading from Files
 #include <fstream> // the preprocessor directive for using files
 using namespace std;
 
-int main() {
+int main()
+{
     // Declare variables
     ...
     // Declare that you will use a file stream.

@@ -115,7 +115,8 @@ The following example code displays, `H e l l o ,  w o r l d!`.
 ```cpp
 const string MESSAGE = "Hello, world!\n";
 
-for (char letter : MESSAGE) {
+for (char letter : MESSAGE)
+{
     cout << letter << ' ';
 }
 ```
@@ -129,7 +130,8 @@ The following example changes all of the values to be the next letter in the alp
 ```cpp
 string greeting = "Hiya";
 
-for (char& letter : greeting) {
+for (char& letter : greeting)
+{
     ++letter;
 }
 
