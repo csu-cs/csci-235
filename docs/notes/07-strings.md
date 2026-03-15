@@ -6,20 +6,27 @@ The `string` Type
 Introduction
 ------------
 
--   To use the data type, `string`, a program must include the header file `string`.
+-   To use the data type, `string`, a program must include the header file `string`
+    and is in the `std::` [namespace](07-namespaces).
 
--   A `string` is a sequence of 0 or more characters
-    +   The first character is in position `0`
+    ```cpp
+    #include <string>
+    using namespace std;
+    ```
+
+-   A `string` is a sequence of 0 or more characters.
+    +   The first character is in position `0`.
     +   The second character is in position `1`, etc.
 
--   Binary operator + performs the string concatenation operation
+-   Binary operator `+` performs the string concatenation operation.
 
 -   The statement:  
     
     ```cpp
     string str1 = "Hello There";
     ```
-   stores the string "Hello There" in `str1`.
+
+    stores the string "Hello There" in `str1`.
 
 -   The statement:
     
@@ -54,45 +61,91 @@ Introduction
     updates the value of `str3` by appending the `string` ", Mickey" to its old
     value. Therefore, the new value of `str3` is "Hello There, Mickey".
 
+-   Long string literals can be split across multiple lines for readability. Adjacent string literals are automatically concatenated:
+
+    ```cpp
+    string longStr = "This is a very long string that "
+                     "continues on the next line.";
+    ```
+
+Reading strings from input
+--------------------------
+
+-   `cin >> str` reads a single word (stops at the first whitespace).
+-   `std::getline(cin, str)` reads an entire line (including spaces) up to the newline.
+
+```cpp
+string word;
+cin >> word;            // reads up to the next space
+
+string line;
+getline(cin, line); // reads the rest of the current line (including spaces)
+```
+
+When you mix `>>` and `getline()`, use `cin.ignore()` to discard the remaining newline before calling `getline()`:
+
+```cpp
+string name;
+int age;
+
+cout << "Name: ";
+getline(cin, name);
+
+cout << "Age: ";
+cin >> age;
+cin.ignore(INT_MAX, '\n');
+```
+
 The Array-Subscript Operator
 ----------------------------
 
-*Array-subscript operator* `[]` allows access to an individual character in a `string`.
+The *array-subscript operator* `[]` and `at()` allow access to an individual character in a `string`.
 
 ```{.cpp .numberLines}
 string str1 = "know";
 
 str1[0] == 'k'; // true
+str1.at(0) == 'k'; // true
 str1[3] == 'w'; // true
+str1.at(3) == 'w'; // true
 
 str1[0] = 's';
+str1.at[0] = 's';
 cout << str1 << endl; // snow
 ```
 
-The number inside of the array subscript operator `[]` is called the *index* of the
-character.
+The number inside of the array subscript operator `[]` or `.at()` is called the *index* of the character.
 
--   A string's size (the number of characters it can hold) is larger than the maximum value of an `int` or `unsigned int`. Therefore, a new data type, `string::size_type`, should be used.
+-   `str1[index]` does **not** check whether `index` is valid. Using an invalid index results in *undefined behavior*.
 
-    +   `string::size_type` An *unsigned* integer (data) type. This is like an `int` but guaranteed to be big enough to hold a `string` of any size. (**Very useful for looping over the length of a `string`!**) *Unsigned* means it cannot hold negative numbers.
+-   If you need bounds-checked access, use `at()`, which throws an on an invalid index (an error is better than undefined behavior).
 
-    +   `string::npos` The maximum value of the (data) type `string::size_type`. This number is 4,294,967,295 (i.e., $2^{32} - 1$) on many machines.
+A string's length, and the return type of `.size()` and `.length()`, is `string::size_type`.
 
-    ```{.cpp .numberLines}
-    string::size_type index = 0;
-    string str1 = "know";
-    str1[index] == 'k'; // true
-    ```
+-   `string::size_type` is an *unsigned* integer type that is big enough to represent the size of any string.
+-   Using `string::size_type` avoids signed/unsigned comparison warnings (e.g., comparing `int` with `.size()`).
 
--   Example of iterating over each character in a `string`:
+The special value `string::npos` is the largest value of `string::size_type` (typically `static_cast<string::size_type>(-1)`). Many string functions return `string::npos` to mean "not found".
 
-    ```{.cpp .numberLines}
-    // Display a string with a space between each character.
-    for (string::size_type index = 0; index < str1.length(); ++index)
-    {
-        cout << str1[index] << ' ';
-    }
-    ```
+```cpp
+const string PHIL_4_13 = "I can do all things through him who strengthens me.";
+auto loc = PHIL_4_13.find("all"); // 9
+
+if (loc != string::npos)
+    cout << PHIL_4_13.substr(loc, 2) << endl; // do
+```
+
+Example of iterating over each character in a `string`:
+
+```{.cpp .numberLines}
+// Display a string with a space between each character.
+for (string::size_type index = 0; index < str1.length(); ++index)
+{
+    cout << str1[index] << ' ';
+}
+```
+
+> **Note:** `.length()` and `.size()` are equivalent for `string`.
 
 <div class="youtube">
 <div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/k_Y1vfziwxM?rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
@@ -123,13 +176,29 @@ for (char letter : MESSAGE)
 
 For each iteration of the loop in the example above, `letter` gets a copy of the next character in `MESSAGE`.
 
-You may also decare the loop variable as a reference if you want to edit the string.
+If you do not need to modify the string, declare the loop variable as `const char&` to avoid copying each character:
+
+```cpp
+for (const char& letter : MESSAGE)
+{
+    cout << letter << ' ';
+}
+```
+
+::: tip
+
+In professional code or when performance matters, `const char&` (instead of just `char`) is a good default for read-only loops for improved performance.
+
+:::
+
+If you want to edit the string, declare the loop variable as `char&`.
 
 The following example changes all of the values to be the next letter in the alphabet.
 
 ```cpp
 string greeting = "Hiya";
 
+// Note the & for the loop variable below, so that greeting is updated.
 for (char& letter : greeting)
 {
     ++letter;
@@ -145,6 +214,13 @@ Use a range-based for loop to iterate over all strings if the following conditio
 1.  You don't need the index (we don't need to know where the character is in the string).
 2.  You are iterating over the whole string from the first to last character.
 :::
+
+Common Gotchas
+--------------
+
+-   Forgetting to include `<string>` (or mixing `string` with C-style string functions) can lead to confusing compile errors.
+-   Accessing `str[index]` out of range is undefined behavior; prefer `str.at(index)` when you want runtime bounds checking.
+-   Using `int` for loop indexes and comparing them to `.size()`/`.length()` can cause signed/unsigned comparison warnings. Use `string::size_type` instead of `int` for this purpose.
 
 Additional `string` Operations
 ------------------------------
