@@ -3,11 +3,25 @@ Introduction to Arrays
 
 *Chapter 8*
 
-Types of Data Types
--------------------
+Categories of Data Types
+------------------------
 
--   *Simple data type*: variables of these types can store only one value at a time.
--   *Structured data type*: a data type in which each data item is a collection of other data items.
+1.  *Scalar (simple) types*: Store a single logical value
+    +   `int`, `double`, `char`, `bool`, `enum`, etc.
+2.  *Homogeneous collections*: Multiple values of the same type
+    +  arrays (which are learning about here)
+3.  *Heterogeneous collections (structured types*): Group related values of different types
+    +  [struct](09-structs-intro) (more on this category later in the semester)
+
+
+| Conceptual Structure           | C++ Type Category   | Examples                          | Notes |
+|--------------------------------|---------------------|-----------------------------------|-------|
+| Scalar (single value)          | Fundamental         | `int`, `double`, `char`, `bool`   | Represents one logical value |
+| Scalar (named constants)       | User-defined        | `enum`                            | Still a single logical value |
+| Homogeneous collection         | Compound            | `int arr[10]`                     | Multiple values of same type |
+| Heterogeneous collection       | User-defined        | `struct Student { ... }`          | Groups related data of different types |
+| Indirection (reference/pointer)| Compound            | `int&`                            | Refers to another value, not a collection |
+| Callable entity                | Compound            | `int func(double)`                | Function types (less relevant early) |
 
 ### Arrays
 
