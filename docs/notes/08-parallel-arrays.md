@@ -16,9 +16,9 @@ Two (or more) arrays are called **parallel** if their corresponding elements hol
 
 ### The Problem: Multi-Type Data
 
-Standard arrays can only hold elements of the **same data type**. If you need to store complex information about an object—such as a person's name (string), age (int), and height (double)—a single basic array cannot do this. 
+Standard arrays can only hold elements of the **same data type**. If you need to store complex information about an object—such as a person's name (`string`), age (`int`), and height (`double`). A single basic array cannot do this. 
 
-**Parallel arrays** solve this by using separate arrays of different types that are "linked" by their index. For any index `i`, the values at `name[i]`, `age[i]`, and `height[i]` all describe the same person.
+**Parallel arrays** solve this by using separate arrays of different types that are "linked" by their index. For any index `index`, the values at `name[index]`, `age[index]`, and `height[index]` all describe the same person.
 
 ### Organization and Declaration
 
