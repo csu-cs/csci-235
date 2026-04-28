@@ -145,7 +145,7 @@ The weekly schedule is subject to change.
 | 12B | Arrays as Strings and IDEs | CH 8 |
 | 13 | Records (`structs`) | CH 9 |
 | 14 | Review and Final Project |  |
-| 16A | Final Exam (See [CSU’s exam schedule](https://www.charlestonsouthern.edu/academics/academic-calendar/) for your section’s exam time.) | CH 1-9 |
+| 16B | Final Exam (See [CSU’s exam schedule](https://www.charlestonsouthern.edu/academics/academic-calendar/) for your section’s exam time.) | CH 1-9 |
 
 {#schedule-table}
 
