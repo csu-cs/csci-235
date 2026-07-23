@@ -13,16 +13,6 @@ Categories of Data Types
 3.  *Heterogeneous collections (structured types)*: Group related values of different types
     +  [struct](09-structs-intro) (more on this category later in the semester)
 
-
-| Conceptual Structure           | C++ Type Category   | Examples                          | Notes |
-|--------------------------------|---------------------|-----------------------------------|-------|
-| Scalar (single value)          | Fundamental         | `int`, `double`, `char`, `bool`   | Represents one logical value |
-| Scalar (named constants)       | User-defined        | `enum`                            | Still a single logical value |
-| Homogeneous collection         | Compound            | `int arr[10]`                     | Multiple values of same type |
-| Heterogeneous collection       | User-defined        | `struct Student { ... }`          | Groups related data of different types |
-| Indirection (reference/pointer)| Compound            | `int&`                            | Refers to another value, not a collection |
-| Callable entity                | Compound            | `int func(double)`                | Function types (less relevant early) |
-
 ### Arrays
 
 An *array* is a collection of a fixed number of elements (values), all of the same data type. A *one-dimensional array* has elements that are arranged in a list form.
