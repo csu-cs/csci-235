@@ -33,7 +33,7 @@ void display (const span<double> numbers)
     // Display the array length
     cout << "Length: " << numbers.size() << '\n';
 
-    // Display each number. This rang-based for loop would not work with a
+    // Display each number. This range-based for loop would not work with a
     // traditional array parameter.
     for (auto num : numbers)
     {

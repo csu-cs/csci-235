@@ -9,8 +9,8 @@ Categories of Data Types
 1.  *Scalar (simple) types*: Store a single logical value
     +   `int`, `double`, `char`, `bool`, `enum`, etc.
 2.  *Homogeneous collections*: Multiple values of the same type
-    +  arrays (which are learning about here)
-3.  *Heterogeneous collections (structured types*): Group related values of different types
+    +   arrays (which we are learning about here)
+3.  *Heterogeneous collections (structured types)*: Group related values of different types
     +  [struct](09-structs-intro) (more on this category later in the semester)
 
 
@@ -128,10 +128,10 @@ is easily accomplished using a loop.
 Array Index Out of Bounds Error
 -------------------------------
 
-The index of an array is *in bounds* if the index is `>= 0` and `<= (ARRAY_SIZE – 1)`
+The index of an array is *in bounds* if the index is `>= 0` and `< ARRAY_SIZE`.
 
 -   In C++, there is no guard against indices that are out of bounds.
--   If you index an array outside of the bounds, a runtime error will occur, or worse, the program will continue to run with unexpected results.
+-   If you index an array outside of its bounds, the program has *undefined behavior*. It might appear to work, produce unexpected results, or stop with a runtime error. C++ does not guarantee what will happen.
 
 
 Array Initialization during Declaration
@@ -141,7 +141,7 @@ An array can be initialized when it is declared by listing the values inside cur
 
 Examples:
 
--   To declare an array with 5 elements and initializes them:
+-   To declare an array with 5 elements and initialize them:
 
     ```cpp
     double sales[] { 12.25, 32.40, 16.90, 23, 46.84 };
@@ -152,7 +152,7 @@ Examples:
     double sales[10] {};
     ```
     Declares an array of 10 elements and initializes all of them to zero.
--   To declare a 10-element array and initializes `sales[0]` to `8`, `sales[1]` to `5`, `sales[2]` to `12`:
+-   To declare a 10-element array and initialize `sales[0]` to `8`, `sales[1]` to `5`, and `sales[2]` to `12`:
             
     ```cpp
     double sales[10] { 8.0, 5.0, 12.0 };
@@ -195,7 +195,7 @@ Remember, C++11 allows the auto declaration of variables.
     auto num4 = num1; // num4 is an int
     ```
 -   The `auto`{.cpp} keyword is a placeholder for a type, but it is not itself a type. The compiler determines the type based on the value it receives.
--   There is no conversion between types, so your code is not only more flexible but more efficient.
+-   There is no accidental conversion between types (implicit casting), so your code is not only more flexible but possibly more efficient.
 
 
 ### Range-Based For Loops
@@ -217,23 +217,24 @@ In the first part of this `for`{.cpp} loop, the variable, `num`, holds a copy of
 
 ::: warning
 
-Range-based for loops will only work on arrays that are declared within that function. They will
-not work on arrays that are passed as function parameters.
+Range-based for loops work when the compiler can determine the beginning and end of the
+range. A raw array parameter does not retain the array's length: it is adjusted to a pointer,
+so a range-based loop cannot be used directly on it. You can use a separate length parameter
+with an indexed loop, or use a `span` (introduced later in this note).
 :::
 
 Arrays as Parameters to Functions
 ---------------------------------
 
--   Array parameters are *only* passed *by reference*.
-    +   Do **not** use `&`{.cpp} symbol when declaring an array as a formal parameter.
--   The length of the array is should be omitted from the square brackets. If provided, it is ignored by the compiler. However, if the function needs to know the length of the array, it must be passed as an additional parameter.
+-   Array arguments are not copied when passed to a function. In a parameter list, an array parameter is adjusted to a pointer to its first element. This allows the function to modify the original array.
+    +   Do **not** use the `&`{.cpp} symbol when declaring an array parameter in this form.
+-   The length of the array should be omitted from the square brackets. If provided, it is ignored by the compiler. If the function needs to know the length of the array, it must be passed as an additional parameter.
 -   Example:
     
     ```cpp
     void funcArrayAsParam(int arrayOne[], double arrayTwo[], int length);
     ```
--   Can prevent a function from changing the actual parameter when passed by reference.
-    +   Use `const` in the declaration of the formal parameter
+-   To prevent a function from changing the array elements, use `const` in the declaration of the parameter.
     +   Example:
 
         ```cpp
@@ -265,13 +266,13 @@ element
 
     ```cpp
     int array[5]; // Declare array with 5 elements
-    cout << array; // Display the array’s base address (no square brackets)
+    cout << array; //  Display the array’s base address (no square brackets)
 
     // The address of the first element matches the array's base address.
     cout << &array[0];
     ```
 
--   The base address is displayed in hexadecimal notation (for example, `0x1234CC00`). Hexadecimal is the base-16 numbering system and has sixteen distinct symbols used for each digit, most often the symbols `0`–`9` to represent values zero to nine, and `A`, `B`, `C`, ` D`, `E`, `F`. Each hexadecimal digit represents four binary digits (bits).
+-   The base address is commonly displayed in hexadecimal notation (for example, `0x1234CC00`). Hexadecimal is the base-16 numbering system and has sixteen distinct symbols for each digit: `0`–`9` and `A`–`F`. Each hexadecimal digit represents four binary digits (bits).
 
 
 Table: A comparison of the small integers in different bases.
@@ -286,17 +287,18 @@ Common Errors with Arrays
 -------------------------
 
 1.  Arrays in C++ (and almost all programming languages) are zero-indexed. That means that the first index is zero, not one. The last index is the length minus one. It is easy to have an off-by-one error if you forget this fact.
-2.  Array Index out of Bounds – can’t try to access an index beyond what you have – you get this error.
-3.  Arrays are passed to a function by reference. Don’t forget that any changes to the array will persist after the function call. Use `const`{.cpp} to ensure an array is not modified.
+2.  Array index out of bounds: do not access an index outside the range `0` through `length - 1`. Doing so produces undefined behavior, not a guaranteed error message.
+3.  Array arguments are not copied when passed to a function, so changes to the elements persist after the function call. Use `const`{.cpp} to prevent a function from modifying the elements.
 4.  Can’t set one array equal to another with just the equal operator. Use a loop instead.
-5.  A function can’t return an entire array (with what we know so far). Arrays are passed by reference anyway, so there should be no need to do this.
+5.  A function cannot return a built-in array by value. Arrays are not copied when passed to functions, so a function can usually fill an array supplied by its caller instead.
 
-The span Container for Arrays
+The `span` Container for Arrays
 -----------------------------
 
-In C++20 (the C++ standard that was released in 2020), a helpful container was added to associate an 
-array with its length/size. Remember, that the array variable just stores the base address of the
-array, so it doesn't keep track of how many elements are in the array. As a result, we often
+In C++20 (the C++ standard released in 2020), a helpful view called `span` was added to associate an
+array with its length/size. An array is an object that contains its elements, but when an array is
+passed to a function using a raw array parameter, it is adjusted to a pointer to its first element.
+That pointer does not keep track of how many elements are in the array. As a result, we often
 need to pass the array size to a function parameter as an additional parameter. For example,
 
 ```cpp
