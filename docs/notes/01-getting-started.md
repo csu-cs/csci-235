@@ -139,7 +139,7 @@ On Windows, we will use the MinGW-w64 to compile C++ programs using g++.
 
 Download the following:
 
--   [Mingw-w64](https://github.com/brechtsanders/winlibs_mingw/releases/download/15.2.0posix-13.0.0-ucrt-r5/winlibs-x86_64-posix-seh-gcc-15.2.0-mingw-w64ucrt-13.0.0-r5.zip)
+-   [Mingw-w64](https://github.com/brechtsanders/winlibs_mingw/releases/download/16.1.0posix-14.0.0-ucrt-r3/winlibs-x86_64-posix-seh-gcc-16.1.0-mingw-w64ucrt-14.0.0-r3.zip)
 
 Follow the following video instructions to set up your system.
 
@@ -172,10 +172,10 @@ Follow the following video instructions to set up your system.
 	`cd /opt/homebrew/bin`
 
 4.  Add a link to g++-15 to g++ by typing:  
-	`ln -s g++-15 g++`
+	`ln -s g++-16 g++`
 
 	::: warning
-	The path may be different as new versions are released. If the above command does not work, type `ls` to see what number you should use instead of `15` in the above command.
+	The path may be different as new versions are released. If the above command does not work, type `ls` to see what number you should use instead of `16` in the above command.
 	:::
 
 5.  Sign out and sign back into your computer.
@@ -204,10 +204,10 @@ Follow the following video instructions to set up your system.
 	`cd /usr/local/bin/`
 
 4.  Add a link to g++-15 to g++ by typing:  
-	`ln -s g++-15 g++`
+	`ln -s g++-16 g++`
 
 	::: warning
-	The path may be different as new versions are released. If the above command does not work, type `ls` to see what number you should use instead of `15` in the above command.
+	The path may be different as new versions are released. If the above command does not work, type `ls` to see what number you should use instead of `16` in the above command.
 	:::
 
 5.  Sign out and sign back into your computer.
