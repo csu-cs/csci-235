@@ -3,6 +3,8 @@ head:
   - - style
     - type: 'text/css'
     - '#pdf {  display: inline-block;position: relative; left: 50%; transform: translateX(-50%); margin-top:0.5em; padding: 3px 6px; font-size: 14pt; background-color: var(--vp-button-brand-bg); border: var(--vp-button-brand-border) 1px solid; border-radius: 5px; color: var(--vp-button-brand-text);}'
+schedule_start_date: "2026-08-24"
+start_week: 1
 ---
 
 Syllabus \| CSCI 235 *Procedural Programming*
@@ -12,7 +14,7 @@ Syllabus \| CSCI 235 *Procedural Programming*
 
 ![Charleston Southern University](/images/csu_logo-dark.svg){.dark-only}
 
-[Download Printable Version](/csci-235/syllabus.pdf){download="Syllabus-CSCI235.pdf" id="pdf"}
+[Download Printable Version](/syllabus.pdf){download="Syllabus-CSCI235.pdf" id="pdf"}
 
 ## General Information
 
@@ -54,7 +56,7 @@ to purchase the cheaper 7th edition for this course.*
 :::
 
 **Topic materials are expected to be *read before* the in-class
-discussions.** See the [Course Schedule](#tentative-weekly-schedule).
+discussions.** See the [Course Schedule](#weekly-schedule).
 
 ### Free Resources
 
@@ -113,39 +115,41 @@ completing this course will have an ability to:
 6.  Apply computer science theory and software development fundamentals
     to produce computing-based solutions.
 
-Tentative Weekly Schedule
--------------------------
+Weekly Schedule
+---------------
 
 The weekly schedule is subject to change.
 
 | Week | Lecture Topics | Textbook |
-|:-----:|:---------------------------------------:|:--------:|
-|  1A | Syllabus, Schedule, etc.; Creating Algorithms to Solve Problems | CH 1 |
-|  1B | Computers & Programming Languages                               | CH 1 |
-|  2A | Creating & Understanding Simple C++      | CH 2 |
-|  2B | More C++ Basics                          | CH 2 |
-|  3A  | Standard Input and Output | CH 3 |
-|  3B  | File Input and Output | CH 3 |
-|  4A  | Conditional Expressions (Branching) | CH 4 |
-|  4B  | Boolean Logic, Readability, and Error Checking | CH 4 |
-|  5A  | Repetition (Looping) | CH 5 |
-|  5B  | Randomness and Looping Through Files | CH 5 |
-|  6A | Midterm Exam | CH 1-5 |
-|  6B | Creating Functions | CH 6 |
-|  7A | Scope and Parameter | CH 6 |
-|  7B | Recursion | CH 6 |
-|  8A | Function Overloading, Default Parameters, and Static Variables | CH 6 |
-|  8B | Enumeration (`enum`) Types | CH 7 |
-|  9 | *Spring Break* (No Class) |  |
-| 10A | The `string` Type | CH 7 |
-| 10B | Namespaces | CH 7 |
-| 11A | Introduction to Arrays | CH 8 |
-| 11B | Applications of Arrays | CH 8 |
-| 12A | Parallel and 2D Arrays | CH 8 |
-| 12B | Arrays as Strings and IDEs | CH 8 |
-| 13 | Records (`structs`) | CH 9 |
-| 14 | Review and Final Project |  |
-| 16B | Final Exam (See [CSU’s exam schedule](https://www.charlestonsouthern.edu/academics/academic-calendar/) for your section’s exam time.) | CH 1-9 |
+|:----:|:---------------------------------------:|:--------:|
+|   1A | Syllabus, Schedule, etc.; Creating Algorithms to Solve Problems | CH 1 |
+|   1B | Computers & Programming Languages                               | CH 1 |
+|   2A | Creating & Understanding Simple C++      | CH 2 |
+|   2B | More C++ Basics                          | CH 2 |
+|   3A | Standard Input and Output | CH 3 |
+|   3B | File Input and Output | CH 3 |
+|   4A | Conditional Expressions (Branching) | CH 4 |
+|   4B | Boolean Logic, Readability, and Error Checking | CH 4 |
+|   5A | Repetition (Looping) | CH 5 |
+|   5B | Randomness and Looping Through Files | CH 5 |
+|   6A | Midterm Exam | CH 1-5 |
+|   6B | Creating Functions | CH 6 |
+|   7A | Scope and Parameter | CH 6 |
+|   7B | Recursion | CH 6 |
+|   8A | *Fall Break* (No Class) |  |
+|   8B | Function Overloading, Default Parameters, and Static Variables | CH 6 |
+|   9A | Enumeration (`enum`) Types | CH 7 |
+|   9B | The `string` Type | CH 7 |
+|  10A | Namespaces | CH 7 |
+|  10B | Introduction to Arrays | CH 8 |
+|  11A | Applications of Arrays | CH 8 |
+|  11B | Parallel and 2D Arrays | CH 8 |
+|  12A | Arrays as Strings and IDEs | CH 8 |
+|  12B | Records (`structs`) | CH 9 |
+|  13  | Review and Final Project |  |
+|  14B | *Thanksgiving* (No Class) | |
+|  15  | Review and Final Project |  |
+| (12/8 or 12/10) | Final Exam ([See the exam schedule for time.](https://www.charlestonsouthern.edu/academics/academic-calendar/)) | CH 1-9 |
 
 {#schedule-table}
 
@@ -192,9 +196,9 @@ successful and to be able to be an effective teammate.
 
 All students must adhere to [Charleston Southern University’s Academic
 Integrity
-Policy](https://www.charlestonsouthern.edu/wp-content/uploads/Policy-R-58-updated-November-2025.pdf)
+Policy](https://www.charlestonsouthern.edu/wp-content/uploads/CSU-Policy-R-58-updated-April-2026.pdf)
 and the [Computer Science Departmental
-Guidelines](https://csu-cs.github.io/csci-235/integrity). **All
+Guidelines](/integrity). **All
 assignments** are individual assignments unless explicitly specified by
 the professor. Do not collaborate, search for posted solutions, or post
 code online. **You must write every line of your programs.** Do not use
@@ -240,7 +244,7 @@ take full credit for work created with the help of AI. This principle is
 the same as using someone else’s idea without citing it.
 
 [Review the departmental policies for AI use in Computer Science
-coursework.](https://csu-cs.github.io/csci-235/integrity#artificial-intelligence-ai)
+coursework.](/integrity#artificial-intelligence-ai)
 
 ### A Community of Honor
 
@@ -535,9 +539,12 @@ Handbook](https://www.charlestonsouthern.edu/current-students/student-resources/
 
 <script setup>
 import { onMounted } from 'vue';
+import { useData } from 'vitepress';
 import { appendScheduleDates } from '/.vitepress/theme/appendScheduleDates.js';
 
+const { frontmatter } = useData();
+
 onMounted(() => {
-    appendScheduleDates("2026-01-12");
+    appendScheduleDates(frontmatter.value.schedule_start_date);
 });
 </script>
