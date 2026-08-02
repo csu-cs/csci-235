@@ -5,6 +5,7 @@ head:
     - '#pdf {  display: inline-block;position: relative; left: 50%; transform: translateX(-50%); margin-top:0.5em; padding: 3px 6px; font-size: 14pt; background-color: var(--vp-button-brand-bg); border: var(--vp-button-brand-border) 1px solid; border-radius: 5px; color: var(--vp-button-brand-text);}'
 schedule_start_date: "2026-08-24"
 start_week: 1
+date: "Fall of 2026"
 ---
 
 Syllabus \| CSCI 235 *Procedural Programming*
