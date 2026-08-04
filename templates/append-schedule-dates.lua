@@ -91,15 +91,15 @@ local function annotate_table(tbl, start_time, start_week)
     end
   end
 
-  -- Remove hard-coded fractional column widths so LaTeX calculates them
-  -- automatically to fill the text width (avoids Overfull \hbox warnings).
-  if tbl.colspecs then
-    for i, spec in ipairs(tbl.colspecs) do
-      tbl.colspecs[i] = { spec[1], pandoc.ColWidthDefault }
-    end
-    io.stderr:write('append-schedule-dates: reset ' .. #tbl.colspecs
-                    .. ' colspecs to ColWidthDefault\n')
-  end
+  -- -- Remove hard-coded fractional column widths so LaTeX calculates them
+  -- -- automatically to fill the text width (avoids Overfull \hbox warnings).
+  -- if tbl.colspecs then
+  --   for i, spec in ipairs(tbl.colspecs) do
+  --     tbl.colspecs[i] = { spec[1], pandoc.ColWidthDefault }
+  --   end
+  --   io.stderr:write('append-schedule-dates: reset ' .. #tbl.colspecs
+  --                   .. ' colspecs to ColWidthDefault\n')
+  -- end
 end
 
 -- ---------------------------------------------------------------------------

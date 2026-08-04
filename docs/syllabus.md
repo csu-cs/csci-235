@@ -76,27 +76,38 @@ Retrieved August 12, 2025, from <https://pythontutor.com/cpp.html>
 
 :::
 
-## Course Objectives
+Student Learning Outcomes
+-------------------------
 
 By the conclusion of this course, students will be able to:
 
--   Define an algorithm.
--   Develop algorithms for basic computing functions involving
-    iteration, control-flow, files, and functions.
--   Analyze a problem description and refine a solution into an
-    algorithm.
--   Take a large problem, break it down into smaller parts, solve it,
-    and code it using C++.
--   Understand the basic imperative syntax and semantics of C++.
--   Translate an algorithm into C++.
--   Demonstrate basic debugging capabilities.
--   Express the issues involved in an ethical situation involving
-    computing.
+| **#** | **Student Learning Outcome** | **ABET-CAC SLO Alignment** |
+|:-:|:-------------------------------------------------------|:-----------:|
+| 1 | Describe the fundamental components of a computer system and explain how a C++ program is compiled, linked, and executed. | 1, 6 |
+| 2 | Define algorithms using standardized representations. | 1, 6 |
+| 3 | Analyze problem descriptions, decompose them into sub-problems, and design algorithmic solutions. | 1, 2 |
+| 4 | Write syntactically and semantically correct C++ programs that use appropriate data types, variables, constants, and arithmetic and relational operators. | 2, 6 |
+| 5 | Apply input and output operations with standard I/O and files. | 2, 6 |
+| 6 | Construct programs that use selection structures and Boolean logic to control program flow. | 2, 6 |
+| 7 | Implement counter-, sentinel-, and flag-controlled repetition, including loops that process files and generate random numbers. | 2, 6 |
+| 8 | Design, define, and call functions, including proper use of prototypes, value and reference parameters, scope rules, and the `return` statement. | 1, 2, 6 |
+| 9 | Distinguish between pass-by-value and pass-by-reference parameter passing and select the appropriate mechanism for a given task. | 1, 6 |
+| 10 | Apply recursion to solve problems that have a naturally recursive structure, and identify a correct base case to prevent infinite recursion. | 1, 2, 6 |
+| 11 | Use function overloading, default parameters, and `static` variables to write flexible and reusable functions. | 2, 6 |
+| 12 | Define and use enumeration types and the `string` type, including common string operations and range-based loops. | 2, 6 |
+| 13 | Use namespaces to avoid naming conflicts and improve modularity. | 2, 6 |
+| 14 | Declare, initialize, and manipulate one-dimensional, parallel, and two-dimensional arrays, including passing arrays to functions. | 2, 6 |
+| 15 | Define and use `struct` types to group related data of heterogeneous types, and pass structs to and from functions. | 2, 6 |
+| 16 | Apply systematic debugging strategies, including reading compiler errors, using `assert()`, and tracing program execution, to identify and correct logic and runtime errors. | 1, 2, 6 |
+| 17 | Write readable, well-documented code by following established style guidelines for indentation, naming, comments, and code organization. | 2, 3, 6 |
+| 18 | Collaborate effectively on programming tasks by contributing to a shared solution and communicating technical decisions to team members. | 3, 5 |
+| 19 | Recognize and articulate the professional and ethical responsibilities of computing practitioners, including issues of academic integrity, AI use, and responsible software development. | 4 |
 
-#### ABET Student Outcomes
+### ABET-CAC Student Outcomes Reference
 
-The following student outcomes are supported by this course. Students
-completing this course will have an ability to:
+The following ABET Computing Accreditation Commission (CAC) student
+outcomes are supported by this course. Students completing this course
+will have an ability to:
 
 1.  Analyze a complex computing problem and to apply principles of
     computing and other relevant disciplines to identify solutions.
@@ -122,7 +133,7 @@ Weekly Schedule
 The weekly schedule is subject to change.
 
 | Week | Lecture Topics | Textbook |
-|:----:|:---------------------------------------:|:--------:|
+|:--------:|:-------------------------------------------:|:--------:|
 |   1A | Syllabus, Schedule, etc.; Creating Algorithms to Solve Problems | CH 1 |
 |   1B | Computers & Programming Languages                               | CH 1 |
 |   2A | Creating & Understanding Simple C++      | CH 2 |

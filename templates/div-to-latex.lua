@@ -1,5 +1,4 @@
 -- div-to-latex.lua
--- div-to-latex.lua
 
 -- Keep a simple stack so we can handle literal ::: lines (when fenced_divs
 -- isn't enabled) by turning opening/closing markers into LaTeX begin/end
