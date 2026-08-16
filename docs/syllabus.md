@@ -367,9 +367,6 @@ Browser:
     Center” button located on the toolbar. Use the “System & Network
     Check” to troubleshoot issues. If a test requires you to use a
     webcam, also run the “Webcam Check” from this area
--   You may Chat with [CSU Tech
-    Help](https://csuniv.edusupportcenter.com/shp/csuniv/home) 24/7
-    about any issues you run into.
 -   Respondus has a Knowledge Base available from
     [support.respondus.com](https://support.respondus.com). Select the
     “Knowledge Base” link and then select “Respondus LockDown Browser”
@@ -407,11 +404,19 @@ Student participation is crucial for academic success. Students are also
 expected to check their BUCmail daily and review Blackboard for course
 announcements.
 
-There will be a class announcement at the beginning of each week
-detailing the week’s work. Stay up to date on these assignments; the
-more behind you get the less likely it becomes that you will pass the
-course. Email me as soon as you hit a problem; I am more than happy to
-help you.
+::: info Be Proactive
+
+Review the introduction to each week’s learning module to understand the week’s 
+objectives, required work, and deadlines. Plan your time accordingly and 
+carefully study the assigned material before attempting the assignments. Staying 
+current with the coursework is essential; falling behind can quickly make it 
+difficult to catch up and successfully complete the course.
+
+If you encounter a problem or do not understand something, 
+**contact your instructor as soon as possible**. I am more than happy to help, 
+but I can help you most effectively *before* you fall significantly behind.
+
+:::
 
 #### On-Ground
 
