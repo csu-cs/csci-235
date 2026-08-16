@@ -107,7 +107,7 @@ By the conclusion of this course, students will be able to:
 
 The following ABET Computing Accreditation Commission (CAC) student
 outcomes are supported by this course. Students completing this course
-will have an ability to:
+will have the ability to:
 
 1.  Analyze a complex computing problem and to apply principles of
     computing and other relevant disciplines to identify solutions.
@@ -512,36 +512,32 @@ instructor.
 
 ### Title IX: Confidentiality and Responsible Employee Statement
 
-Charleston Southern University is committed to maintaining a safe
-learning environment for everyone. In accordance with Title IX of the
-Education Amendments of 1972, the university prohibits any form of
-sexual harassment, including quid pro quo harassment, hostile
-environments, sexual assault, dating/domestic violence, and stalking.
-This policy applies to all students, employees, and visitors.
-
-Additionally, Title IX prohibits discrimination against students based
-on pregnancy, childbirth, false pregnancy, termination of pregnancy, or
-recovery from these conditions. Pregnant or parenting students may
-receive accommodations to ensure their full participation in educational
-programs. These adjustments can be arranged through the university’s
-Title IX Coordinator or their designee.
-
-Under Charleston Southern University’s Title IX Policy, all faculty
-members, including teaching assistants, are required to report any
-disclosures of sex or gender-based discrimination or violence to the
-Title IX Coordinator. The Title IX Coordinator will provide support and
-resources while maintaining privacy. If you or someone you know needs
-assistance, please contact the Title IX Coordinator:
-
-Summer Cora  
-(843)-863-7374  
-<titleix@csuniv.edu>  
-Office Location: 2nd floor of the Student Center
+Charleston Southern University is committed to maintaining a safe learning 
+environment for everyone. In accordance with Title IX of the Education 
+Amendments of 1972, the university prohibits any form of sexual harassment, 
+including quid pro quo harassment, hostile environments, sexual assault, 
+dating/domestic violence, and stalking. This policy applies to all students, 
+employees, and visitors. 
+ 
+Additionally, Title IX prohibits discrimination against students based on 
+pregnancy, childbirth, false pregnancy, termination of pregnancy, or recovery 
+from these conditions. Pregnant or parenting students may receive accommodations 
+to ensure their full participation in educational programs. These adjustments 
+can be arranged through the university’s Title IX Coordinator or their designee. 
+ 
+Under Charleston Southern University’s Title IX Policy, all faculty members, 
+including teaching assistants, are required to report any disclosures of sex or 
+gender-based discrimination or violence to the Title IX Coordinator. The Title IX 
+Coordinator will provide support and resources while maintaining privacy. If you 
+or someone you know needs assistance, please contact the Title IX Coordinator: 
+Shannon Morrison or the deputy Title IX Coordinator Justin Brown. Email: 
+<titleix@csuniv.edu>
 
 Please visit the [CSU Title IX
 webpage](https://www.charlestonsouthern.edu/offices/title-ix/) for more
 information on Title IX procedures, anonymous reporting, or available
-support.
+support. You may complete an incident report using the form on the title-ix 
+website.
 
 ------------------------------------------------------------------------
 
