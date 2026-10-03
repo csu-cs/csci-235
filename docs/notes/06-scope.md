@@ -61,11 +61,26 @@ Global Variables Are Problematic
 -   Global constants have no side effects because they never change values.
 
 
-Creating an Animation
----------------------
+Example: Creating an Animation
+------------------------------
 
 This video is an example of putting the things we know together for something fun. You also learn more about timing.
 
 <div class="youtube">
-<div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/uagjplSPneg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+<div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/uagjplSPneg?rel=0&amp;showinfo=0" title="CSCI 235" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="allowfullscreen"></iframe></div>
+</div>
+
+
+Example: Reversing the Digits in a Number
+-----------------------------------------
+
+This example uses a user-defined function to reverse the digits of a number. As you follow the program, notice how the function fits into the rest of the program:
+
+- The function prototype appears before `main`, so the compiler knows its name, return type, and parameters before it is called. The prototype and definition must have matching signatures.
+- The call `reverseDigits(input)` passes `input` as an argument. The parameter `num` receives that value inside the function; it is a local variable, so changes to it do not change `input` in `main`.
+- The `long long` return type tells the caller what kind of value the function sends back. `main` stores that returned value in `reversed`.
+- The function does its work with local variables, then uses `return` to send the result back. In the loop, `% 10` gets the last digit and `/ 10` removes it as the reversed number is built.
+
+<div class="youtube">
+<div><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/o6yVsqVg3n0?rel=0&amp;showinfo=0" title="CSCI 235" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
