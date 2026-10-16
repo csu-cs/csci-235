@@ -111,7 +111,7 @@ str1.at(3) == 'w'; // true
 
 str1[0] = 's';
 str1.at[0] = 's';
-cout << str1 << endl; // snow
+cout << str1 << '\n'; // snow
 ```
 
 The number inside of the array subscript operator `[]` or `.at()` is called the *index* of the character.
@@ -132,8 +132,14 @@ const string PHIL_4_13 = "I can do all things through him who strengthens me.";
 auto loc = PHIL_4_13.find("all"); // 9
 
 if (loc != string::npos)
-    cout << PHIL_4_13.substr(loc, 2) << endl; // do
+    cout << PHIL_4_13.substr(loc, 2) << '\n'; // do
 ```
+
+::: note
+
+The text in quotes is a string literal and is known at compile time. However, `PHIL_4_13` is a `string` object, which may need dynamic storage. Whether a `string` object can be `constexpr` depends on the C++ standard and involves more advanced rules. Use `const string` here to make the value read-only.
+
+:::
 
 Example of iterating over each character in a `string`:
 
@@ -176,20 +182,14 @@ for (char letter : MESSAGE)
 
 For each iteration of the loop in the example above, `letter` gets a copy of the next character in `MESSAGE`.
 
-If you do not need to modify the string, declare the loop variable as `const char&` to avoid copying each character:
+If you do not need to modify the string, declare the loop variable as `char&` to avoid copying each character:
 
 ```cpp
-for (const char& letter : MESSAGE)
+for (char& letter : MESSAGE)
 {
-    cout << letter << ' ';
+    letter = '*'; // Replace all the letters in MESSAGE
 }
 ```
-
-::: tip
-
-In professional code or when performance matters, `const char&` (instead of just `char`) is a good default for read-only loops for improved performance.
-
-:::
 
 If you want to edit the string, declare the loop variable as `char&`.
 
@@ -204,7 +204,7 @@ for (char& letter : greeting)
     ++letter;
 }
 
-cout << greeting << endl; // Displays, "Ijzb"
+cout << greeting << '\n'; // Displays, "Ijzb"
 ```
 
 ::: tip
@@ -239,8 +239,8 @@ Additional `string` Operations
 
     ```cpp
     string sentence = "Houston, we have a problem.";
-    cout << sentence.substr(0, 7) << endl; // Houston
-    cout << sentence.substr(9, 2) << endl; // we
+    cout << sentence.substr(0, 7) << '\n'; // Houston
+    cout << sentence.substr(9, 2) << '\n'; // we
     ```
 
 -   The table below has many other useful `string` member functions.
@@ -250,7 +250,7 @@ Additional `string` Operations
     ```cpp
     const string PHIL_4_13 = "I can do all things through him who strengthens me."; // ESV
     auto loc = PHIL_4_13.find("all"); // 9
-    cout << PHIL_4_13.substr(loc, 2) << endl; // do
+    cout << PHIL_4_13.substr(loc, 2) << '\n'; // do
     ```
 
 Table: Some useful `string` functions where `str1` and `str2` are `string` variables.

@@ -124,7 +124,7 @@ Short-Circuit Evaluation
     ```cpp
     int demon = 1, num = 4;  
     if(denom != 0 && num / denom > 0)  
-        cout << num << " has the same sign as " << denom << endl;
+        cout << num << " has the same sign as " << denom << '\n';
     ```
 
 ::: details Trick, trick question: If the value of `num` is `0`, what is it after: `if(num && num = 2) …`?

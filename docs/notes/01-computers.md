@@ -179,7 +179,7 @@ How does a C++ program run?
 
 C++ Example Program
 
-```
+```cpp
 /*
  * Displays the message: "Hello World!"
  */
@@ -187,14 +187,14 @@ C++ Example Program
 using namespace std;
 int main()
 {
-    cout << "Hello World!" << endl;
+    cout << "Hello, World!\n";
     return 0;
 }
 ```
 
 Program Output when Run
 
-```
+```text
 Hello World!
 ```
 

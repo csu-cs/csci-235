@@ -34,7 +34,7 @@ Array Declaration
 
     ```cpp
     // Creating an array of 24 doubles
-    const int NUM_OF_STUDENTS = 24;
+    constexpr int NUM_OF_STUDENTS = 24;
     double testScores[NUM_OF_STUDENTS];
     ```
 
@@ -104,7 +104,7 @@ is easily accomplished using a loop.
 -   Given the declarations:
 
     ```cpp
-    const int LIST_SIZE = 100;
+    constexpr int LIST_SIZE = 100;
     int list[LIST_SIZE]; //array of size 100
     ```
 
@@ -159,10 +159,10 @@ single unit.
 Most aggregate operations are NOT possible with arrays. For example:
 
 ```cpp
-const int LIST_SIZE = 5;
+constexpr int LIST_SIZE = 5;
 int myList[LIST_SIZE] { 1, 5, 3, 7, 16 };
 int yourList[LIST_SIZE];
-yourList = myList; // error: invalid array assignment
+yourList = myList;// [!code error] error: invalid array assignment
 ```
 
 Solution: use a loop.

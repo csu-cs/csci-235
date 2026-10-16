@@ -57,15 +57,15 @@ Example: Count from 0 to 9:
 ```cpp
 for (int counter = 0; counter < 10; ++counter)
 {
-      cout << counter << " ";
+      cout << counter << ' ';
 }
-cout << endl;
+cout << '\n';
 ```
 
 Big no-no: Don’t put a semicolon after the for loop:
 
 ```cpp
-for (int iter = 0; iter < 100; iter++); // <- no-no
+for (int iter = 0; iter < 100; iter++); // [!code error] <- no-no
 ```
 
 This will compile, but it will do nothing 100 times and then go on to your
@@ -119,12 +119,12 @@ Nested Control Structures
 -   We can use the following code:
 
     ```cpp
-    const int SIZE = 5;
+    constexpr int SIZE = 5;
     for (row = 1; row <= SIZE; ++row)
     {
         for (col = 1; col <= row; ++col)
             cout << "*";
-        cout << endl;
+        cout << '\n';
     }
     ```
 

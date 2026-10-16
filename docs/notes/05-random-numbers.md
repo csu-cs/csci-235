@@ -14,7 +14,7 @@ The header file `cstdlib` contains a the `rand()` function which returns a *pseu
 -   `srand()` seeds the random number generator. It accepts 1 parameter, an `unsigned int`, which determines the set of random numbers to be returned by `rand()`.
     +   Commonly the time is used to seed the random number generator. That way you have a different seed every time the program executes.
         ```cpp
-        const unsigned int SEED = time(nullptr);
+        constexpr unsigned int SEED = time(nullptr);
         srand(SEED);
         ```
     +   Generally, you should only call `srand()` once in your code so the numbers appear to be more random.

@@ -84,7 +84,7 @@ When following along with the video below, type `codium` in the command line ins
 
 	int main()
 	{
-		cout << "Hello World!" << endl;
+		cout << "Hello, World!\n";
 
 		return 0;
 	}

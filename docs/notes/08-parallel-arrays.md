@@ -52,7 +52,7 @@ for (int index = 0; index < COUNT; ++index)
 {
     cout << setw(12) << name[index] 
         << setw(4) << age[index] 
-        << setw(7) << height[index] << endl;
+        << setw(7) << height[index] << '\n';
 }
 ```
 

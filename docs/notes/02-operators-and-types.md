@@ -23,7 +23,8 @@ A named constant is a value given a symbolic name so it cannot be changed during
 Basic syntax using `const`:
 
 ```C++
-const dataType identifier = value;
+constexpr DataType IDENTIFIER = value;
+const DataType IDENTIFIER = value;
 ```
 
 Prefer `constexpr` when the value is known at compile time — it enables compile-time evaluation and can be used in contexts that require constant expressions (array sizes, template parameters, etc.):

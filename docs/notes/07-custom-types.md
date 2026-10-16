@@ -20,7 +20,7 @@ We can create new names for existing types with the keyword `using` or `typedef`
     ```cpp
     using Number = int; // Create a new name for the int type
 
-    const Number MAX = 100; // Define a new const int using the new type name
+    constexpr Number MAX = 100; // Define a new const int using the new type name
     ```
 
 -   These statements do NOT create any new data types. They create only aliases to existing types.
@@ -42,6 +42,6 @@ C++11 and beyond allow auto declaration of variables.
 -   There is no conversion between types, so your code is not only more flexible but more efficient.
 -   The variable **must** be initialized at declaration. For example, the following code will not compile.  
     ```cpp
-    auto value; // compiler error
+    auto value; // [!code error] compiler error
     value = "Test";
     ````

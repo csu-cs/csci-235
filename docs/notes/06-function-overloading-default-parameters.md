@@ -91,7 +91,7 @@ int main()
 
     updateScore(score, -5, "Oh no!"); // using a negative update value and message.
 
-    // updateScore(score, "mehhh"); // syntax error (must give value for amount)
+    updateScore(score, "mehhh"); // [!code error] syntax error (must give value for amount)
 
     return 0;
 }
@@ -102,9 +102,9 @@ void updateScore (double& currentScore, double amount, const string& MESSAGE)
     currentScore += amount; // update the score be amount (defaults to 10)
 
     // Output "Nice Job!" if a actual parameter is not given
-    cout << MESSAGE << endl; 
+    cout << MESSAGE << '\n'; 
 
     // Display the updated score.
-    cout << "Score is now: " << currentScore << endl;
+    cout << "Score is now: " << currentScore << '\n';
 }
 ```

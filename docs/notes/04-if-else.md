@@ -202,7 +202,7 @@ Things to look out for:
 -   Don’t forget to use `&&` and `||` when doing multiple comparisons
     
     ```cpp
-    0 < num1 < 10 // Error: is true for any number greater than 0!`  
+    0 < num1 < 10 // [!code error] Error: true for any number greater than 0`  
     (0 < num1) < 10 // Here is the order of operations. See the problem?  
     0 < num1 && num1 < 10 // Correct: true for num1 values between 1 and 10
     ```

@@ -95,5 +95,5 @@ cout << '\n';
 Strings are printed using `cout` like any other variable.
 
 ```cpp
-cout << "Hello, " << firstName << "!" << endl;
+cout << "Hello, " << firstName << "!\n";
 ```

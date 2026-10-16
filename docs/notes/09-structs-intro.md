@@ -67,7 +67,7 @@ favMovie.year = 2010;
 favMovie.isFavorite = true;
 
 // Display the movie's title
-cout << favMovie.title << endl; // "Toy Story 3"
+cout << favMovie.title << '\n'; // "Toy Story 3"
 ```
 
 ![The variable favMovie after initializing some of its members.](/images/structs/struct-init.svg 'The variable `favMovie` after initializing some of its members.'){#fig:init}
@@ -133,7 +133,7 @@ Input and Output
         << "Genre: " << favMovie.genre << '\n'
         << "Rating: " << favMovie.rating << '\n'
         << "Review Count: " << favMovie.reviewCount << '\n'
-        << "Favorite: $" << (favMovie.isFavorite ? "yes" : "no") << endl; // yes
+        << "Favorite: $" << (favMovie.isFavorite ? "yes" : "no") << '\n'; // yes
     ```
 
 Structs as Function Parameters and Return Values

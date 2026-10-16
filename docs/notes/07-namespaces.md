@@ -34,7 +34,7 @@ namespace NamespaceName // NamespaceName can be any identifier you want
     // Put here: variable declarations, named constants, functions, 
     // or another namespace
 
-    const int MAX_SIZE = 100; // Example Constant
+    constexpr int MAX_SIZE = 100; // Example Constant
     
     int calculateSize();    // Example function prototype; definitions go
                             // below the namespace (and below main)

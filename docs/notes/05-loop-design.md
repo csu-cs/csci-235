@@ -85,7 +85,7 @@ Usually, this is given to you by the user (from a file).
 ```cpp
 int num = 0;
 cout << "Enter numbers to add until you are finished"
-    << ", them input -1" << endl;
+    << ", them input -1\n";
 cin >> num;
 
 while (num != -1) // -1 is the sentinel value causing the program to exit.

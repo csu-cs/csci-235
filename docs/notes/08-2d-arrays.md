@@ -69,8 +69,8 @@ int table[3][3] {
 Enumeration types can be used for array indices:
 
 ```cpp
-const int ROW_COUNT = 6;
-const int COLUMN_COUNT = 5;
+constexpr int ROW_COUNT = 6;
+constexpr int COLUMN_COUNT = 5;
 enum Car { GM, FORD, TOYOTA, BMW, NISSAN, VOLVO };
 enum Color { RED, BROWN, BLACK, WHITE, GRAY };
 
@@ -154,7 +154,7 @@ printArray(table[2], COL_COUNT); // Passes the third row (index 2)
         {
             cout << setw(5) << matrix[row][col];
         }
-        cout << endl;
+        cout << '\n';
     }
     ```
 
@@ -192,7 +192,7 @@ $$ \text{address} = \text{base address} + (\text{rowIndex} \times \text{columnCo
 If the compiler doesn't know the `columnCount`, it can't calculate how many elements ahead to skip for each row. This is why the second dimension is part of the "type" for a 2D array parameter.
 
 ```cpp
-const int COL_COUNT = 10;
+constexpr int COL_COUNT = 10;
 
 // Correct Prototype: Row count is passed separately
 void printMatrix(int matrix[][COL_COUNT], int rowCount);

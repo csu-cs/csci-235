@@ -21,7 +21,7 @@ store the current length (or size) of the list.
 
     ```cpp
     // Max size of a list
-    const int LIST_SIZE = 1000;
+    constexpr int LIST_SIZE = 1000;
 
     /**
      * A data type that holds an array and its length
@@ -75,7 +75,7 @@ Employee employees[50]; // variable declaration
 
 // output first names
 for (int index = 0; index < 50; ++index)
-    cout << employees[index].firstName << endl;
+    cout << employees[index].firstName << '\n';
 ```
 
 Notice the order of the operations to access a name. Because `employees` is an

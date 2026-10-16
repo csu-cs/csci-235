@@ -39,7 +39,7 @@ int main()
     double perimeter;
 
     // Output Statement
-    cout << "Computes and shows a rectangle's  perimeter and area." << endl;
+    cout << "Computes and shows a rectangle's  perimeter and area.\n";
 
     // Assignment Statements
     length = 6.0;
@@ -48,16 +48,16 @@ int main()
     area = length * width;
 
     // Output Statements
-    cout << "Length = " << length << endl;
-    cout << "Width = " << width << endl;
-    cout << "Perimeter = " << perimeter << endl;
-    cout << "Area = " << area << endl;
+    cout << "Length = " << length << '\n';
+    cout << "Width = " << width << '\n';
+    cout << "Perimeter = " << perimeter << '\n';
+    cout << "Area = " << area << '\n';
 
     return 0; // Return statement
 }
 ```
 
-```txt [Runtime Output]
+```text [Runtime Output]
 Program to compute and show the parameter and area of a rectangle.
 Length = 6
 Width = 4

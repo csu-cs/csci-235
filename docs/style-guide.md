@@ -68,7 +68,7 @@ readable, not only for others like your instructor but also for you.
 
 Good example:
 ```cpp
-const double TEMP_RATIO = 5.0 / 9.0; // ratio of Celsius to Fahrenheit
+constexpr double TEMP_RATIO = 5.0 / 9.0; // ratio of Celsius to Fahrenheit
 
 // convert Fahrenheit to Celsius
 double celsius = TEMP_RATIO * (fahr - 32.0);
@@ -165,7 +165,7 @@ int main()
 
     if (val > 0)
     {
-        cout << "The value is positive." << endl;
+        cout << "The value is positive.\n";
     }
     else
     {
@@ -186,7 +186,7 @@ int val = 0;
 
 if (xval > 0)
 {
-cout << "The value is positive." << endl;
+cout << "The value is positive.\n";
 }
 else
 {
@@ -241,7 +241,7 @@ Bad:
 
 ```cpp
 int main()
-{   cout << "Hi" << endl;  // [!code error]
+{   cout << "Hi\n";  // [!code error]
     return 0; }  // [!code error]
 ```
 
@@ -250,7 +250,7 @@ Good:
 ```cpp
 int main()
 {
-    cout << "Hi" << endl;
+    cout << "Hi\n";
     return 0;
 }
 ```
@@ -262,7 +262,7 @@ If a statement is really long (more than 80 characters), split the statement int
 This is bad:
 
 ```cpp
-cout << "This is a really long line " << 5 * 10 / denom << " and more text." << endl;  // [!code error]
+cout << "This is a really long line " << 5 * 10 / denom << " and more and more text.\n\n";  // [!code error]
 ```
 
 This is how the previous line should look:
@@ -270,7 +270,7 @@ This is how the previous line should look:
 ```cpp
 cout << "This is a really long line " 
     << 5 * 10 / denom 
-    << " and more text." << endl;
+    << " and more and more text.\n\n";
 ```
 
 Good example of a function prototype:
@@ -338,10 +338,10 @@ underscore (`_`).
 Good examples:
 
 ```cpp
-const double PI = 3.14159;
-const double INCH_TO_CM = 2.54;
-const double CM_TO_INCH = 1.0 / INCH_TO_CM;
-const int MAX_SCORE = 1000;
+constexpr double PI = 3.14159;
+constexpr double INCH_TO_CM = 2.54;
+constexpr double CM_TO_INCH = 1.0 / INCH_TO_CM;
+constexpr int MAX_SCORE = 1000;
 ```
 
 #### Variable Declaration and Assignment
@@ -374,7 +374,7 @@ const int MAX_SCORE = 1000;
     be declared as a constant and be named in all caps `LIKE_THIS`:
 
     ```cpp
-    const int NUMBER_OF_PROJECTS = 5;
+    constexpr int NUMBER_OF_PROJECTS = 5;
     ```
 
 #### Global Variables and \"Magic\" Numbers
@@ -399,14 +399,14 @@ const int MAX_SCORE = 1000;
     Instead, store the number in a constant:
 
     ```cpp
-    const double PI = 3.141592;
+    constexpr double PI = 3.141592;
     double area = PI * radius * radius;
     ```
 
     However, don't just restate the value with your identifiers:
 
     ```cpp
-    const int TWO = 2;  // [!code error]
+    constexpr int TWO = 2;  // [!code error]
     ...
     if (n % TWO)
     ...
@@ -429,7 +429,7 @@ const int MAX_SCORE = 1000;
     ```cpp
     if (val > 0)
     {
-        cout << val << " is positive." << endl;
+        cout << val << " is positive.\n";
     }
     ```
 
@@ -437,14 +437,14 @@ const int MAX_SCORE = 1000;
 
     ```cpp
     if (val > 0)
-        cout << val << " is positive." << endl;  // [!code error]
+        cout << val << " is positive.\n";  // [!code error]
     ```
     and
 
     ```cpp
     if (val > 0)
         {  // [!code error]
-        cout << val << " is positive." << endl;
+        cout << val << " is positive.\n";
         }  // [!code error]
     ```
 
@@ -544,13 +544,13 @@ Indent your switch statements like this:
 switch (val)
 {
     case -1:
-        cout << "value is -1" << endl;
+        cout << "value is -1\n";
         break;
     case 1:
-        cout << "value is 1" << endl;
+        cout << "value is 1\n";
         break;
     default:
-        cout << "value is neither -1 nor 1" << endl;
+        cout << "value is neither -1 nor 1\n";
         break;
 }
 ```
@@ -664,13 +664,13 @@ void spinSpinner(int numberOfTurns);
     in code.
 
     ```cpp
-    cout << "What is your first name?" << endl; // [!code error]
+    cout << "What is your first name?\n"; // [!code error]
     cin >> firstName; // [!code error]
     ...
-    cout << "What is your last name?" << endl; // [!code error]
+    cout << "What is your last name?\n"; // [!code error]
     cin >> lastName; // [!code error]
     ...
-    cout << "What is your email?" << endl; // [!code error]
+    cout << "What is your email?\n"; // [!code error]
     cin >> email; // [!code error]
     ```
 
@@ -686,7 +686,7 @@ void spinSpinner(int numberOfTurns);
     ...
     string getInfo(const string& PROMPT)
     {
-            cout << PROMPT << endl;
+            cout << PROMPT << '\n';
             string input;
             cin >> input;
             return input;
