@@ -54,7 +54,7 @@ export default {
 			{ text: 'Syllabus', link: '/syllabus' },
 			{ text: 'Integrity', link: '/integrity' },
 			{ text: 'Style Guide', link: '/style-guide' },
-			{ text: 'Lecture Notes', link: '/notes/01-getting-started' }
+			{ text: 'Lecture Notes', link: '/notes/' }
 		],
 		sidebar: {
 			'/notes/': sidebarNotes(),

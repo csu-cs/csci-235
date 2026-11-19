@@ -225,7 +225,7 @@ screen for hints or ask, “How did you do that?”, unless you talk to me
 -   **NEVER** use an AI tool to generate code for use in an assignment
     or exam without explicit permission from the instructor for that
     particular task. As an example, Visual Studio Code extensions that
-    generate code (like GitHub Copile, Tabnine, and Cody) are
+    generate code (like GitHub Copilot, Tabnine, and Cody) are
     prohibited.
 -   **NEVER** look at someone else’s code in person or online
     (chegg.com, forums, email, etc.).  
